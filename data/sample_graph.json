@@ -1,0 +1,326 @@
+{
+  "title": "Sample channel imports graph data",
+  "description": "The channel under vizualization (CUV) is a tiny channel that containsdirect importrs from KA, CK-12 and some indirect imports from KA via an intemediate channel.",
+  "nodes": {
+    "1ceff53605e55bef987d88e0908658c5-added": {
+      "channel_id": "1ceff53605e55bef987d88e0908658c5",
+      "counts": {
+        "topic": 7554,
+        "video": 23618,
+        "exercise": 11028
+      },
+      "name": "Added",
+      "description": "Nodes uploaded to channel_id1ceff53605e55bef987d88e0908658c5"
+    },
+    "1ceff53605e55bef987d88e0908658c5-unused": {
+      "channel_id": "1ceff53605e55bef987d88e0908658c5",
+      "counts": {
+        "topic": 7554,
+        "video": 23618,
+        "exercise": 11028
+      },
+      "name": "Unused",
+      "description": "Nodes in channel_id1ceff53605e55bef987d88e0908658c5 that are not imported in any downstream channels."
+    },
+    "8f33b2b268b140fb8bbb6fd09ccc6e17-added": {
+      "channel_id": "8f33b2b268b140fb8bbb6fd09ccc6e17",
+      "counts": {
+        "topic": 6,
+        "video": 14,
+        "html5": 3,
+        "exercise": 9
+      },
+      "name": "Added",
+      "description": "Nodes uploaded to channel_id8f33b2b268b140fb8bbb6fd09ccc6e17"
+    },
+    "d2579f2f62404c32a4791f4311371d0d-added": {
+      "channel_id": "d2579f2f62404c32a4791f4311371d0d",
+      "counts": {
+        "topic": 1,
+        "video": 5,
+        "exercise": 2
+      },
+      "name": "Added",
+      "description": "Nodes uploaded to channel_idd2579f2f62404c32a4791f4311371d0d"
+    },
+    "1d8f6d84618153c18c695d85074952a7": {
+      "channel_id": "1d8f6d84618153c18c695d85074952a7",
+      "counts": {
+        "topic": 5883,
+        "video": 1885,
+        "html5": 4601,
+        "exercise": 4157
+      },
+      "name": "CK-12",
+      "description": ""
+    },
+    "8f33b2b268b140fb8bbb6fd09ccc6e17-unused": {
+      "channel_id": "8f33b2b268b140fb8bbb6fd09ccc6e17",
+      "counts": {
+        "topic": 6,
+        "video": 14,
+        "html5": 3,
+        "exercise": 9
+      },
+      "name": "Unused",
+      "description": "Nodes in channel_id8f33b2b268b140fb8bbb6fd09ccc6e17 that are not imported in any downstream channels."
+    },
+    "d2579f2f62404c32a4791f4311371d0d-unused": {
+      "channel_id": "d2579f2f62404c32a4791f4311371d0d",
+      "counts": {
+        "topic": 1,
+        "video": 5,
+        "exercise": 2
+      },
+      "name": "Unused",
+      "description": "Nodes in channel_idd2579f2f62404c32a4791f4311371d0d that are not imported in any downstream channels."
+    },
+    "1d8f6d84618153c18c695d85074952a7-added": {
+      "channel_id": "1d8f6d84618153c18c695d85074952a7",
+      "counts": {
+        "topic": 5883,
+        "video": 1885,
+        "html5": 4601,
+        "exercise": 4157
+      },
+      "name": "Added",
+      "description": "Nodes uploaded to channel_id1d8f6d84618153c18c695d85074952a7"
+    },
+    "1d8f6d84618153c18c695d85074952a7-unused": {
+      "channel_id": "1d8f6d84618153c18c695d85074952a7",
+      "counts": {
+        "topic": 5883,
+        "video": 1885,
+        "html5": 4601,
+        "exercise": 4157
+      },
+      "name": "Unused",
+      "description": "Nodes in channel_id1d8f6d84618153c18c695d85074952a7 that are not imported in any downstream channels."
+    },
+    "1ceff53605e55bef987d88e0908658c5": {
+      "channel_id": "1ceff53605e55bef987d88e0908658c5",
+      "counts": {
+        "topic": 7554,
+        "video": 23618,
+        "exercise": 11028
+      },
+      "name": "Khan Academy (English)",
+      "description": "Khan Academy content for English."
+    },
+    "8f33b2b268b140fb8bbb6fd09ccc6e17": {
+      "channel_id": "8f33b2b268b140fb8bbb6fd09ccc6e17",
+      "counts": {
+        "topic": 6,
+        "video": 14,
+        "html5": 3,
+        "exercise": 9
+      },
+      "name": "Provenance test channel",
+      "description": "A new channel that imports from KA and CK-12 to test provenance graph generation queries."
+    },
+    "d2579f2f62404c32a4791f4311371d0d": {
+      "channel_id": "d2579f2f62404c32a4791f4311371d0d",
+      "counts": {
+        "topic": 1,
+        "video": 5,
+        "exercise": 2
+      },
+      "name": "Intermediary test channel",
+      "description": "A sample channel with some content nodes imported form the KA channel --- to be used in Provenance test channel to test transitivy of imports."
+    }
+  },
+  "edges": [
+    [
+      "1d8f6d84618153c18c695d85074952a7",
+      "1d8f6d84618153c18c695d85074952a7-unused",
+      "topic",
+      5881
+    ],
+    [
+      "1d8f6d84618153c18c695d85074952a7",
+      "1d8f6d84618153c18c695d85074952a7-unused",
+      "video",
+      1885
+    ],
+    [
+      "1d8f6d84618153c18c695d85074952a7",
+      "1d8f6d84618153c18c695d85074952a7-unused",
+      "html5",
+      4598
+    ],
+    [
+      "1d8f6d84618153c18c695d85074952a7",
+      "1d8f6d84618153c18c695d85074952a7-unused",
+      "exercise",
+      4155
+    ],
+    [
+      "1d8f6d84618153c18c695d85074952a7-added",
+      "1d8f6d84618153c18c695d85074952a7",
+      "topic",
+      5883
+    ],
+    [
+      "1d8f6d84618153c18c695d85074952a7-added",
+      "1d8f6d84618153c18c695d85074952a7",
+      "video",
+      1885
+    ],
+    [
+      "1d8f6d84618153c18c695d85074952a7-added",
+      "1d8f6d84618153c18c695d85074952a7",
+      "html5",
+      4601
+    ],
+    [
+      "1d8f6d84618153c18c695d85074952a7-added",
+      "1d8f6d84618153c18c695d85074952a7",
+      "exercise",
+      4157
+    ],
+    [
+      "1ceff53605e55bef987d88e0908658c5",
+      "1ceff53605e55bef987d88e0908658c5-unused",
+      "topic",
+      7550
+    ],
+    [
+      "1ceff53605e55bef987d88e0908658c5",
+      "1ceff53605e55bef987d88e0908658c5-unused",
+      "video",
+      23601
+    ],
+    [
+      "1ceff53605e55bef987d88e0908658c5",
+      "1ceff53605e55bef987d88e0908658c5-unused",
+      "exercise",
+      11019
+    ],
+    [
+      "1ceff53605e55bef987d88e0908658c5-added",
+      "1ceff53605e55bef987d88e0908658c5",
+      "topic",
+      7554
+    ],
+    [
+      "1ceff53605e55bef987d88e0908658c5-added",
+      "1ceff53605e55bef987d88e0908658c5",
+      "video",
+      23618
+    ],
+    [
+      "1ceff53605e55bef987d88e0908658c5-added",
+      "1ceff53605e55bef987d88e0908658c5",
+      "exercise",
+      11028
+    ],
+    [
+      "8f33b2b268b140fb8bbb6fd09ccc6e17",
+      "8f33b2b268b140fb8bbb6fd09ccc6e17-unused",
+      "topic",
+      6
+    ],
+    [
+      "8f33b2b268b140fb8bbb6fd09ccc6e17",
+      "8f33b2b268b140fb8bbb6fd09ccc6e17-unused",
+      "video",
+      14
+    ],
+    [
+      "8f33b2b268b140fb8bbb6fd09ccc6e17",
+      "8f33b2b268b140fb8bbb6fd09ccc6e17-unused",
+      "html5",
+      3
+    ],
+    [
+      "8f33b2b268b140fb8bbb6fd09ccc6e17",
+      "8f33b2b268b140fb8bbb6fd09ccc6e17-unused",
+      "exercise",
+      9
+    ],
+    [
+      "8f33b2b268b140fb8bbb6fd09ccc6e17-added",
+      "8f33b2b268b140fb8bbb6fd09ccc6e17",
+      "topic",
+      1
+    ],
+    [
+      "1d8f6d84618153c18c695d85074952a7",
+      "8f33b2b268b140fb8bbb6fd09ccc6e17",
+      "topic",
+      2
+    ],
+    [
+      "1d8f6d84618153c18c695d85074952a7",
+      "8f33b2b268b140fb8bbb6fd09ccc6e17",
+      "html5",
+      3
+    ],
+    [
+      "1d8f6d84618153c18c695d85074952a7",
+      "8f33b2b268b140fb8bbb6fd09ccc6e17",
+      "exercise",
+      2
+    ],
+    [
+      "1ceff53605e55bef987d88e0908658c5",
+      "8f33b2b268b140fb8bbb6fd09ccc6e17",
+      "topic",
+      3
+    ],
+    [
+      "1ceff53605e55bef987d88e0908658c5",
+      "8f33b2b268b140fb8bbb6fd09ccc6e17",
+      "video",
+      12
+    ],
+    [
+      "1ceff53605e55bef987d88e0908658c5",
+      "8f33b2b268b140fb8bbb6fd09ccc6e17",
+      "exercise",
+      7
+    ],
+    [
+      "d2579f2f62404c32a4791f4311371d0d",
+      "8f33b2b268b140fb8bbb6fd09ccc6e17",
+      "video",
+      2
+    ],
+    [
+      "d2579f2f62404c32a4791f4311371d0d",
+      "d2579f2f62404c32a4791f4311371d0d-unused",
+      "topic",
+      1
+    ],
+    [
+      "d2579f2f62404c32a4791f4311371d0d",
+      "d2579f2f62404c32a4791f4311371d0d-unused",
+      "video",
+      3
+    ],
+    [
+      "d2579f2f62404c32a4791f4311371d0d",
+      "d2579f2f62404c32a4791f4311371d0d-unused",
+      "exercise",
+      2
+    ],
+    [
+      "1ceff53605e55bef987d88e0908658c5",
+      "d2579f2f62404c32a4791f4311371d0d",
+      "topic",
+      1
+    ],
+    [
+      "1ceff53605e55bef987d88e0908658c5",
+      "d2579f2f62404c32a4791f4311371d0d",
+      "video",
+      5
+    ],
+    [
+      "1ceff53605e55bef987d88e0908658c5",
+      "d2579f2f62404c32a4791f4311371d0d",
+      "exercise",
+      2
+    ]
+  ]
+}

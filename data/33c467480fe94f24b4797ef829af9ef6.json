@@ -1,0 +1,140 @@
+{
+  "title": "CBSE KA Hindi Class 6 to 9",
+  "description": "A channel that consists of 99% imports from KA Hindi.",
+  "nodes": {
+    "a53592c972a8594e9b695aa127493ff6": {
+      "channel_id": "a53592c972a8594e9b695aa127493ff6",
+      "counts": {
+        "topic": 376,
+        "video": 781,
+        "exercise": 513
+      },
+      "name": "Khan Academy (हिन्दी, हिंदी)",
+      "description": "Khan Academy content for Hindi."
+    },
+    "a53592c972a8594e9b695aa127493ff6-unused": {
+      "channel_id": "a53592c972a8594e9b695aa127493ff6",
+      "counts": {
+        "topic": 376,
+        "video": 781,
+        "exercise": 513
+      },
+      "name": "Unused",
+      "description": "Nodes in channel_ida53592c972a8594e9b695aa127493ff6 that are not imported in any downstream channels."
+    },
+    "33c467480fe94f24b4797ef829af9ef6-added": {
+      "channel_id": "33c467480fe94f24b4797ef829af9ef6",
+      "counts": {
+        "topic": 305,
+        "video": 658,
+        "exercise": 427
+      },
+      "name": "Added",
+      "description": "Nodes uploaded to channel_id33c467480fe94f24b4797ef829af9ef6"
+    },
+    "33c467480fe94f24b4797ef829af9ef6-unused": {
+      "channel_id": "33c467480fe94f24b4797ef829af9ef6",
+      "counts": {
+        "topic": 305,
+        "video": 658,
+        "exercise": 427
+      },
+      "name": "Unused",
+      "description": "Nodes in channel_id33c467480fe94f24b4797ef829af9ef6 that are not imported in any downstream channels."
+    },
+    "a53592c972a8594e9b695aa127493ff6-added": {
+      "channel_id": "a53592c972a8594e9b695aa127493ff6",
+      "counts": {
+        "topic": 376,
+        "video": 781,
+        "exercise": 513
+      },
+      "name": "Added",
+      "description": "Nodes uploaded to channel_ida53592c972a8594e9b695aa127493ff6"
+    },
+    "33c467480fe94f24b4797ef829af9ef6": {
+      "channel_id": "33c467480fe94f24b4797ef829af9ef6",
+      "counts": {
+        "topic": 305,
+        "video": 658,
+        "exercise": 427
+      },
+      "name": "CBSE KA Hindi Class 6 to 9",
+      "description": "CBSE aligned content for Classes 6 to 9, in Hindi, from Khan Academy."
+    }
+  },
+  "edges": [
+    [
+      "a53592c972a8594e9b695aa127493ff6",
+      "a53592c972a8594e9b695aa127493ff6-unused",
+      "topic",
+      71
+    ],
+    [
+      "a53592c972a8594e9b695aa127493ff6",
+      "a53592c972a8594e9b695aa127493ff6-unused",
+      "video",
+      128
+    ],
+    [
+      "a53592c972a8594e9b695aa127493ff6",
+      "a53592c972a8594e9b695aa127493ff6-unused",
+      "exercise",
+      86
+    ],
+    [
+      "a53592c972a8594e9b695aa127493ff6-added",
+      "a53592c972a8594e9b695aa127493ff6",
+      "topic",
+      376
+    ],
+    [
+      "a53592c972a8594e9b695aa127493ff6-added",
+      "a53592c972a8594e9b695aa127493ff6",
+      "video",
+      781
+    ],
+    [
+      "a53592c972a8594e9b695aa127493ff6-added",
+      "a53592c972a8594e9b695aa127493ff6",
+      "exercise",
+      513
+    ],
+    [
+      "33c467480fe94f24b4797ef829af9ef6",
+      "33c467480fe94f24b4797ef829af9ef6-unused",
+      "topic",
+      305
+    ],
+    [
+      "33c467480fe94f24b4797ef829af9ef6",
+      "33c467480fe94f24b4797ef829af9ef6-unused",
+      "video",
+      653
+    ],
+    [
+      "33c467480fe94f24b4797ef829af9ef6",
+      "33c467480fe94f24b4797ef829af9ef6-unused",
+      "exercise",
+      427
+    ],
+    [
+      "a53592c972a8594e9b695aa127493ff6",
+      "33c467480fe94f24b4797ef829af9ef6",
+      "topic",
+      305
+    ],
+    [
+      "a53592c972a8594e9b695aa127493ff6",
+      "33c467480fe94f24b4797ef829af9ef6",
+      "video",
+      653
+    ],
+    [
+      "a53592c972a8594e9b695aa127493ff6",
+      "33c467480fe94f24b4797ef829af9ef6",
+      "exercise",
+      427
+    ]
+  ]
+}
