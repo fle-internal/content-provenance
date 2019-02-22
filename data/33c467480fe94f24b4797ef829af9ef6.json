@@ -1,6 +1,4 @@
 {
-  "title": "CBSE KA Hindi Class 6 to 9",
-  "description": "A channel that consists of 99% imports from KA Hindi.",
   "nodes": {
     "a53592c972a8594e9b695aa127493ff6": {
       "channel_id": "a53592c972a8594e9b695aa127493ff6",
@@ -15,32 +13,28 @@
     "a53592c972a8594e9b695aa127493ff6-unused": {
       "channel_id": "a53592c972a8594e9b695aa127493ff6",
       "counts": {
-        "topic": 376,
-        "video": 781,
-        "exercise": 513
+        "topic": 71,
+        "video": 128,
+        "exercise": 86
       },
       "name": "Unused",
-      "description": "Nodes in channel_ida53592c972a8594e9b695aa127493ff6 that are not imported in any downstream channels."
+      "description": "Connts of nodes in channel_id a53592c972a8594e9b695aa127493ff6 that are not imported in any downstream channels."
     },
     "33c467480fe94f24b4797ef829af9ef6-added": {
       "channel_id": "33c467480fe94f24b4797ef829af9ef6",
-      "counts": {
-        "topic": 305,
-        "video": 658,
-        "exercise": 427
-      },
+      "counts": {},
       "name": "Added",
-      "description": "Nodes uploaded to channel_id33c467480fe94f24b4797ef829af9ef6"
+      "description": "Count of nodes uploaded to channel_id 33c467480fe94f24b4797ef829af9ef6"
     },
     "33c467480fe94f24b4797ef829af9ef6-unused": {
       "channel_id": "33c467480fe94f24b4797ef829af9ef6",
       "counts": {
         "topic": 305,
-        "video": 658,
+        "video": 653,
         "exercise": 427
       },
       "name": "Unused",
-      "description": "Nodes in channel_id33c467480fe94f24b4797ef829af9ef6 that are not imported in any downstream channels."
+      "description": "Connts of nodes in channel_id 33c467480fe94f24b4797ef829af9ef6 that are not imported in any downstream channels."
     },
     "a53592c972a8594e9b695aa127493ff6-added": {
       "channel_id": "a53592c972a8594e9b695aa127493ff6",
@@ -50,7 +44,7 @@
         "exercise": 513
       },
       "name": "Added",
-      "description": "Nodes uploaded to channel_ida53592c972a8594e9b695aa127493ff6"
+      "description": "Count of nodes uploaded to channel_id a53592c972a8594e9b695aa127493ff6"
     },
     "33c467480fe94f24b4797ef829af9ef6": {
       "channel_id": "33c467480fe94f24b4797ef829af9ef6",
@@ -136,5 +130,7 @@
       "exercise",
       427
     ]
-  ]
+  ],
+  "description": "The channel description of CUV is: CBSE aligned content for Classes 6 to 9, in Hindi, from Khan Academy.",
+  "title": "Import graph data for channel CBSE KA Hindi Class 6 to 9"
 }

@@ -1,6 +1,4 @@
 {
-  "title": "Sample channel imports graph data",
-  "description": "The channel under vizualization (CUV) is a tiny channel that containsdirect importrs from KA, CK-12 and some indirect imports from KA via an intemediate channel.",
   "nodes": {
     "1ceff53605e55bef987d88e0908658c5-added": {
       "channel_id": "1ceff53605e55bef987d88e0908658c5",
@@ -10,38 +8,33 @@
         "exercise": 11028
       },
       "name": "Added",
-      "description": "Nodes uploaded to channel_id1ceff53605e55bef987d88e0908658c5"
+      "description": "Count of nodes uploaded to channel_id 1ceff53605e55bef987d88e0908658c5"
     },
     "1ceff53605e55bef987d88e0908658c5-unused": {
       "channel_id": "1ceff53605e55bef987d88e0908658c5",
       "counts": {
-        "topic": 7554,
-        "video": 23618,
-        "exercise": 11028
+        "topic": 7550,
+        "video": 23601,
+        "exercise": 11019
       },
       "name": "Unused",
-      "description": "Nodes in channel_id1ceff53605e55bef987d88e0908658c5 that are not imported in any downstream channels."
+      "description": "Connts of nodes in channel_id 1ceff53605e55bef987d88e0908658c5 that are not imported in any downstream channels."
     },
     "8f33b2b268b140fb8bbb6fd09ccc6e17-added": {
       "channel_id": "8f33b2b268b140fb8bbb6fd09ccc6e17",
       "counts": {
-        "topic": 6,
-        "video": 14,
-        "html5": 3,
-        "exercise": 9
+        "topic": 1
       },
       "name": "Added",
-      "description": "Nodes uploaded to channel_id8f33b2b268b140fb8bbb6fd09ccc6e17"
+      "description": "Count of nodes uploaded to channel_id 8f33b2b268b140fb8bbb6fd09ccc6e17"
     },
     "d2579f2f62404c32a4791f4311371d0d-added": {
       "channel_id": "d2579f2f62404c32a4791f4311371d0d",
       "counts": {
-        "topic": 1,
-        "video": 5,
-        "exercise": 2
+        "document": 1
       },
       "name": "Added",
-      "description": "Nodes uploaded to channel_idd2579f2f62404c32a4791f4311371d0d"
+      "description": "Count of nodes uploaded to channel_id d2579f2f62404c32a4791f4311371d0d"
     },
     "1d8f6d84618153c18c695d85074952a7": {
       "channel_id": "1d8f6d84618153c18c695d85074952a7",
@@ -63,17 +56,18 @@
         "exercise": 9
       },
       "name": "Unused",
-      "description": "Nodes in channel_id8f33b2b268b140fb8bbb6fd09ccc6e17 that are not imported in any downstream channels."
+      "description": "Connts of nodes in channel_id 8f33b2b268b140fb8bbb6fd09ccc6e17 that are not imported in any downstream channels."
     },
     "d2579f2f62404c32a4791f4311371d0d-unused": {
       "channel_id": "d2579f2f62404c32a4791f4311371d0d",
       "counts": {
         "topic": 1,
-        "video": 5,
+        "document": 1,
+        "video": 3,
         "exercise": 2
       },
       "name": "Unused",
-      "description": "Nodes in channel_idd2579f2f62404c32a4791f4311371d0d that are not imported in any downstream channels."
+      "description": "Connts of nodes in channel_id d2579f2f62404c32a4791f4311371d0d that are not imported in any downstream channels."
     },
     "1d8f6d84618153c18c695d85074952a7-added": {
       "channel_id": "1d8f6d84618153c18c695d85074952a7",
@@ -84,18 +78,18 @@
         "exercise": 4157
       },
       "name": "Added",
-      "description": "Nodes uploaded to channel_id1d8f6d84618153c18c695d85074952a7"
+      "description": "Count of nodes uploaded to channel_id 1d8f6d84618153c18c695d85074952a7"
     },
     "1d8f6d84618153c18c695d85074952a7-unused": {
       "channel_id": "1d8f6d84618153c18c695d85074952a7",
       "counts": {
-        "topic": 5883,
+        "topic": 5881,
         "video": 1885,
-        "html5": 4601,
-        "exercise": 4157
+        "html5": 4598,
+        "exercise": 4155
       },
       "name": "Unused",
-      "description": "Nodes in channel_id1d8f6d84618153c18c695d85074952a7 that are not imported in any downstream channels."
+      "description": "Connts of nodes in channel_id 1d8f6d84618153c18c695d85074952a7 that are not imported in any downstream channels."
     },
     "1ceff53605e55bef987d88e0908658c5": {
       "channel_id": "1ceff53605e55bef987d88e0908658c5",
@@ -122,6 +116,7 @@
       "channel_id": "d2579f2f62404c32a4791f4311371d0d",
       "counts": {
         "topic": 1,
+        "document": 1,
         "video": 5,
         "exercise": 2
       },
@@ -295,6 +290,12 @@
     [
       "d2579f2f62404c32a4791f4311371d0d",
       "d2579f2f62404c32a4791f4311371d0d-unused",
+      "document",
+      1
+    ],
+    [
+      "d2579f2f62404c32a4791f4311371d0d",
+      "d2579f2f62404c32a4791f4311371d0d-unused",
       "video",
       3
     ],
@@ -303,6 +304,12 @@
       "d2579f2f62404c32a4791f4311371d0d-unused",
       "exercise",
       2
+    ],
+    [
+      "d2579f2f62404c32a4791f4311371d0d-added",
+      "d2579f2f62404c32a4791f4311371d0d",
+      "document",
+      1
     ],
     [
       "1ceff53605e55bef987d88e0908658c5",
@@ -322,5 +329,7 @@
       "exercise",
       2
     ]
-  ]
+  ],
+  "description": "The channel description of CUV is: A new channel that imports from KA and CK-12 to test provenance graph generation queries.",
+  "title": "Import graph data for channel Provenance test channel"
 }

@@ -5,12 +5,12 @@
       "counts": {
         "topic": 94,
         "document": 43,
-        "video": 1110,
+        "video": 1109,
         "html5": 559,
-        "exercise": 334
+        "exercise": 333
       },
       "name": "Unused",
-      "description": "Nodes in channel_id55eea6b34a4c481b8b6adee06a882360 that are not imported in any downstream channels."
+      "description": "Connts of nodes in channel_id 55eea6b34a4c481b8b6adee06a882360 that are not imported in any downstream channels."
     },
     "d65a1ee7e10353feb88cbc5d33b46e28-added": {
       "channel_id": "d65a1ee7e10353feb88cbc5d33b46e28",
@@ -19,28 +19,24 @@
         "video": 28
       },
       "name": "Added",
-      "description": "Nodes uploaded to channel_idd65a1ee7e10353feb88cbc5d33b46e28"
+      "description": "Count of nodes uploaded to channel_id d65a1ee7e10353feb88cbc5d33b46e28"
     },
     "d65a1ee7e10353feb88cbc5d33b46e28-unused": {
       "channel_id": "d65a1ee7e10353feb88cbc5d33b46e28",
       "counts": {
-        "topic": 8,
-        "video": 28
+        "topic": 6,
+        "video": 17
       },
       "name": "Unused",
-      "description": "Nodes in channel_idd65a1ee7e10353feb88cbc5d33b46e28 that are not imported in any downstream channels."
+      "description": "Connts of nodes in channel_id d65a1ee7e10353feb88cbc5d33b46e28 that are not imported in any downstream channels."
     },
     "1772ea7c93654da28d6877455891e839-added": {
       "channel_id": "1772ea7c93654da28d6877455891e839",
       "counts": {
-        "topic": 722,
-        "document": 67,
-        "video": 565,
-        "html5": 18,
-        "exercise": 357
+        "topic": 16
       },
       "name": "Added",
-      "description": "Nodes uploaded to channel_id1772ea7c93654da28d6877455891e839"
+      "description": "Count of nodes uploaded to channel_id 1772ea7c93654da28d6877455891e839"
     },
     "f9d3e0e46ea25789bbed672ff6a399ed": {
       "channel_id": "f9d3e0e46ea25789bbed672ff6a399ed",
@@ -56,11 +52,11 @@
       "counts": {
         "topic": 10,
         "document": 50,
-        "video": 5,
+        "video": 1,
         "exercise": 10
       },
       "name": "Added",
-      "description": "Nodes uploaded to channel_idd0ef6f71e4fe4e54bb87d7dab5eeaae2"
+      "description": "Count of nodes uploaded to channel_id d0ef6f71e4fe4e54bb87d7dab5eeaae2"
     },
     "276c892a6e095ceba53794ff57da4368-added": {
       "channel_id": "276c892a6e095ceba53794ff57da4368",
@@ -70,37 +66,36 @@
         "video": 185
       },
       "name": "Added",
-      "description": "Nodes uploaded to channel_id276c892a6e095ceba53794ff57da4368"
+      "description": "Count of nodes uploaded to channel_id 276c892a6e095ceba53794ff57da4368"
     },
     "1772ea7c93654da28d6877455891e839-unused": {
       "channel_id": "1772ea7c93654da28d6877455891e839",
       "counts": {
-        "topic": 722,
-        "document": 67,
-        "video": 565,
-        "html5": 18,
-        "exercise": 357
+        "topic": 656,
+        "document": 50,
+        "video": 36,
+        "exercise": 24
       },
       "name": "Unused",
-      "description": "Nodes in channel_id1772ea7c93654da28d6877455891e839 that are not imported in any downstream channels."
+      "description": "Connts of nodes in channel_id 1772ea7c93654da28d6877455891e839 that are not imported in any downstream channels."
     },
     "e409b964366a59219c148f2aaa741f43-unused": {
       "channel_id": "e409b964366a59219c148f2aaa741f43",
       "counts": {
-        "topic": 45,
-        "html5": 315
+        "topic": 44,
+        "html5": 308
       },
       "name": "Unused",
-      "description": "Nodes in channel_ide409b964366a59219c148f2aaa741f43 that are not imported in any downstream channels."
+      "description": "Connts of nodes in channel_id e409b964366a59219c148f2aaa741f43 that are not imported in any downstream channels."
     },
     "f9d3e0e46ea25789bbed672ff6a399ed-unused": {
       "channel_id": "f9d3e0e46ea25789bbed672ff6a399ed",
       "counts": {
         "topic": 633,
-        "html5": 6677
+        "html5": 6667
       },
       "name": "Unused",
-      "description": "Nodes in channel_idf9d3e0e46ea25789bbed672ff6a399ed that are not imported in any downstream channels."
+      "description": "Connts of nodes in channel_id f9d3e0e46ea25789bbed672ff6a399ed that are not imported in any downstream channels."
     },
     "1d8f6d84618153c18c695d85074952a7-added": {
       "channel_id": "1d8f6d84618153c18c695d85074952a7",
@@ -111,29 +106,23 @@
         "exercise": 4157
       },
       "name": "Added",
-      "description": "Nodes uploaded to channel_id1d8f6d84618153c18c695d85074952a7"
+      "description": "Count of nodes uploaded to channel_id 1d8f6d84618153c18c695d85074952a7"
     },
     "276c892a6e095ceba53794ff57da4368-unused": {
       "channel_id": "276c892a6e095ceba53794ff57da4368",
       "counts": {
-        "topic": 81,
-        "document": 26,
-        "video": 185
+        "topic": 80
       },
       "name": "Unused",
-      "description": "Nodes in channel_id276c892a6e095ceba53794ff57da4368 that are not imported in any downstream channels."
+      "description": "Connts of nodes in channel_id 276c892a6e095ceba53794ff57da4368 that are not imported in any downstream channels."
     },
     "55eea6b34a4c481b8b6adee06a882360-added": {
       "channel_id": "55eea6b34a4c481b8b6adee06a882360",
       "counts": {
-        "topic": 94,
-        "document": 43,
-        "video": 1110,
-        "html5": 559,
-        "exercise": 334
+        "topic": 4
       },
       "name": "Added",
-      "description": "Nodes uploaded to channel_id55eea6b34a4c481b8b6adee06a882360"
+      "description": "Count of nodes uploaded to channel_id 55eea6b34a4c481b8b6adee06a882360"
     },
     "0c53d98966c852f69ab8ab2310b3b6e0-added": {
       "channel_id": "0c53d98966c852f69ab8ab2310b3b6e0",
@@ -142,7 +131,7 @@
         "video": 159
       },
       "name": "Added",
-      "description": "Nodes uploaded to channel_id0c53d98966c852f69ab8ab2310b3b6e0"
+      "description": "Count of nodes uploaded to channel_id 0c53d98966c852f69ab8ab2310b3b6e0"
     },
     "74f36493bb475b62935fa8705ed59fed": {
       "channel_id": "74f36493bb475b62935fa8705ed59fed",
@@ -158,10 +147,10 @@
       "channel_id": "7c29207e8e2257128838054f18b3f0df",
       "counts": {
         "topic": 111,
-        "video": 226
+        "video": 1
       },
       "name": "Unused",
-      "description": "Nodes in channel_id7c29207e8e2257128838054f18b3f0df that are not imported in any downstream channels."
+      "description": "Connts of nodes in channel_id 7c29207e8e2257128838054f18b3f0df that are not imported in any downstream channels."
     },
     "74f36493bb475b62935fa8705ed59fed-added": {
       "channel_id": "74f36493bb475b62935fa8705ed59fed",
@@ -171,7 +160,7 @@
         "html5": 701
       },
       "name": "Added",
-      "description": "Nodes uploaded to channel_id74f36493bb475b62935fa8705ed59fed"
+      "description": "Count of nodes uploaded to channel_id 74f36493bb475b62935fa8705ed59fed"
     },
     "e409b964366a59219c148f2aaa741f43-added": {
       "channel_id": "e409b964366a59219c148f2aaa741f43",
@@ -180,7 +169,7 @@
         "html5": 315
       },
       "name": "Added",
-      "description": "Nodes uploaded to channel_ide409b964366a59219c148f2aaa741f43"
+      "description": "Count of nodes uploaded to channel_id e409b964366a59219c148f2aaa741f43"
     },
     "7c29207e8e2257128838054f18b3f0df": {
       "channel_id": "7c29207e8e2257128838054f18b3f0df",
@@ -221,7 +210,7 @@
         "document": 58
       },
       "name": "Added",
-      "description": "Nodes uploaded to channel_id4dd2e97a930851579b92add96d2e81f7"
+      "description": "Count of nodes uploaded to channel_id 4dd2e97a930851579b92add96d2e81f7"
     },
     "f9d3e0e46ea25789bbed672ff6a399ed-added": {
       "channel_id": "f9d3e0e46ea25789bbed672ff6a399ed",
@@ -230,7 +219,7 @@
         "html5": 6677
       },
       "name": "Added",
-      "description": "Nodes uploaded to channel_idf9d3e0e46ea25789bbed672ff6a399ed"
+      "description": "Count of nodes uploaded to channel_id f9d3e0e46ea25789bbed672ff6a399ed"
     },
     "d0ef6f71e4fe4e54bb87d7dab5eeaae2": {
       "channel_id": "d0ef6f71e4fe4e54bb87d7dab5eeaae2",
@@ -267,43 +256,42 @@
     "0c53d98966c852f69ab8ab2310b3b6e0-unused": {
       "channel_id": "0c53d98966c852f69ab8ab2310b3b6e0",
       "counts": {
-        "topic": 103,
-        "video": 159
+        "topic": 102
       },
       "name": "Unused",
-      "description": "Nodes in channel_id0c53d98966c852f69ab8ab2310b3b6e0 that are not imported in any downstream channels."
+      "description": "Connts of nodes in channel_id 0c53d98966c852f69ab8ab2310b3b6e0 that are not imported in any downstream channels."
     },
     "4dd2e97a930851579b92add96d2e81f7-unused": {
       "channel_id": "4dd2e97a930851579b92add96d2e81f7",
       "counts": {
-        "topic": 47,
+        "topic": 36,
         "audio": 468,
-        "html5": 544,
+        "html5": 78,
         "document": 58
       },
       "name": "Unused",
-      "description": "Nodes in channel_id4dd2e97a930851579b92add96d2e81f7 that are not imported in any downstream channels."
+      "description": "Connts of nodes in channel_id 4dd2e97a930851579b92add96d2e81f7 that are not imported in any downstream channels."
     },
     "74f36493bb475b62935fa8705ed59fed-unused": {
       "channel_id": "74f36493bb475b62935fa8705ed59fed",
       "counts": {
-        "topic": 139,
+        "topic": 131,
         "video": 15,
-        "html5": 701
+        "html5": 633
       },
       "name": "Unused",
-      "description": "Nodes in channel_id74f36493bb475b62935fa8705ed59fed that are not imported in any downstream channels."
+      "description": "Connts of nodes in channel_id 74f36493bb475b62935fa8705ed59fed that are not imported in any downstream channels."
     },
     "1d8f6d84618153c18c695d85074952a7-unused": {
       "channel_id": "1d8f6d84618153c18c695d85074952a7",
       "counts": {
-        "topic": 5883,
-        "video": 1885,
-        "html5": 4601,
-        "exercise": 4157
+        "topic": 5187,
+        "video": 1325,
+        "html5": 4593,
+        "exercise": 3810
       },
       "name": "Unused",
-      "description": "Nodes in channel_id1d8f6d84618153c18c695d85074952a7 that are not imported in any downstream channels."
+      "description": "Connts of nodes in channel_id 1d8f6d84618153c18c695d85074952a7 that are not imported in any downstream channels."
     },
     "7c29207e8e2257128838054f18b3f0df-added": {
       "channel_id": "7c29207e8e2257128838054f18b3f0df",
@@ -312,7 +300,7 @@
         "video": 226
       },
       "name": "Added",
-      "description": "Nodes uploaded to channel_id7c29207e8e2257128838054f18b3f0df"
+      "description": "Count of nodes uploaded to channel_id 7c29207e8e2257128838054f18b3f0df"
     },
     "e409b964366a59219c148f2aaa741f43": {
       "channel_id": "e409b964366a59219c148f2aaa741f43",
@@ -357,14 +345,9 @@
     },
     "d0ef6f71e4fe4e54bb87d7dab5eeaae2-unused": {
       "channel_id": "d0ef6f71e4fe4e54bb87d7dab5eeaae2",
-      "counts": {
-        "topic": 10,
-        "document": 50,
-        "video": 5,
-        "exercise": 10
-      },
+      "counts": {},
       "name": "Unused",
-      "description": "Nodes in channel_idd0ef6f71e4fe4e54bb87d7dab5eeaae2 that are not imported in any downstream channels."
+      "description": "Connts of nodes in channel_id d0ef6f71e4fe4e54bb87d7dab5eeaae2 that are not imported in any downstream channels."
     }
   },
   "edges": [
@@ -896,5 +879,7 @@
       "exercise",
       347
     ]
-  ]
+  ],
+  "description": "Content imported from AS, Blockly games, Foundatin 1 3 , Pratham, and UKNOWN",
+  "title": "Import graph data for channel SIB Foundation"
 }
