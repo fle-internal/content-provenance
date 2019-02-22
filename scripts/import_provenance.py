@@ -1,73 +1,79 @@
 from __future__ import print_function
 from contentcuration.models import *
 from collections import defaultdict
+import json
 
 
 
 # EXTRACT
 ################################################################################
-
-nodes = {}  # lookup table for ContentNode objects by channel_id, by method, by source_id
-edges = [] # list of tuples (snode.id, node.id) decribing relations "node is imported from snode"
-
-def add_node(node, channel_id, method=None):
-    """
-    Add the ContentNode object to `nodes` data under `channel_id`, under `method`,
-    where `method` is either "added" or "imported".
-    """
-    if channel_id not in nodes:
-        nodes[channel_id] = {
-            "added": {},
-            "imported": {},
-        }
-    group_dict = nodes[channel_id][method]
-    group_dict[node.id] = node
-
-
-
 def get_source_node(node):
     schannel = Channel.objects.get(id=node.source_channel_id)
-    snode = schannel.main_tree.get_descendants().get(node_id=node.source_node_id)
-    return snode
+    if schannel:
+        try:
+            snode = schannel.main_tree.get_descendants().get(node_id=node.source_node_id)
+            return snode
+        except Exception as e:
+            print('could not find snode for node', node)
+            return None
+    else:
+        return None
 
-def extract_imports(channel_id):
-    """
-    Write the graph infomation to `nodes` and `edges` for `channel_id`.
-    """
-    channel = Channel.objects.get(id=channel_id)
-    node_list = channel.main_tree.get_descendants()
-    source_channel_ids = set()
-    for node in node_list:
-        # split nodes in the according to the medhod of incluion
-        # ADDED
-        if node.node_id == node.source_node_id:
-            add_node(node, channel_id, method='added')
-        # IMPORTED
-        else:
-            add_node(node, channel_id, method='imported')
-            # record import relationship as edge tuple
-            snode = get_source_node(node)
-            # print_node_info(snode)
-            edge_tuple = (snode.id, node.id)
-            edges.append(edge_tuple)
-            # queue up source channel_id for recusive call...
-            source_channel_id = snode.get_channel().id
-            assert source_channel_id == node.source_channel_id, 'source_channel_id mismatch!'
-            source_channel_ids.add(source_channel_id)
+
+def extract_nodes_and_edges(channel_id):
+    nodes = {}  # lookup table for ContentNode objects by channel_id, by method, by source_id
+    edges = [] # list of tuples (snode.id, node.id) decribing relations "node is imported from snode"
     
-    # recusevily continue to build import-graph data if not already done...
-    for source_channel_id in source_channel_ids:
-        if source_channel_id not in nodes:
-            print('Recursing into channel', source_channel_id)
-            extract_imports(source_channel_id)
-        else:
-            print('No need to extract channel_id', channel_id, 'since already extracted.')
-
-
-extract_imports('8f33b2b268b140fb8bbb6fd09ccc6e17')
-
-
-
+    def add_node(node, channel_id, method=None):
+        """
+        Add the ContentNode object to `nodes` data under `channel_id`, under `method`,
+        where `method` is either "added" or "imported".
+        """
+        if channel_id not in nodes:
+            nodes[channel_id] = {
+                "added": {},
+                "imported": {},
+            }
+        group_dict = nodes[channel_id][method]
+        group_dict[node.id] = node
+    
+    def extract_imports(channel_id):
+        """
+        Write the graph infomation to `nodes` and `edges` for `channel_id`.
+        """
+        channel = Channel.objects.get(id=channel_id)
+        node_list = channel.main_tree.get_descendants()
+        source_channel_ids = set()
+        for node in node_list:
+            # split nodes in the according to the medhod of incluion
+            # ADDED
+            if node.node_id == node.source_node_id:
+                add_node(node, channel_id, method='added')
+            # IMPORTED
+            else:
+                # record import relationship as edge tuple
+                snode = get_source_node(node)
+                if snode:
+                    add_node(node, channel_id, method='imported')  # moved here to avoid trouble
+                    # print_node_info(snode)
+                    edge_tuple = (snode.id, node.id)
+                    edges.append(edge_tuple)
+                    # queue up source channel_id for recusive call...
+                    source_channel_id = snode.get_channel().id
+                    assert source_channel_id == node.source_channel_id, 'source_channel_id mismatch!'
+                    source_channel_ids.add(source_channel_id)
+        
+        # recusevily continue to build import-graph data if not already done...
+        for source_channel_id in source_channel_ids:
+            if source_channel_id not in nodes:
+                print('Recursing into channel', source_channel_id)
+                extract_imports(source_channel_id)
+            else:
+                print('No need to extract channel_id', channel_id, 'since already extracted.')
+    #
+    #
+    extract_imports(channel_id)
+    return nodes, edges
 
 
 
@@ -206,13 +212,66 @@ def get_graph(nodes, edges):
 
 
 
+# TEST CHANNEL
+nodes, edges = extract_nodes_and_edges('8f33b2b268b140fb8bbb6fd09ccc6e17')
+g8fe33 = get_graph(nodes, edges)
+print(json.dumps(g8fe33))
+
+
+
+# CBSE KA Hindi Class 6 to 9 channel_id= 33c467480fe94f24b4797ef829af9ef6
+# contains 1391 nodes, of which  99.93% are imported
+# imports  1390 nodes of which:
+#   1390 imported from channel Khan Academy (हिन्दी, हिंदी) of which:
+#      427 are exercises
+#      305 are topics
+#      658 are videos
+nodes, edges = extract_nodes_and_edges('33c467480fe94f24b4797ef829af9ef6')
+g33c46 = get_graph(nodes, edges)
+print(json.dumps(g33c46))
 
 
 
 
+# SIB Foundation channel_id= 55eea6b34a4c481b8b6adee06a882360
+# contains 2141 nodes, of which  99.77% are imported
+# imports  2136 nodes of which:
+#     10 imported from channel African Storybook of which:
+#        10 are html5s
+#     8 imported from channel Blockly Games of which:
+#        7 are html5s
+#        1 are topics
+#     928 imported from channel CK-12 of which:
+#        334 are exercises
+#        8 are html5s
+#        56 are topics
+#        530 are videos
+#     225 imported from channel Foundation 1 of which:
+#        225 are videos
+#     212 imported from channel Foundation 3 Literacy of which:
+#        26 are documents
+#        1 are topics
+#        185 are videos
+#     13 imported from channel Foundation 3 Numeracy of which:
+#        2 are topics
+#        11 are videos
+#     477 imported from channel Nal'ibali Web Resource Tree of which:
+#        466 are html5s
+#        11 are topics
+#     17 imported from channel Pratham Books' StoryWeaver of which:
+#        17 are documents
+#     76 imported from channel Thoughtful Learning of which:
+#        68 are html5s
+#        8 are topics
+#     170 imported from channel UNKNOWN NAME of which:
+#        11 are topics
+#        159 are videos
 
-
-
+nodes, edges = extract_nodes_and_edges('55eea6b34a4c481b8b6adee06a882360')
+g55ee = get_graph(nodes, edges)
+g55ee['title'] = 'Imports graph for the SIB Foundation channel'
+g55ee['description'] = 'Import content imported from AS, Blockly games, Foundatin 1 3 , Pratham, and UKNOWN'
+print(json.dumps(g55ee))
 
 
 
@@ -263,7 +322,6 @@ def print_node_info(node, msg=''):
 #       source_channel_id=1ceff53605e55bef987d88e0908658c5 ,  source_node_id=655296e4ef4b51efbc57d18028114db5
 #       original_channel_id=1ceff53605e55bef987d88e0908658c5 ,  original_node_id=02bea4efecbb4baeb6afa4752065ee22 ,  original_source_node_id=655296e4ef4b51efbc57d18028114db5
 # 
-
 
 def group_node_list_by_channel_id(node_list):
     results = defaultdict(list)
