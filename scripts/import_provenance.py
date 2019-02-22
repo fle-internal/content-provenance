@@ -203,7 +203,7 @@ def get_graph(cuv_channel_id, nodes, edges):
         # 3. add imports edges
         # we're computing (snode-->node) imports for current channel only---not recusively
         for source_channel_id, imported_nodes in group_node_list_by_source_channel_id(imported).items():
-            print('   processing source_channel_id'+source_channel_id)
+            print('   processing source_channel_id '+source_channel_id)
             imported_aggregates = defaultdict(int)
             for imported_node in imported_nodes:
                 snode = get_source_node(imported_node)

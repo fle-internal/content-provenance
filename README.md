@@ -3,11 +3,9 @@ content-provenance
 Scripts to extract and visualize the content import graph for Studio channels.
 
 
-
 Context
 -------
-(explain on call)
-
+Explain on call or see https://youtu.be/Fd6v39yZdkw
 
 
 Extract
