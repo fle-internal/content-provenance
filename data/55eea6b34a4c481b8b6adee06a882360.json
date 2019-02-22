@@ -1,0 +1,900 @@
+{
+  "nodes": {
+    "55eea6b34a4c481b8b6adee06a882360-unused": {
+      "channel_id": "55eea6b34a4c481b8b6adee06a882360",
+      "counts": {
+        "topic": 94,
+        "document": 43,
+        "video": 1110,
+        "html5": 559,
+        "exercise": 334
+      },
+      "name": "Unused",
+      "description": "Nodes in channel_id55eea6b34a4c481b8b6adee06a882360 that are not imported in any downstream channels."
+    },
+    "d65a1ee7e10353feb88cbc5d33b46e28-added": {
+      "channel_id": "d65a1ee7e10353feb88cbc5d33b46e28",
+      "counts": {
+        "topic": 8,
+        "video": 28
+      },
+      "name": "Added",
+      "description": "Nodes uploaded to channel_idd65a1ee7e10353feb88cbc5d33b46e28"
+    },
+    "d65a1ee7e10353feb88cbc5d33b46e28-unused": {
+      "channel_id": "d65a1ee7e10353feb88cbc5d33b46e28",
+      "counts": {
+        "topic": 8,
+        "video": 28
+      },
+      "name": "Unused",
+      "description": "Nodes in channel_idd65a1ee7e10353feb88cbc5d33b46e28 that are not imported in any downstream channels."
+    },
+    "1772ea7c93654da28d6877455891e839-added": {
+      "channel_id": "1772ea7c93654da28d6877455891e839",
+      "counts": {
+        "topic": 722,
+        "document": 67,
+        "video": 565,
+        "html5": 18,
+        "exercise": 357
+      },
+      "name": "Added",
+      "description": "Nodes uploaded to channel_id1772ea7c93654da28d6877455891e839"
+    },
+    "f9d3e0e46ea25789bbed672ff6a399ed": {
+      "channel_id": "f9d3e0e46ea25789bbed672ff6a399ed",
+      "counts": {
+        "topic": 633,
+        "html5": 6677
+      },
+      "name": "African Storybook",
+      "description": "Open access to picture storybooks in the languages of Africa. For children's literacy, enjoyment and imagination."
+    },
+    "d0ef6f71e4fe4e54bb87d7dab5eeaae2-added": {
+      "channel_id": "d0ef6f71e4fe4e54bb87d7dab5eeaae2",
+      "counts": {
+        "topic": 10,
+        "document": 50,
+        "video": 5,
+        "exercise": 10
+      },
+      "name": "Added",
+      "description": "Nodes uploaded to channel_idd0ef6f71e4fe4e54bb87d7dab5eeaae2"
+    },
+    "276c892a6e095ceba53794ff57da4368-added": {
+      "channel_id": "276c892a6e095ceba53794ff57da4368",
+      "counts": {
+        "topic": 81,
+        "document": 26,
+        "video": 185
+      },
+      "name": "Added",
+      "description": "Nodes uploaded to channel_id276c892a6e095ceba53794ff57da4368"
+    },
+    "1772ea7c93654da28d6877455891e839-unused": {
+      "channel_id": "1772ea7c93654da28d6877455891e839",
+      "counts": {
+        "topic": 722,
+        "document": 67,
+        "video": 565,
+        "html5": 18,
+        "exercise": 357
+      },
+      "name": "Unused",
+      "description": "Nodes in channel_id1772ea7c93654da28d6877455891e839 that are not imported in any downstream channels."
+    },
+    "e409b964366a59219c148f2aaa741f43-unused": {
+      "channel_id": "e409b964366a59219c148f2aaa741f43",
+      "counts": {
+        "topic": 45,
+        "html5": 315
+      },
+      "name": "Unused",
+      "description": "Nodes in channel_ide409b964366a59219c148f2aaa741f43 that are not imported in any downstream channels."
+    },
+    "f9d3e0e46ea25789bbed672ff6a399ed-unused": {
+      "channel_id": "f9d3e0e46ea25789bbed672ff6a399ed",
+      "counts": {
+        "topic": 633,
+        "html5": 6677
+      },
+      "name": "Unused",
+      "description": "Nodes in channel_idf9d3e0e46ea25789bbed672ff6a399ed that are not imported in any downstream channels."
+    },
+    "1d8f6d84618153c18c695d85074952a7-added": {
+      "channel_id": "1d8f6d84618153c18c695d85074952a7",
+      "counts": {
+        "topic": 5883,
+        "video": 1885,
+        "html5": 4601,
+        "exercise": 4157
+      },
+      "name": "Added",
+      "description": "Nodes uploaded to channel_id1d8f6d84618153c18c695d85074952a7"
+    },
+    "276c892a6e095ceba53794ff57da4368-unused": {
+      "channel_id": "276c892a6e095ceba53794ff57da4368",
+      "counts": {
+        "topic": 81,
+        "document": 26,
+        "video": 185
+      },
+      "name": "Unused",
+      "description": "Nodes in channel_id276c892a6e095ceba53794ff57da4368 that are not imported in any downstream channels."
+    },
+    "55eea6b34a4c481b8b6adee06a882360-added": {
+      "channel_id": "55eea6b34a4c481b8b6adee06a882360",
+      "counts": {
+        "topic": 94,
+        "document": 43,
+        "video": 1110,
+        "html5": 559,
+        "exercise": 334
+      },
+      "name": "Added",
+      "description": "Nodes uploaded to channel_id55eea6b34a4c481b8b6adee06a882360"
+    },
+    "0c53d98966c852f69ab8ab2310b3b6e0-added": {
+      "channel_id": "0c53d98966c852f69ab8ab2310b3b6e0",
+      "counts": {
+        "topic": 103,
+        "video": 159
+      },
+      "name": "Added",
+      "description": "Nodes uploaded to channel_id0c53d98966c852f69ab8ab2310b3b6e0"
+    },
+    "74f36493bb475b62935fa8705ed59fed": {
+      "channel_id": "74f36493bb475b62935fa8705ed59fed",
+      "counts": {
+        "topic": 139,
+        "video": 15,
+        "html5": 701
+      },
+      "name": "Thoughtful Learning",
+      "description": "Learning resources on Langugage Arts, 21st Century Learning, and Social-Emotional Learning."
+    },
+    "7c29207e8e2257128838054f18b3f0df-unused": {
+      "channel_id": "7c29207e8e2257128838054f18b3f0df",
+      "counts": {
+        "topic": 111,
+        "video": 226
+      },
+      "name": "Unused",
+      "description": "Nodes in channel_id7c29207e8e2257128838054f18b3f0df that are not imported in any downstream channels."
+    },
+    "74f36493bb475b62935fa8705ed59fed-added": {
+      "channel_id": "74f36493bb475b62935fa8705ed59fed",
+      "counts": {
+        "topic": 139,
+        "video": 15,
+        "html5": 701
+      },
+      "name": "Added",
+      "description": "Nodes uploaded to channel_id74f36493bb475b62935fa8705ed59fed"
+    },
+    "e409b964366a59219c148f2aaa741f43-added": {
+      "channel_id": "e409b964366a59219c148f2aaa741f43",
+      "counts": {
+        "topic": 45,
+        "html5": 315
+      },
+      "name": "Added",
+      "description": "Nodes uploaded to channel_ide409b964366a59219c148f2aaa741f43"
+    },
+    "7c29207e8e2257128838054f18b3f0df": {
+      "channel_id": "7c29207e8e2257128838054f18b3f0df",
+      "counts": {
+        "topic": 111,
+        "video": 226
+      },
+      "name": "Foundation 1",
+      "description": "Foundation 1 Content"
+    },
+    "1772ea7c93654da28d6877455891e839": {
+      "channel_id": "1772ea7c93654da28d6877455891e839",
+      "counts": {
+        "topic": 722,
+        "document": 67,
+        "video": 565,
+        "html5": 18,
+        "exercise": 357
+      },
+      "name": "School in a Box Foundation",
+      "description": "Literacy and Numeracy for Grade 1-3"
+    },
+    "0c53d98966c852f69ab8ab2310b3b6e0": {
+      "channel_id": "0c53d98966c852f69ab8ab2310b3b6e0",
+      "counts": {
+        "topic": 103,
+        "video": 159
+      },
+      "name": "Foundation 2 Literacy",
+      "description": "All Foundation 2 Literacy Content"
+    },
+    "4dd2e97a930851579b92add96d2e81f7-added": {
+      "channel_id": "4dd2e97a930851579b92add96d2e81f7",
+      "counts": {
+        "topic": 47,
+        "audio": 468,
+        "html5": 544,
+        "document": 58
+      },
+      "name": "Added",
+      "description": "Nodes uploaded to channel_id4dd2e97a930851579b92add96d2e81f7"
+    },
+    "f9d3e0e46ea25789bbed672ff6a399ed-added": {
+      "channel_id": "f9d3e0e46ea25789bbed672ff6a399ed",
+      "counts": {
+        "topic": 633,
+        "html5": 6677
+      },
+      "name": "Added",
+      "description": "Nodes uploaded to channel_idf9d3e0e46ea25789bbed672ff6a399ed"
+    },
+    "d0ef6f71e4fe4e54bb87d7dab5eeaae2": {
+      "channel_id": "d0ef6f71e4fe4e54bb87d7dab5eeaae2",
+      "counts": {
+        "topic": 10,
+        "document": 50,
+        "video": 5,
+        "exercise": 10
+      },
+      "name": "Be Strong: Internet safety resources",
+      "description": "A new set of peer to peer resources to teach students how to use the internet safely and be digitally resilient"
+    },
+    "276c892a6e095ceba53794ff57da4368": {
+      "channel_id": "276c892a6e095ceba53794ff57da4368",
+      "counts": {
+        "topic": 81,
+        "document": 26,
+        "video": 185
+      },
+      "name": "Foundation 3 Literacy",
+      "description": "All Foundation 3 Literacy Content"
+    },
+    "4dd2e97a930851579b92add96d2e81f7": {
+      "channel_id": "4dd2e97a930851579b92add96d2e81f7",
+      "counts": {
+        "topic": 47,
+        "audio": 468,
+        "html5": 544,
+        "document": 58
+      },
+      "name": "Nal'ibali Web Resource Tree",
+      "description": "Nal'ibali (isiXhosa for \"here's the story\") is a national reading-for-enjoyment campaign to spark children's potential through storytelling and reading."
+    },
+    "0c53d98966c852f69ab8ab2310b3b6e0-unused": {
+      "channel_id": "0c53d98966c852f69ab8ab2310b3b6e0",
+      "counts": {
+        "topic": 103,
+        "video": 159
+      },
+      "name": "Unused",
+      "description": "Nodes in channel_id0c53d98966c852f69ab8ab2310b3b6e0 that are not imported in any downstream channels."
+    },
+    "4dd2e97a930851579b92add96d2e81f7-unused": {
+      "channel_id": "4dd2e97a930851579b92add96d2e81f7",
+      "counts": {
+        "topic": 47,
+        "audio": 468,
+        "html5": 544,
+        "document": 58
+      },
+      "name": "Unused",
+      "description": "Nodes in channel_id4dd2e97a930851579b92add96d2e81f7 that are not imported in any downstream channels."
+    },
+    "74f36493bb475b62935fa8705ed59fed-unused": {
+      "channel_id": "74f36493bb475b62935fa8705ed59fed",
+      "counts": {
+        "topic": 139,
+        "video": 15,
+        "html5": 701
+      },
+      "name": "Unused",
+      "description": "Nodes in channel_id74f36493bb475b62935fa8705ed59fed that are not imported in any downstream channels."
+    },
+    "1d8f6d84618153c18c695d85074952a7-unused": {
+      "channel_id": "1d8f6d84618153c18c695d85074952a7",
+      "counts": {
+        "topic": 5883,
+        "video": 1885,
+        "html5": 4601,
+        "exercise": 4157
+      },
+      "name": "Unused",
+      "description": "Nodes in channel_id1d8f6d84618153c18c695d85074952a7 that are not imported in any downstream channels."
+    },
+    "7c29207e8e2257128838054f18b3f0df-added": {
+      "channel_id": "7c29207e8e2257128838054f18b3f0df",
+      "counts": {
+        "topic": 111,
+        "video": 226
+      },
+      "name": "Added",
+      "description": "Nodes uploaded to channel_id7c29207e8e2257128838054f18b3f0df"
+    },
+    "e409b964366a59219c148f2aaa741f43": {
+      "channel_id": "e409b964366a59219c148f2aaa741f43",
+      "counts": {
+        "topic": 45,
+        "html5": 315
+      },
+      "name": "Blockly Games",
+      "description": "Teaches programming using block-based games, for children who have no prior experience with programming."
+    },
+    "d65a1ee7e10353feb88cbc5d33b46e28": {
+      "channel_id": "d65a1ee7e10353feb88cbc5d33b46e28",
+      "counts": {
+        "topic": 8,
+        "video": 28
+      },
+      "name": "Foundation 3 Numeracy",
+      "description": "All Foundation 3 Numeracy Content"
+    },
+    "55eea6b34a4c481b8b6adee06a882360": {
+      "channel_id": "55eea6b34a4c481b8b6adee06a882360",
+      "counts": {
+        "topic": 94,
+        "document": 43,
+        "video": 1110,
+        "html5": 559,
+        "exercise": 334
+      },
+      "name": "SIB Foundation",
+      "description": "Literacy and numeracy content for Grade 1-3. This channel includes reading material in other African languages."
+    },
+    "1d8f6d84618153c18c695d85074952a7": {
+      "channel_id": "1d8f6d84618153c18c695d85074952a7",
+      "counts": {
+        "topic": 5883,
+        "video": 1885,
+        "html5": 4601,
+        "exercise": 4157
+      },
+      "name": "CK-12",
+      "description": ""
+    },
+    "d0ef6f71e4fe4e54bb87d7dab5eeaae2-unused": {
+      "channel_id": "d0ef6f71e4fe4e54bb87d7dab5eeaae2",
+      "counts": {
+        "topic": 10,
+        "document": 50,
+        "video": 5,
+        "exercise": 10
+      },
+      "name": "Unused",
+      "description": "Nodes in channel_idd0ef6f71e4fe4e54bb87d7dab5eeaae2 that are not imported in any downstream channels."
+    }
+  },
+  "edges": [
+    [
+      "4dd2e97a930851579b92add96d2e81f7",
+      "4dd2e97a930851579b92add96d2e81f7-unused",
+      "topic",
+      36
+    ],
+    [
+      "4dd2e97a930851579b92add96d2e81f7",
+      "4dd2e97a930851579b92add96d2e81f7-unused",
+      "audio",
+      468
+    ],
+    [
+      "4dd2e97a930851579b92add96d2e81f7",
+      "4dd2e97a930851579b92add96d2e81f7-unused",
+      "html5",
+      78
+    ],
+    [
+      "4dd2e97a930851579b92add96d2e81f7",
+      "4dd2e97a930851579b92add96d2e81f7-unused",
+      "document",
+      58
+    ],
+    [
+      "4dd2e97a930851579b92add96d2e81f7-added",
+      "4dd2e97a930851579b92add96d2e81f7",
+      "topic",
+      47
+    ],
+    [
+      "4dd2e97a930851579b92add96d2e81f7-added",
+      "4dd2e97a930851579b92add96d2e81f7",
+      "audio",
+      468
+    ],
+    [
+      "4dd2e97a930851579b92add96d2e81f7-added",
+      "4dd2e97a930851579b92add96d2e81f7",
+      "html5",
+      544
+    ],
+    [
+      "4dd2e97a930851579b92add96d2e81f7-added",
+      "4dd2e97a930851579b92add96d2e81f7",
+      "document",
+      58
+    ],
+    [
+      "0c53d98966c852f69ab8ab2310b3b6e0",
+      "0c53d98966c852f69ab8ab2310b3b6e0-unused",
+      "topic",
+      102
+    ],
+    [
+      "0c53d98966c852f69ab8ab2310b3b6e0-added",
+      "0c53d98966c852f69ab8ab2310b3b6e0",
+      "topic",
+      103
+    ],
+    [
+      "0c53d98966c852f69ab8ab2310b3b6e0-added",
+      "0c53d98966c852f69ab8ab2310b3b6e0",
+      "video",
+      159
+    ],
+    [
+      "e409b964366a59219c148f2aaa741f43",
+      "e409b964366a59219c148f2aaa741f43-unused",
+      "topic",
+      44
+    ],
+    [
+      "e409b964366a59219c148f2aaa741f43",
+      "e409b964366a59219c148f2aaa741f43-unused",
+      "html5",
+      308
+    ],
+    [
+      "e409b964366a59219c148f2aaa741f43-added",
+      "e409b964366a59219c148f2aaa741f43",
+      "topic",
+      45
+    ],
+    [
+      "e409b964366a59219c148f2aaa741f43-added",
+      "e409b964366a59219c148f2aaa741f43",
+      "html5",
+      315
+    ],
+    [
+      "d65a1ee7e10353feb88cbc5d33b46e28",
+      "d65a1ee7e10353feb88cbc5d33b46e28-unused",
+      "topic",
+      6
+    ],
+    [
+      "d65a1ee7e10353feb88cbc5d33b46e28",
+      "d65a1ee7e10353feb88cbc5d33b46e28-unused",
+      "video",
+      17
+    ],
+    [
+      "d65a1ee7e10353feb88cbc5d33b46e28-added",
+      "d65a1ee7e10353feb88cbc5d33b46e28",
+      "topic",
+      8
+    ],
+    [
+      "d65a1ee7e10353feb88cbc5d33b46e28-added",
+      "d65a1ee7e10353feb88cbc5d33b46e28",
+      "video",
+      28
+    ],
+    [
+      "f9d3e0e46ea25789bbed672ff6a399ed",
+      "f9d3e0e46ea25789bbed672ff6a399ed-unused",
+      "topic",
+      633
+    ],
+    [
+      "f9d3e0e46ea25789bbed672ff6a399ed",
+      "f9d3e0e46ea25789bbed672ff6a399ed-unused",
+      "html5",
+      6667
+    ],
+    [
+      "f9d3e0e46ea25789bbed672ff6a399ed-added",
+      "f9d3e0e46ea25789bbed672ff6a399ed",
+      "topic",
+      633
+    ],
+    [
+      "f9d3e0e46ea25789bbed672ff6a399ed-added",
+      "f9d3e0e46ea25789bbed672ff6a399ed",
+      "html5",
+      6677
+    ],
+    [
+      "d0ef6f71e4fe4e54bb87d7dab5eeaae2-added",
+      "d0ef6f71e4fe4e54bb87d7dab5eeaae2",
+      "topic",
+      10
+    ],
+    [
+      "d0ef6f71e4fe4e54bb87d7dab5eeaae2-added",
+      "d0ef6f71e4fe4e54bb87d7dab5eeaae2",
+      "document",
+      50
+    ],
+    [
+      "d0ef6f71e4fe4e54bb87d7dab5eeaae2-added",
+      "d0ef6f71e4fe4e54bb87d7dab5eeaae2",
+      "video",
+      1
+    ],
+    [
+      "d0ef6f71e4fe4e54bb87d7dab5eeaae2-added",
+      "d0ef6f71e4fe4e54bb87d7dab5eeaae2",
+      "exercise",
+      10
+    ],
+    [
+      "74f36493bb475b62935fa8705ed59fed",
+      "74f36493bb475b62935fa8705ed59fed-unused",
+      "topic",
+      131
+    ],
+    [
+      "74f36493bb475b62935fa8705ed59fed",
+      "74f36493bb475b62935fa8705ed59fed-unused",
+      "video",
+      15
+    ],
+    [
+      "74f36493bb475b62935fa8705ed59fed",
+      "74f36493bb475b62935fa8705ed59fed-unused",
+      "html5",
+      633
+    ],
+    [
+      "74f36493bb475b62935fa8705ed59fed-added",
+      "74f36493bb475b62935fa8705ed59fed",
+      "topic",
+      139
+    ],
+    [
+      "74f36493bb475b62935fa8705ed59fed-added",
+      "74f36493bb475b62935fa8705ed59fed",
+      "video",
+      15
+    ],
+    [
+      "74f36493bb475b62935fa8705ed59fed-added",
+      "74f36493bb475b62935fa8705ed59fed",
+      "html5",
+      701
+    ],
+    [
+      "55eea6b34a4c481b8b6adee06a882360",
+      "55eea6b34a4c481b8b6adee06a882360-unused",
+      "topic",
+      94
+    ],
+    [
+      "55eea6b34a4c481b8b6adee06a882360",
+      "55eea6b34a4c481b8b6adee06a882360-unused",
+      "document",
+      43
+    ],
+    [
+      "55eea6b34a4c481b8b6adee06a882360",
+      "55eea6b34a4c481b8b6adee06a882360-unused",
+      "video",
+      1109
+    ],
+    [
+      "55eea6b34a4c481b8b6adee06a882360",
+      "55eea6b34a4c481b8b6adee06a882360-unused",
+      "html5",
+      559
+    ],
+    [
+      "55eea6b34a4c481b8b6adee06a882360",
+      "55eea6b34a4c481b8b6adee06a882360-unused",
+      "exercise",
+      333
+    ],
+    [
+      "55eea6b34a4c481b8b6adee06a882360-added",
+      "55eea6b34a4c481b8b6adee06a882360",
+      "topic",
+      4
+    ],
+    [
+      "4dd2e97a930851579b92add96d2e81f7",
+      "55eea6b34a4c481b8b6adee06a882360",
+      "topic",
+      11
+    ],
+    [
+      "4dd2e97a930851579b92add96d2e81f7",
+      "55eea6b34a4c481b8b6adee06a882360",
+      "html5",
+      466
+    ],
+    [
+      "0c53d98966c852f69ab8ab2310b3b6e0",
+      "55eea6b34a4c481b8b6adee06a882360",
+      "topic",
+      1
+    ],
+    [
+      "0c53d98966c852f69ab8ab2310b3b6e0",
+      "55eea6b34a4c481b8b6adee06a882360",
+      "video",
+      159
+    ],
+    [
+      "e409b964366a59219c148f2aaa741f43",
+      "55eea6b34a4c481b8b6adee06a882360",
+      "topic",
+      1
+    ],
+    [
+      "e409b964366a59219c148f2aaa741f43",
+      "55eea6b34a4c481b8b6adee06a882360",
+      "html5",
+      7
+    ],
+    [
+      "d65a1ee7e10353feb88cbc5d33b46e28",
+      "55eea6b34a4c481b8b6adee06a882360",
+      "topic",
+      2
+    ],
+    [
+      "d65a1ee7e10353feb88cbc5d33b46e28",
+      "55eea6b34a4c481b8b6adee06a882360",
+      "video",
+      11
+    ],
+    [
+      "74f36493bb475b62935fa8705ed59fed",
+      "55eea6b34a4c481b8b6adee06a882360",
+      "topic",
+      8
+    ],
+    [
+      "74f36493bb475b62935fa8705ed59fed",
+      "55eea6b34a4c481b8b6adee06a882360",
+      "html5",
+      68
+    ],
+    [
+      "276c892a6e095ceba53794ff57da4368",
+      "55eea6b34a4c481b8b6adee06a882360",
+      "topic",
+      1
+    ],
+    [
+      "276c892a6e095ceba53794ff57da4368",
+      "55eea6b34a4c481b8b6adee06a882360",
+      "document",
+      26
+    ],
+    [
+      "276c892a6e095ceba53794ff57da4368",
+      "55eea6b34a4c481b8b6adee06a882360",
+      "video",
+      185
+    ],
+    [
+      "7c29207e8e2257128838054f18b3f0df",
+      "55eea6b34a4c481b8b6adee06a882360",
+      "video",
+      225
+    ],
+    [
+      "1772ea7c93654da28d6877455891e839",
+      "55eea6b34a4c481b8b6adee06a882360",
+      "topic",
+      66
+    ],
+    [
+      "1772ea7c93654da28d6877455891e839",
+      "55eea6b34a4c481b8b6adee06a882360",
+      "document",
+      17
+    ],
+    [
+      "1772ea7c93654da28d6877455891e839",
+      "55eea6b34a4c481b8b6adee06a882360",
+      "video",
+      529
+    ],
+    [
+      "1772ea7c93654da28d6877455891e839",
+      "55eea6b34a4c481b8b6adee06a882360",
+      "html5",
+      18
+    ],
+    [
+      "1772ea7c93654da28d6877455891e839",
+      "55eea6b34a4c481b8b6adee06a882360",
+      "exercise",
+      333
+    ],
+    [
+      "1d8f6d84618153c18c695d85074952a7",
+      "1d8f6d84618153c18c695d85074952a7-unused",
+      "topic",
+      5187
+    ],
+    [
+      "1d8f6d84618153c18c695d85074952a7",
+      "1d8f6d84618153c18c695d85074952a7-unused",
+      "video",
+      1325
+    ],
+    [
+      "1d8f6d84618153c18c695d85074952a7",
+      "1d8f6d84618153c18c695d85074952a7-unused",
+      "html5",
+      4593
+    ],
+    [
+      "1d8f6d84618153c18c695d85074952a7",
+      "1d8f6d84618153c18c695d85074952a7-unused",
+      "exercise",
+      3810
+    ],
+    [
+      "1d8f6d84618153c18c695d85074952a7-added",
+      "1d8f6d84618153c18c695d85074952a7",
+      "topic",
+      5883
+    ],
+    [
+      "1d8f6d84618153c18c695d85074952a7-added",
+      "1d8f6d84618153c18c695d85074952a7",
+      "video",
+      1885
+    ],
+    [
+      "1d8f6d84618153c18c695d85074952a7-added",
+      "1d8f6d84618153c18c695d85074952a7",
+      "html5",
+      4601
+    ],
+    [
+      "1d8f6d84618153c18c695d85074952a7-added",
+      "1d8f6d84618153c18c695d85074952a7",
+      "exercise",
+      4157
+    ],
+    [
+      "276c892a6e095ceba53794ff57da4368",
+      "276c892a6e095ceba53794ff57da4368-unused",
+      "topic",
+      80
+    ],
+    [
+      "276c892a6e095ceba53794ff57da4368-added",
+      "276c892a6e095ceba53794ff57da4368",
+      "topic",
+      81
+    ],
+    [
+      "276c892a6e095ceba53794ff57da4368-added",
+      "276c892a6e095ceba53794ff57da4368",
+      "document",
+      26
+    ],
+    [
+      "276c892a6e095ceba53794ff57da4368-added",
+      "276c892a6e095ceba53794ff57da4368",
+      "video",
+      185
+    ],
+    [
+      "7c29207e8e2257128838054f18b3f0df",
+      "7c29207e8e2257128838054f18b3f0df-unused",
+      "topic",
+      111
+    ],
+    [
+      "7c29207e8e2257128838054f18b3f0df",
+      "7c29207e8e2257128838054f18b3f0df-unused",
+      "video",
+      1
+    ],
+    [
+      "7c29207e8e2257128838054f18b3f0df-added",
+      "7c29207e8e2257128838054f18b3f0df",
+      "topic",
+      111
+    ],
+    [
+      "7c29207e8e2257128838054f18b3f0df-added",
+      "7c29207e8e2257128838054f18b3f0df",
+      "video",
+      226
+    ],
+    [
+      "1772ea7c93654da28d6877455891e839",
+      "1772ea7c93654da28d6877455891e839-unused",
+      "topic",
+      656
+    ],
+    [
+      "1772ea7c93654da28d6877455891e839",
+      "1772ea7c93654da28d6877455891e839-unused",
+      "document",
+      50
+    ],
+    [
+      "1772ea7c93654da28d6877455891e839",
+      "1772ea7c93654da28d6877455891e839-unused",
+      "video",
+      36
+    ],
+    [
+      "1772ea7c93654da28d6877455891e839",
+      "1772ea7c93654da28d6877455891e839-unused",
+      "exercise",
+      24
+    ],
+    [
+      "1772ea7c93654da28d6877455891e839-added",
+      "1772ea7c93654da28d6877455891e839",
+      "topic",
+      16
+    ],
+    [
+      "f9d3e0e46ea25789bbed672ff6a399ed",
+      "1772ea7c93654da28d6877455891e839",
+      "html5",
+      10
+    ],
+    [
+      "d0ef6f71e4fe4e54bb87d7dab5eeaae2",
+      "1772ea7c93654da28d6877455891e839",
+      "topic",
+      10
+    ],
+    [
+      "d0ef6f71e4fe4e54bb87d7dab5eeaae2",
+      "1772ea7c93654da28d6877455891e839",
+      "document",
+      50
+    ],
+    [
+      "d0ef6f71e4fe4e54bb87d7dab5eeaae2",
+      "1772ea7c93654da28d6877455891e839",
+      "video",
+      5
+    ],
+    [
+      "d0ef6f71e4fe4e54bb87d7dab5eeaae2",
+      "1772ea7c93654da28d6877455891e839",
+      "exercise",
+      10
+    ],
+    [
+      "1d8f6d84618153c18c695d85074952a7",
+      "1772ea7c93654da28d6877455891e839",
+      "topic",
+      696
+    ],
+    [
+      "1d8f6d84618153c18c695d85074952a7",
+      "1772ea7c93654da28d6877455891e839",
+      "video",
+      560
+    ],
+    [
+      "1d8f6d84618153c18c695d85074952a7",
+      "1772ea7c93654da28d6877455891e839",
+      "html5",
+      8
+    ],
+    [
+      "1d8f6d84618153c18c695d85074952a7",
+      "1772ea7c93654da28d6877455891e839",
+      "exercise",
+      347
+    ]
+  ]
+}
