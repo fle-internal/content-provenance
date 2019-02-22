@@ -14,7 +14,7 @@ def get_source_node(node):
             snode = schannel.main_tree.get_descendants().get(node_id=node.source_node_id)
             return snode
         except Exception as e:
-            print('could not find snode for node', node)
+            print('WARNING: could not find snode for node with studio_id =', node.id, ' node_id =', node.node_id)
             return None
     else:
         return None
@@ -115,13 +115,11 @@ def get_resource_counts_by_kind(subtree):
     return counts
 
 
-def get_channel_as_graph_node(channel_id, name=None, description=None):
-    channel = Channel.objects.get(id=channel_id)
+def get_channel_as_graph_node(channel, name=None, description=None):
     return {
-        "channel_id": channel_id,
+        "channel_id": channel.id,
         "name": channel.name if name is None else name,
         "description": channel.description if description is None else description,
-        "counts": get_resource_counts_by_kind(channel.main_tree),
     }
 
 
@@ -132,16 +130,15 @@ def group_node_list_by_source_channel_id(node_list):
     return results
 
 
-
-def get_graph(nodes, edges):
+def get_graph(cuv_channel_id, nodes, edges):
     """
     Aggregate the individual edges to granularity of channel_id to form the data
     for the d3 content import vizualization.
     """
+    cuv_channel = Channel.objects.get(id=cuv_channel_id)
     graph = {
-        "title": "Sample channel imports graph data",
-        "description": "The channel under vizualization (CUV) is a tiny channel that contains"
-                       "direct importrs from KA, CK-12 and some indirect imports from KA via an intemediate channel.",
+        "title": "Import graph data for channel " + cuv_channel.name,
+        "description": "The channel description of CUV is: " + cuv_channel.description,
         "nodes": {},  # dict {channel_id --> channel_info}, where channe_info is a dict with keys: name, channel_id, counts
         "edges": [],  # edges of the form (source, target, kind, count) where source and target are channel_ids
     }
@@ -150,7 +147,8 @@ def get_graph(nodes, edges):
     #  - channel_id+'-added' = to represent nodes added to studio by uploading new content
     #  - channel_id+'-unused' = nodes in a channel that are not imported into derivative channels
     for channel_id, channel_data in nodes.items():
-        print('processing channel_id='+channel_id)
+        print('processing channel channel_id='+channel_id)
+        channel = Channel.objects.get(id=channel_id)        
         # INPUTS: LISTS OF INDIVIDUAL CONTENT NODES
         added = channel_data["added"].values()
         imported = channel_data["imported"].values()
@@ -159,21 +157,26 @@ def get_graph(nodes, edges):
         # add three (3x) nodes that correspond to this channel_id
         ########################################################################
         # self
-        graph['nodes'][channel_id] = get_channel_as_graph_node(channel_id)
+        channel_node = get_channel_as_graph_node(channel)
+        channel_node['counts'] = get_resource_counts_by_kind(channel.main_tree)
+        graph['nodes'][channel_id] = channel_node
         # added
         added_node_id = channel_id+'-added'
-        graph['nodes'][added_node_id] = get_channel_as_graph_node(
-            channel_id,
+        added_node = get_channel_as_graph_node(
+            channel,
             name='Added',
-            description='Nodes uploaded to channel_id' + channel_id
+            description='Count of nodes uploaded to channel_id ' + channel_id
         )
+        graph['nodes'][added_node_id] = added_node
         # unused
         unused_node_id = channel_id+'-unused'
-        graph['nodes'][unused_node_id] = get_channel_as_graph_node(
-            channel_id,
+        unused_node = get_channel_as_graph_node(
+            channel,
             name='Unused',
-            description='Nodes in channel_id' + channel_id + ' that are not imported in any downstream channels.'
+            description='Connts of nodes in channel_id ' + channel_id + ' that are not imported in any downstream channels.'
         )
+        graph['nodes'][unused_node_id] = unused_node
+        
         
         # B. ADD GRAPH EDGES
         ########################################################################
@@ -183,6 +186,7 @@ def get_graph(nodes, edges):
         for node in all_nodes:
             if not is_source(edges, node.id):
                 unused_aggregates[node.kind_id] += 1
+        unused_node['counts'] = unused_aggregates
         for kind, count in unused_aggregates.items():
             graph['edges'].append(  (channel_id, unused_node_id, kind, count)  )
         # 
@@ -192,9 +196,10 @@ def get_graph(nodes, edges):
         for node in all_nodes:
             if not is_target(edges, node.id):
                 added_aggregates[node.kind_id] += 1
+        added_node['counts'] = added_aggregates
         for kind, count in added_aggregates.items():
             graph['edges'].append(  (added_node_id, channel_id, kind, count)   )
-        # 
+        #
         # 3. add imports edges
         # we're computing (snode-->node) imports for current channel only---not recusively
         for source_channel_id, imported_nodes in group_node_list_by_source_channel_id(imported).items():
@@ -213,8 +218,9 @@ def get_graph(nodes, edges):
 
 
 # TEST CHANNEL
-nodes, edges = extract_nodes_and_edges('8f33b2b268b140fb8bbb6fd09ccc6e17')
-g8fe33 = get_graph(nodes, edges)
+test_channel_id = '8f33b2b268b140fb8bbb6fd09ccc6e17'
+nodes, edges = extract_nodes_and_edges(test_channel_id)
+g8fe33 = get_graph(test_channel_id, nodes, edges)
 print(json.dumps(g8fe33))
 
 
@@ -226,8 +232,9 @@ print(json.dumps(g8fe33))
 #      427 are exercises
 #      305 are topics
 #      658 are videos
-nodes, edges = extract_nodes_and_edges('33c467480fe94f24b4797ef829af9ef6')
-g33c46 = get_graph(nodes, edges)
+small_channel_id = '33c467480fe94f24b4797ef829af9ef6'
+nodes, edges = extract_nodes_and_edges(small_channel_id)
+g33c46 = get_graph(small_channel_id, nodes, edges)
 print(json.dumps(g33c46))
 
 
@@ -267,13 +274,11 @@ print(json.dumps(g33c46))
 #        11 are topics
 #        159 are videos
 
-nodes, edges = extract_nodes_and_edges('55eea6b34a4c481b8b6adee06a882360')
-g55ee = get_graph(nodes, edges)
-g55ee['title'] = 'Imports graph for the SIB Foundation channel'
-g55ee['description'] = 'Import content imported from AS, Blockly games, Foundatin 1 3 , Pratham, and UKNOWN'
+large_channel_id = '55eea6b34a4c481b8b6adee06a882360'
+nodes, edges = extract_nodes_and_edges(large_channel_id)
+g55ee = get_graph(large_channel_id, nodes, edges)
+g55ee['description'] = 'Content imported from AS, Blockly games, Foundatin 1 3 , Pratham, and UKNOWN'
 print(json.dumps(g55ee))
-
-
 
 
 

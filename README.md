@@ -18,27 +18,23 @@ Outputs: raw data for channel imports grouped by channel
 
 Node data (each channel or folder):
   - Channel name
+  - Description
   - channel_id
+  - key -- is either `{{channel_id}}` or `{{channel_id}}-added` or `{{channel_id}}-unused`
   - counts (dict of the form {str-->int} that contains total counts of items in channel
+
+Future
   - modified?
   - curated (bool): True if channel is manually curated, False if channel is a ricecooker
-    
 
 
 Edge data:
   - original_channel_id   # a.k.a source id
   - channel_id            # a.k.a target id
-  - counts (dict of the form {str-->int} that contains counts of imported items)
+  - kind
+  - count
 
 
-Option 1: use `libstudio` and json exports (NOT GOOD---TOO SLOW)
-Option 2: run as queries in the django shell, print to stdout + copy paste
-(see )
-
-
-
-Transform
----------
 In order for the visualization to obey the "conservation of content" principle,
 we must process the raw data to augment with two types of dummy nodes:
   - Not used: dummy node for content that is not imported.
@@ -47,11 +43,16 @@ we must process the raw data to augment with two types of dummy nodes:
     is not imported from any pre-existing channel.
     Add to all curated channels but not ricecooker channels.
 
+These two types of channel-auxiliary nodes should be drawn close to the channel
+and and maybe greyed out so we don't focus on them.
+In fact, the `{{channel_id}}-unused` might be left off by default since people
+people can infer from the size of the box - the size of the outgoing import links.
+
 
 
 Load
 ----
-The import visualization js should its loading some `import_graph_data.json`
+The import visualization js should its loading some standard filename, e.g. `import_graph_data.json`
 (static file for testing but long term could be an API endpoints, e.g. `/api/provenance/{{channel_id}}`
 which returns a json for channel_id and is rendered by a generic js channel provenance visualizer view)
 
@@ -71,10 +72,10 @@ it suitable for the different vizs:
 
 
 ### Challenges
-  - the size of the -unused and -added for large channels like Khan Academy might dwarf the size of the rest of the content
-    so it would be nice to do some sort of hiding 
-    - if a node counts are > 1000 just show a 1000-sized box and display the total count (2k and 100k boxes are the same size as a 1k box)
-
+  - the size of the -unused and -added for large channels like Khan Academy might
+    dwarf the size of the rest of the content so it would be nice to do some sort of hiding 
+    - if a node counts are > 1000 just show a 1000-sized box and display the total
+      count (2k and 100k boxes are    the same size as a 1k box)
 
 
 
