@@ -1,21 +1,30 @@
 // TODO:
-// 0. integrate 'added' and 'unused' (at least expand height of nodes to represent that)
 // 1. check out label issue with other datasets (e.g. sample_graph.json)
 // 2. add mouse-over info box
 // 3. make responsive
+
+// DONE:
+// 0. integrate 'added' and 'unused' (at least expand height of nodes to represent that)
 
 // ==============
 //	OPTIONS
 // ==============
 
-var dataPath = "data/55eea6b34a4c481b8b6adee06a882360.json";
+var dataPath = "data_v2/55eea6b34a4c481b8b6adee06a882360.json";
+//var dataPath = "data/55eea6b34a4c481b8b6adee06a882360.json";
 //var dataPath = "data/sample_graph.json"; // <-- weird label issue to debug
 //var dataPath = "data/33c467480fe94f24b4797ef829af9ef6.json"; // <-- weird label issue to debug
+
+// indicate the channel uid suffixes to exclude from chart
+// e.g. "added" or "unused"
+// if multiple suffixes, use an array, like so: ["added", "unused"]
+// use "none" to keep all links and nodes
+var removeTerms = "unused" //["added", "unused"];
 
 var	margin = {top: 20, right: 100, bottom: 60, left: 120},
 	// bottom margin for legend, left & right margins for labels
 	width = 900 - margin.left - margin.right,
-	height = 550 - margin.top - margin.bottom,
+	height = 600 - margin.top - margin.bottom,
 	nodeRect = {width: 20, padding:10};
 
 var	colNode = "#60605d", // dark grey
@@ -41,6 +50,9 @@ d3.json(dataPath)
 	.then(function(original_data){
 
 		var data = sankey(formatData(original_data));
+		if (removeTerms != "none"){
+			data = rmData(data, removeTerms)
+		};
 
 		// === nodes
 		svg.append("g")
@@ -118,42 +130,54 @@ legend.selectAll("path")
 //	FUNCTIONS
 // ==============
 
+// =============================
 // format input data correctly for sankey
 function formatData(data){
 
 	var newData = {nodes: [], links: []};
 
-	// test for and (for now) remove 'added' and 'unused' channels
-	var re = /(added)|(unused)/i;
-
 	// add reformatted links
 	Object.entries(data.edges).forEach(([key, value]) => {
-
-		if (!re.test(value[0]) & !re.test(value[1])) {
-
-			newData.links.push({
-				source: value[0],
-				target: value[1],
-				value: value[3],
-				content: value[2]
-			});
-		};
-
+		newData.links.push({
+			source: value[0],
+			target: value[1],
+			value: value[3],
+			content: value[2]
+		});
 	});
 
 	// add reformatted nodes
 	Object.keys(data.nodes).forEach(function(part, index, theArray) {
-		if (!re.test(part)) {
-			newData.nodes.push({
-				name: part,
-				title: data.nodes[part].name
-			});//
-		};
+		newData.nodes.push({
+			name: part,
+			title: data.nodes[part].name
+		});
 	});
 
 	return newData;
 };
 
+// =============================
+function rmData(data, terms){
+// filter out nodes/links based on phrases at the end of the channel IDs (uids) (e.g. -added and -unused)
+
+	// build a regular expression the searches for any of the
+	// elements in terms in the channel IDs for nodes and links
+	terms = terms || ["added","unused"];
+	if (Array.isArray(terms)) {
+		terms = terms.map(term => "("+term+")").join('|');
+	}
+	var re = new RegExp(terms, 'i');
+
+	// filter
+	data.nodes = data.nodes.filter(node => !re.test(node.name));
+	data.links = data.links.filter(link => !re.test(link.source.name) & !re.test(link.target.name))
+
+	return data;
+
+}
+
+// =============================
 // generate sankey nodes/links
 function sankey(data){
 
@@ -170,6 +194,7 @@ function sankey(data){
 };
 
 
+// =============================
 // wrap long text
 // credit: Mike Bostock, https://bl.ocks.org/mbostock/7555321
 function wrap(text, width) {
