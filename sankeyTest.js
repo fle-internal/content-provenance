@@ -1,7 +1,7 @@
 // TODO:
 // 1. check out label issue with other datasets (e.g. sample_graph.json)
 // 2. add mouse-over info box
-// 3. make responsive
+// 3. make responsive (?)
 
 // DONE:
 // 0. integrate 'added' and 'unused' (at least expand height of nodes to represent that)
@@ -19,7 +19,8 @@ var dataPath = "data_v2/55eea6b34a4c481b8b6adee06a882360.json";
 // e.g. "added" or "unused"
 // if multiple suffixes, use an array, like so: ["added", "unused"]
 // use "none" to keep all links and nodes
-var removeTerms = "unused" //["added", "unused"];
+var removeTerms = "unused";
+//var removeTerms = "none";
 
 var	margin = {top: 20, right: 100, bottom: 60, left: 120},
 	// bottom margin for legend, left & right margins for labels
@@ -49,10 +50,15 @@ var svg = d3.select("#container").append("svg")
 d3.json(dataPath)
 	.then(function(original_data){
 
-		var data = sankey(formatData(original_data));
+		var data = formatData(original_data);
+
+		data = sankey(data);
+
 		if (removeTerms != "none"){
-			data = rmData(data, removeTerms)
+			data = rmData(data, removeTerms);
 		};
+
+		// another option to do: if data is removed *before* sankey-ifying, then node heights are "shrunk" to match links.
 
 		// === nodes
 		svg.append("g")
@@ -169,9 +175,16 @@ function rmData(data, terms){
 	}
 	var re = new RegExp(terms, 'i');
 
+
 	// filter
 	data.nodes = data.nodes.filter(node => !re.test(node.name));
-	data.links = data.links.filter(link => !re.test(link.source.name) & !re.test(link.target.name))
+	data.links = data.links.filter(link =>
+		!re.test(link.source) &
+		!re.test(link.target) &
+		// for when data is removed after sankey-ification:
+		!re.test(link.source.name) &
+		!re.test(link.target.name)
+	)
 
 	return data;
 
