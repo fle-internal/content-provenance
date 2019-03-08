@@ -142,23 +142,17 @@ function formatData(data){
 
 	var newData = {nodes: [], links: []};
 
-	// add reformatted links
-	Object.entries(data.edges).forEach(([key, value]) => {
-		newData.links.push({
-			source: value[0],
-			target: value[1],
-			value: value[3],
-			content: value[2]
-		});
-	});
+	newData.links = Object.values(data.edges).map( d => ({
+			source: d[0],
+			target: d[1],
+			value: d[3],
+			content: d[2]
+	}));
 
-	// add reformatted nodes
-	Object.keys(data.nodes).forEach(function(part, index, theArray) {
-		newData.nodes.push({
-			name: part,
-			title: data.nodes[part].name
-		});
-	});
+	newData.nodes = Object.keys(data.nodes).map( d => ({
+		name:d,
+		title: data.nodes[d].name
+	}));
 
 	return newData;
 };
