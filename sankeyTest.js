@@ -10,10 +10,10 @@
 //	OPTIONS
 // ==============
 
-// var dataPath = "data_v2/292583c17e6d4199b81f0423bec58766.json";
+var dataPath = "data_v2/292583c17e6d4199b81f0423bec58766.json";
 // var dataPath = "data_v2/33c467480fe94f24b4797ef829af9ef6.json";
 // var dataPath = "data_v2/34fd6722dd734687bc5291fc717d2d7f.json";
-var dataPath = "data_v2/55eea6b34a4c481b8b6adee06a882360.json";
+// var dataPath = "data_v2/55eea6b34a4c481b8b6adee06a882360.json";
 
 // -- circular links cause error --
 // var dataPath = "data_v2/0a9cd3c76a36402e87d6bf80a997901f.json"; // PROBLEM
@@ -212,7 +212,10 @@ function drawLabels(data){
 		.attr("dy", "0.35em")
 		.attr("text-anchor", d => d.x0 < width / 2 ? "end" : "start")
 		.text(d => d.title)
-			.call(wrap, 115);
+			.call(wrap, 100);
+
+	svg.selectAll("#labelGroup").selectAll("text").attr("class", "label");
+
 }
 
 // =============================
@@ -292,12 +295,13 @@ function wrap(text, width) {
 			word,
 			line = [],
 			lineNumber = 0,
-			lineHeight = 0.97, // ems
+			lineHeight = 0.95, // ems
 			y = text.attr("y"),
+			x = text.attr("x"),
 			dy = parseFloat(text.attr("dy")),
 			tspan = text.text(null)
 		 		.append("tspan")
-					.attr("x", text.attr("x"))
+					.attr("x", x)
 					.attr("y", y)
 					.attr("dy", dy + "em");
 
@@ -309,7 +313,7 @@ function wrap(text, width) {
 				tspan.text(line.join(" "));
 				line = [word];
 				tspan = text.append("tspan")
-				 	.attr("x", 0)
+				 	.attr("x", x)
 					.attr("y", y)
 					.attr("dy", ++lineNumber * lineHeight + dy + "em")
 					.text(word);
