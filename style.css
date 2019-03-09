@@ -1,0 +1,28 @@
+
+@font-face {
+    font-family: "Roboto";
+    src:url("fonts/Roboto-Regular.ttf");
+}
+
+text {
+	fill: #717170;
+	font-size: 10.5px;
+	font-family: "Roboto";
+	font-weight: bold;
+}
+
+#nodeGroup {
+	opacity: 1;
+	fill: #efefed;
+	stroke-width: 1.2;
+	stroke: #717170;
+}
+
+#linkGroup {
+	stroke-opacity: 0.6;
+	fill: none;
+}
+
+#legend path {
+	opacity: 0.6;
+}

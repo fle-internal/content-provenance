@@ -10,10 +10,10 @@
 //	OPTIONS
 // ==============
 
-var dataPath = "data_v2/292583c17e6d4199b81f0423bec58766.json";
+// var dataPath = "data_v2/292583c17e6d4199b81f0423bec58766.json";
 // var dataPath = "data_v2/33c467480fe94f24b4797ef829af9ef6.json";
 // var dataPath = "data_v2/34fd6722dd734687bc5291fc717d2d7f.json";
-// var dataPath = "data_v2/55eea6b34a4c481b8b6adee06a882360.json";
+var dataPath = "data_v2/55eea6b34a4c481b8b6adee06a882360.json";
 
 // -- circular links cause error --
 // var dataPath = "data_v2/0a9cd3c76a36402e87d6bf80a997901f.json"; // PROBLEM
@@ -34,11 +34,10 @@ var	margin = {top: 20, right: 100, bottom: 60, left: 120},
 	height = 600 - margin.top - margin.bottom,
 	nodeRect = {width: 20, padding:10};
 
-var	colNode = "#60605d", // dark grey
-	palContent = {
-		"document": "#D87852", // orange
-		"topic": "#F7BE38", // yellow
-		"exercise": "#71933E", // green
+var  palContent = {
+		"document": "#f38080", // pink
+		"topic": "#f3e21a", //"#ffe000", // yellow
+		"exercise": "#16e485", // green
 		"video": "#08BECC", // teal/lightblue
 		"html5": "#488FBF" // darker blue
 	};
@@ -80,27 +79,19 @@ var svg = d3.select("#diagram").append("svg")
 	.append("g")
 		.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-// create nodes (empty)
-var nodes = svg.append("g")
-	.attr("id", "nodeGroup")
-	.attr("stroke", "#000")
-	.attr("fill", colNode)
-	.attr("stroke", "none")
-	.attr("opacity", 0.6)
-	.selectAll("rect");
-
 // create links (empty)
 var links = svg.append("g")
 	.attr("id", "linkGroup")
-	.attr("fill", "none")
-	.attr("stroke-opacity", 0.7)
 	.selectAll("path");
+
+// create nodes (empty)
+var nodes = svg.append("g")
+	.attr("id", "nodeGroup")
+	.selectAll("rect");
 
 // create labels (empty)
 var labels = svg.append("g")
 	.attr("id", "labelGroup")
-	.style("font", "11px sans-serif")
-	.style("fill", colNode)
 	.selectAll("text");
 
 // get and append data
@@ -136,21 +127,14 @@ var ordinal = d3.scaleOrdinal()
 
 var legendOrdinal = d3.legendColor()
 	.shape("path", d3.symbol().type(d3.symbolCircle).size(400)())
-	.shapePadding(24)
+	.shapePadding(20)
 	.scale(ordinal)
 	.orient('horizontal');
 
 var legend = svg.append("g")
-	.attr("class", "legendOrdinal")
+	.attr("id", "legend")
 	.attr("transform", "translate("+ width/2 + "," + (height + margin.top + 10) + ")")
 	.call(legendOrdinal);
-
-legend.selectAll("text")
-	.style("font", "11px sans-serif")
-	.style("fill", colNode);
-
-legend.selectAll("path")
-	.attr("opacity", "0.7");
 
 // ==============
 //	FUNCTIONS
@@ -195,7 +179,7 @@ function drawLinks(data){
 		.attr("d", d3.sankeyLinkHorizontal())
 		.attr("stroke", function(d,i) {return palContent[d.content];})
 		.attr("stroke-width", d => Math.max(1, d.width))
-		 .append("title")
+		.append("title")
 		 	.text(d => d.value + " " + d.content + "s");
 };
 
