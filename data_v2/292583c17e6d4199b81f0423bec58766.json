@@ -1,0 +1,80 @@
+{
+    "description": "Content import graph for channel 292583c17e6d4199b81f0423bec58766", 
+    "edges": [
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "292583c17e6d4199b81f0423bec58766", 
+            "topic", 
+            338
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "292583c17e6d4199b81f0423bec58766", 
+            "video", 
+            846
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "292583c17e6d4199b81f0423bec58766", 
+            "exercise", 
+            536
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "1ceff53605e55bef987d88e0908658c5-unused", 
+            "topic", 
+            7216
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "1ceff53605e55bef987d88e0908658c5-unused", 
+            "video", 
+            22772
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "1ceff53605e55bef987d88e0908658c5-unused", 
+            "exercise", 
+            10492
+        ]
+    ], 
+    "nodes": {
+        "1ceff53605e55bef987d88e0908658c5": {
+            "channel_id": "1ceff53605e55bef987d88e0908658c5", 
+            "counts": {
+                "exercise": 11028, 
+                "topic": 7554, 
+                "video": 23618
+            }, 
+            "description": "Khan Academy content for English.", 
+            "name": "Khan Academy (English)"
+        }, 
+        "1ceff53605e55bef987d88e0908658c5-unused": {
+            "channel_id": "1ceff53605e55bef987d88e0908658c5", 
+            "counts": {
+                "exercise": 10492, 
+                "topic": 7216, 
+                "video": 22772
+            }, 
+            "description": "Connts of nodes in channel_id 1ceff53605e55bef987d88e0908658c5 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "292583c17e6d4199b81f0423bec58766": {
+            "channel_id": "292583c17e6d4199b81f0423bec58766", 
+            "counts": {
+                "exercise": 537, 
+                "topic": 338, 
+                "video": 856
+            }, 
+            "description": "CBSE aligned content for Classes 6 to 9, in English, from Khan Academy.", 
+            "name": "CBSE KA English Class 6 to 9"
+        }, 
+        "292583c17e6d4199b81f0423bec58766-added": {
+            "channel_id": "292583c17e6d4199b81f0423bec58766", 
+            "counts": {}, 
+            "description": "Count new nodes uploaded to channel_id 292583c17e6d4199b81f0423bec58766", 
+            "name": "Added to CBSE KA English Class 6 to 9"
+        }
+    }, 
+    "title": "Import graph data for channel CBSE KA English Class 6 to 9"
+}
