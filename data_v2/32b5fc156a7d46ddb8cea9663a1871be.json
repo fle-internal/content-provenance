@@ -1,0 +1,1581 @@
+{
+    "backedges": [], 
+    "description": "Content import graph for channel 32b5fc156a7d46ddb8cea9663a1871be", 
+    "edges": [
+        [
+            "05e8608fbdac5700a3bb9c1f5a291893", 
+            "32b5fc156a7d46ddb8cea9663a1871be", 
+            "html5", 
+            1
+        ], 
+        [
+            "fc47aee82e0153e2a30197d3fdee1128", 
+            "32b5fc156a7d46ddb8cea9663a1871be", 
+            "document", 
+            3
+        ], 
+        [
+            "197934f144305350b5820c7c4dd8e194", 
+            "32b5fc156a7d46ddb8cea9663a1871be", 
+            "video", 
+            1
+        ], 
+        [
+            "197934f144305350b5820c7c4dd8e194", 
+            "32b5fc156a7d46ddb8cea9663a1871be", 
+            "html5", 
+            1
+        ], 
+        [
+            "a9b25ac9814742c883ce1b0579448337", 
+            "32b5fc156a7d46ddb8cea9663a1871be", 
+            "document", 
+            1
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "32b5fc156a7d46ddb8cea9663a1871be", 
+            "video", 
+            1
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "32b5fc156a7d46ddb8cea9663a1871be", 
+            "html5", 
+            43
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "32b5fc156a7d46ddb8cea9663a1871be", 
+            "exercise", 
+            37
+        ], 
+        [
+            "54aa253a3266416da0c847e16e64aa7b", 
+            "32b5fc156a7d46ddb8cea9663a1871be", 
+            "video", 
+            3
+        ], 
+        [
+            "cf92e0f3b54e4c63a331c9a9a5f8170f", 
+            "32b5fc156a7d46ddb8cea9663a1871be", 
+            "topic", 
+            201
+        ], 
+        [
+            "cf92e0f3b54e4c63a331c9a9a5f8170f", 
+            "32b5fc156a7d46ddb8cea9663a1871be", 
+            "document", 
+            7
+        ], 
+        [
+            "cf92e0f3b54e4c63a331c9a9a5f8170f", 
+            "32b5fc156a7d46ddb8cea9663a1871be", 
+            "video", 
+            28
+        ], 
+        [
+            "cf92e0f3b54e4c63a331c9a9a5f8170f", 
+            "32b5fc156a7d46ddb8cea9663a1871be", 
+            "html5", 
+            38
+        ], 
+        [
+            "cf92e0f3b54e4c63a331c9a9a5f8170f", 
+            "32b5fc156a7d46ddb8cea9663a1871be", 
+            "exercise", 
+            32
+        ], 
+        [
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "32b5fc156a7d46ddb8cea9663a1871be", 
+            "video", 
+            2
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "32b5fc156a7d46ddb8cea9663a1871be", 
+            "video", 
+            56
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "32b5fc156a7d46ddb8cea9663a1871be", 
+            "exercise", 
+            4
+        ], 
+        [
+            "3e464ee12f6a50a781cddf59147b48b1", 
+            "32b5fc156a7d46ddb8cea9663a1871be", 
+            "video", 
+            1
+        ], 
+        [
+            "eac7ff5d4647582d9bcbefea7323fcb1", 
+            "32b5fc156a7d46ddb8cea9663a1871be", 
+            "document", 
+            1
+        ], 
+        [
+            "eac7ff5d4647582d9bcbefea7323fcb1", 
+            "32b5fc156a7d46ddb8cea9663a1871be", 
+            "html5", 
+            1
+        ], 
+        [
+            "591b7e1bc89645ef846c1685a7dd7b50-added", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "topic", 
+            168
+        ], 
+        [
+            "ec164fee25ee526296e68f7c10b1e169", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "topic", 
+            1
+        ], 
+        [
+            "ec164fee25ee526296e68f7c10b1e169", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "video", 
+            5
+        ], 
+        [
+            "0e173fca6e9052f8a474a2fb84055faf", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "document", 
+            1
+        ], 
+        [
+            "fc47aee82e0153e2a30197d3fdee1128", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "document", 
+            28
+        ], 
+        [
+            "a9b25ac9814742c883ce1b0579448337", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "document", 
+            1
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "topic", 
+            13
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "video", 
+            10
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "html5", 
+            81
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "exercise", 
+            63
+        ], 
+        [
+            "913efe9f14c65cb1b23402f21f056e99", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "document", 
+            3
+        ], 
+        [
+            "913efe9f14c65cb1b23402f21f056e99", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "video", 
+            3
+        ], 
+        [
+            "913efe9f14c65cb1b23402f21f056e99", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "html5", 
+            4
+        ], 
+        [
+            "8b28761bac075deeb66adc6c80ef119c", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "video", 
+            13
+        ], 
+        [
+            "05e8608fbdac5700a3bb9c1f5a291893", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "html5", 
+            10
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "topic", 
+            4
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "video", 
+            92
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "exercise", 
+            27
+        ], 
+        [
+            "cf92e0f3b54e4c63a331c9a9a5f8170f-added", 
+            "cf92e0f3b54e4c63a331c9a9a5f8170f", 
+            "topic", 
+            196
+        ], 
+        [
+            "fc47aee82e0153e2a30197d3fdee1128", 
+            "cf92e0f3b54e4c63a331c9a9a5f8170f", 
+            "document", 
+            7
+        ], 
+        [
+            "197934f144305350b5820c7c4dd8e194", 
+            "cf92e0f3b54e4c63a331c9a9a5f8170f", 
+            "html5", 
+            2
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "cf92e0f3b54e4c63a331c9a9a5f8170f", 
+            "video", 
+            4
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "cf92e0f3b54e4c63a331c9a9a5f8170f", 
+            "html5", 
+            33
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "cf92e0f3b54e4c63a331c9a9a5f8170f", 
+            "exercise", 
+            30
+        ], 
+        [
+            "913efe9f14c65cb1b23402f21f056e99", 
+            "cf92e0f3b54e4c63a331c9a9a5f8170f", 
+            "video", 
+            1
+        ], 
+        [
+            "54aa253a3266416da0c847e16e64aa7b", 
+            "cf92e0f3b54e4c63a331c9a9a5f8170f", 
+            "video", 
+            1
+        ], 
+        [
+            "54aa253a3266416da0c847e16e64aa7b", 
+            "cf92e0f3b54e4c63a331c9a9a5f8170f", 
+            "html5", 
+            1
+        ], 
+        [
+            "05e8608fbdac5700a3bb9c1f5a291893", 
+            "cf92e0f3b54e4c63a331c9a9a5f8170f", 
+            "video", 
+            1
+        ], 
+        [
+            "05e8608fbdac5700a3bb9c1f5a291893", 
+            "cf92e0f3b54e4c63a331c9a9a5f8170f", 
+            "html5", 
+            2
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "cf92e0f3b54e4c63a331c9a9a5f8170f", 
+            "video", 
+            17
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "cf92e0f3b54e4c63a331c9a9a5f8170f", 
+            "exercise", 
+            2
+        ], 
+        [
+            "eac7ff5d4647582d9bcbefea7323fcb1", 
+            "cf92e0f3b54e4c63a331c9a9a5f8170f", 
+            "video", 
+            1
+        ], 
+        [
+            "54aa253a3266416da0c847e16e64aa7b-added", 
+            "54aa253a3266416da0c847e16e64aa7b", 
+            "topic", 
+            79
+        ], 
+        [
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "54aa253a3266416da0c847e16e64aa7b", 
+            "video", 
+            1
+        ], 
+        [
+            "30010931bc254d41b311e71a96f4ff38", 
+            "54aa253a3266416da0c847e16e64aa7b", 
+            "topic", 
+            67
+        ], 
+        [
+            "30010931bc254d41b311e71a96f4ff38", 
+            "54aa253a3266416da0c847e16e64aa7b", 
+            "document", 
+            1
+        ], 
+        [
+            "30010931bc254d41b311e71a96f4ff38", 
+            "54aa253a3266416da0c847e16e64aa7b", 
+            "video", 
+            42
+        ], 
+        [
+            "30010931bc254d41b311e71a96f4ff38", 
+            "54aa253a3266416da0c847e16e64aa7b", 
+            "html5", 
+            22
+        ], 
+        [
+            "30010931bc254d41b311e71a96f4ff38", 
+            "54aa253a3266416da0c847e16e64aa7b", 
+            "exercise", 
+            15
+        ], 
+        [
+            "fc47aee82e0153e2a30197d3fdee1128", 
+            "54aa253a3266416da0c847e16e64aa7b", 
+            "document", 
+            21
+        ], 
+        [
+            "197934f144305350b5820c7c4dd8e194", 
+            "54aa253a3266416da0c847e16e64aa7b", 
+            "video", 
+            4
+        ], 
+        [
+            "197934f144305350b5820c7c4dd8e194", 
+            "54aa253a3266416da0c847e16e64aa7b", 
+            "html5", 
+            11
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "54aa253a3266416da0c847e16e64aa7b", 
+            "video", 
+            1
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "54aa253a3266416da0c847e16e64aa7b", 
+            "html5", 
+            39
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "54aa253a3266416da0c847e16e64aa7b", 
+            "exercise", 
+            16
+        ], 
+        [
+            "913efe9f14c65cb1b23402f21f056e99", 
+            "54aa253a3266416da0c847e16e64aa7b", 
+            "document", 
+            10
+        ], 
+        [
+            "913efe9f14c65cb1b23402f21f056e99", 
+            "54aa253a3266416da0c847e16e64aa7b", 
+            "video", 
+            2
+        ], 
+        [
+            "913efe9f14c65cb1b23402f21f056e99", 
+            "54aa253a3266416da0c847e16e64aa7b", 
+            "html5", 
+            4
+        ], 
+        [
+            "05e8608fbdac5700a3bb9c1f5a291893", 
+            "54aa253a3266416da0c847e16e64aa7b", 
+            "html5", 
+            24
+        ], 
+        [
+            "96dec5b22f0655fd997975cd6af02b08", 
+            "54aa253a3266416da0c847e16e64aa7b", 
+            "html5", 
+            7
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "54aa253a3266416da0c847e16e64aa7b", 
+            "video", 
+            55
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "54aa253a3266416da0c847e16e64aa7b", 
+            "exercise", 
+            11
+        ], 
+        [
+            "30010931bc254d41b311e71a96f4ff38-added", 
+            "30010931bc254d41b311e71a96f4ff38", 
+            "topic", 
+            91
+        ], 
+        [
+            "c7eda62c6489554a941058fa883e7c2c", 
+            "30010931bc254d41b311e71a96f4ff38", 
+            "document", 
+            1
+        ], 
+        [
+            "11d9de56da744f98877cc9fe710bb78d", 
+            "30010931bc254d41b311e71a96f4ff38", 
+            "exercise", 
+            1
+        ], 
+        [
+            "ddf1e99ed45a4e41a60c440ca504cf41", 
+            "30010931bc254d41b311e71a96f4ff38", 
+            "video", 
+            1
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "30010931bc254d41b311e71a96f4ff38", 
+            "video", 
+            66
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "30010931bc254d41b311e71a96f4ff38", 
+            "html5", 
+            86
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "30010931bc254d41b311e71a96f4ff38", 
+            "exercise", 
+            64
+        ], 
+        [
+            "913efe9f14c65cb1b23402f21f056e99", 
+            "30010931bc254d41b311e71a96f4ff38", 
+            "video", 
+            3
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "30010931bc254d41b311e71a96f4ff38", 
+            "video", 
+            83
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "30010931bc254d41b311e71a96f4ff38", 
+            "exercise", 
+            23
+        ], 
+        [
+            "3e464ee12f6a50a781cddf59147b48b1", 
+            "30010931bc254d41b311e71a96f4ff38", 
+            "video", 
+            2
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "11d9de56da744f98877cc9fe710bb78d", 
+            "topic", 
+            720
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "11d9de56da744f98877cc9fe710bb78d", 
+            "video", 
+            1894
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "11d9de56da744f98877cc9fe710bb78d", 
+            "exercise", 
+            1101
+        ], 
+        [
+            "ddf1e99ed45a4e41a60c440ca504cf41-added", 
+            "ddf1e99ed45a4e41a60c440ca504cf41", 
+            "topic", 
+            160
+        ], 
+        [
+            "ddf1e99ed45a4e41a60c440ca504cf41-added", 
+            "ddf1e99ed45a4e41a60c440ca504cf41", 
+            "document", 
+            363
+        ], 
+        [
+            "197934f144305350b5820c7c4dd8e194", 
+            "ddf1e99ed45a4e41a60c440ca504cf41", 
+            "topic", 
+            19
+        ], 
+        [
+            "197934f144305350b5820c7c4dd8e194", 
+            "ddf1e99ed45a4e41a60c440ca504cf41", 
+            "video", 
+            124
+        ], 
+        [
+            "197934f144305350b5820c7c4dd8e194", 
+            "ddf1e99ed45a4e41a60c440ca504cf41", 
+            "html5", 
+            211
+        ], 
+        [
+            "913efe9f14c65cb1b23402f21f056e99", 
+            "ddf1e99ed45a4e41a60c440ca504cf41", 
+            "topic", 
+            455
+        ], 
+        [
+            "913efe9f14c65cb1b23402f21f056e99", 
+            "ddf1e99ed45a4e41a60c440ca504cf41", 
+            "document", 
+            601
+        ], 
+        [
+            "913efe9f14c65cb1b23402f21f056e99", 
+            "ddf1e99ed45a4e41a60c440ca504cf41", 
+            "video", 
+            347
+        ], 
+        [
+            "913efe9f14c65cb1b23402f21f056e99", 
+            "ddf1e99ed45a4e41a60c440ca504cf41", 
+            "html5", 
+            150
+        ], 
+        [
+            "3e464ee12f6a50a781cddf59147b48b1", 
+            "ddf1e99ed45a4e41a60c440ca504cf41", 
+            "topic", 
+            117
+        ], 
+        [
+            "3e464ee12f6a50a781cddf59147b48b1", 
+            "ddf1e99ed45a4e41a60c440ca504cf41", 
+            "video", 
+            495
+        ], 
+        [
+            "a9b25ac9814742c883ce1b0579448337", 
+            "ddf1e99ed45a4e41a60c440ca504cf41", 
+            "topic", 
+            74
+        ], 
+        [
+            "a9b25ac9814742c883ce1b0579448337", 
+            "ddf1e99ed45a4e41a60c440ca504cf41", 
+            "document", 
+            165
+        ], 
+        [
+            "a9b25ac9814742c883ce1b0579448337", 
+            "ddf1e99ed45a4e41a60c440ca504cf41", 
+            "audio", 
+            30
+        ], 
+        [
+            "591b7e1bc89645ef846c1685a7dd7b50-added", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "topic", 
+            168
+        ], 
+        [
+            "ec164fee25ee526296e68f7c10b1e169", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "topic", 
+            1
+        ], 
+        [
+            "ec164fee25ee526296e68f7c10b1e169", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "video", 
+            5
+        ], 
+        [
+            "0e173fca6e9052f8a474a2fb84055faf", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "document", 
+            1
+        ], 
+        [
+            "fc47aee82e0153e2a30197d3fdee1128", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "document", 
+            28
+        ], 
+        [
+            "a9b25ac9814742c883ce1b0579448337", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "document", 
+            1
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "topic", 
+            13
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "video", 
+            10
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "html5", 
+            81
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "exercise", 
+            63
+        ], 
+        [
+            "913efe9f14c65cb1b23402f21f056e99", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "document", 
+            3
+        ], 
+        [
+            "913efe9f14c65cb1b23402f21f056e99", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "video", 
+            3
+        ], 
+        [
+            "913efe9f14c65cb1b23402f21f056e99", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "html5", 
+            4
+        ], 
+        [
+            "8b28761bac075deeb66adc6c80ef119c", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "video", 
+            13
+        ], 
+        [
+            "05e8608fbdac5700a3bb9c1f5a291893", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "html5", 
+            10
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "topic", 
+            4
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "video", 
+            92
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "exercise", 
+            27
+        ], 
+        [
+            "54aa253a3266416da0c847e16e64aa7b-added", 
+            "54aa253a3266416da0c847e16e64aa7b", 
+            "topic", 
+            79
+        ], 
+        [
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "54aa253a3266416da0c847e16e64aa7b", 
+            "video", 
+            1
+        ], 
+        [
+            "30010931bc254d41b311e71a96f4ff38", 
+            "54aa253a3266416da0c847e16e64aa7b", 
+            "topic", 
+            67
+        ], 
+        [
+            "30010931bc254d41b311e71a96f4ff38", 
+            "54aa253a3266416da0c847e16e64aa7b", 
+            "document", 
+            1
+        ], 
+        [
+            "30010931bc254d41b311e71a96f4ff38", 
+            "54aa253a3266416da0c847e16e64aa7b", 
+            "video", 
+            42
+        ], 
+        [
+            "30010931bc254d41b311e71a96f4ff38", 
+            "54aa253a3266416da0c847e16e64aa7b", 
+            "html5", 
+            22
+        ], 
+        [
+            "30010931bc254d41b311e71a96f4ff38", 
+            "54aa253a3266416da0c847e16e64aa7b", 
+            "exercise", 
+            15
+        ], 
+        [
+            "fc47aee82e0153e2a30197d3fdee1128", 
+            "54aa253a3266416da0c847e16e64aa7b", 
+            "document", 
+            21
+        ], 
+        [
+            "197934f144305350b5820c7c4dd8e194", 
+            "54aa253a3266416da0c847e16e64aa7b", 
+            "video", 
+            4
+        ], 
+        [
+            "197934f144305350b5820c7c4dd8e194", 
+            "54aa253a3266416da0c847e16e64aa7b", 
+            "html5", 
+            11
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "54aa253a3266416da0c847e16e64aa7b", 
+            "video", 
+            1
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "54aa253a3266416da0c847e16e64aa7b", 
+            "html5", 
+            39
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "54aa253a3266416da0c847e16e64aa7b", 
+            "exercise", 
+            16
+        ], 
+        [
+            "913efe9f14c65cb1b23402f21f056e99", 
+            "54aa253a3266416da0c847e16e64aa7b", 
+            "document", 
+            10
+        ], 
+        [
+            "913efe9f14c65cb1b23402f21f056e99", 
+            "54aa253a3266416da0c847e16e64aa7b", 
+            "video", 
+            2
+        ], 
+        [
+            "913efe9f14c65cb1b23402f21f056e99", 
+            "54aa253a3266416da0c847e16e64aa7b", 
+            "html5", 
+            4
+        ], 
+        [
+            "05e8608fbdac5700a3bb9c1f5a291893", 
+            "54aa253a3266416da0c847e16e64aa7b", 
+            "html5", 
+            24
+        ], 
+        [
+            "96dec5b22f0655fd997975cd6af02b08", 
+            "54aa253a3266416da0c847e16e64aa7b", 
+            "html5", 
+            7
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "54aa253a3266416da0c847e16e64aa7b", 
+            "video", 
+            55
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "54aa253a3266416da0c847e16e64aa7b", 
+            "exercise", 
+            11
+        ], 
+        [
+            "30010931bc254d41b311e71a96f4ff38-added", 
+            "30010931bc254d41b311e71a96f4ff38", 
+            "topic", 
+            91
+        ], 
+        [
+            "c7eda62c6489554a941058fa883e7c2c", 
+            "30010931bc254d41b311e71a96f4ff38", 
+            "document", 
+            1
+        ], 
+        [
+            "11d9de56da744f98877cc9fe710bb78d", 
+            "30010931bc254d41b311e71a96f4ff38", 
+            "exercise", 
+            1
+        ], 
+        [
+            "ddf1e99ed45a4e41a60c440ca504cf41", 
+            "30010931bc254d41b311e71a96f4ff38", 
+            "video", 
+            1
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "30010931bc254d41b311e71a96f4ff38", 
+            "video", 
+            66
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "30010931bc254d41b311e71a96f4ff38", 
+            "html5", 
+            86
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "30010931bc254d41b311e71a96f4ff38", 
+            "exercise", 
+            64
+        ], 
+        [
+            "913efe9f14c65cb1b23402f21f056e99", 
+            "30010931bc254d41b311e71a96f4ff38", 
+            "video", 
+            3
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "30010931bc254d41b311e71a96f4ff38", 
+            "video", 
+            83
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "30010931bc254d41b311e71a96f4ff38", 
+            "exercise", 
+            23
+        ], 
+        [
+            "3e464ee12f6a50a781cddf59147b48b1", 
+            "30010931bc254d41b311e71a96f4ff38", 
+            "video", 
+            2
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "11d9de56da744f98877cc9fe710bb78d", 
+            "topic", 
+            720
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "11d9de56da744f98877cc9fe710bb78d", 
+            "video", 
+            1894
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "11d9de56da744f98877cc9fe710bb78d", 
+            "exercise", 
+            1101
+        ], 
+        [
+            "ddf1e99ed45a4e41a60c440ca504cf41-added", 
+            "ddf1e99ed45a4e41a60c440ca504cf41", 
+            "topic", 
+            160
+        ], 
+        [
+            "ddf1e99ed45a4e41a60c440ca504cf41-added", 
+            "ddf1e99ed45a4e41a60c440ca504cf41", 
+            "document", 
+            363
+        ], 
+        [
+            "197934f144305350b5820c7c4dd8e194", 
+            "ddf1e99ed45a4e41a60c440ca504cf41", 
+            "topic", 
+            19
+        ], 
+        [
+            "197934f144305350b5820c7c4dd8e194", 
+            "ddf1e99ed45a4e41a60c440ca504cf41", 
+            "video", 
+            124
+        ], 
+        [
+            "197934f144305350b5820c7c4dd8e194", 
+            "ddf1e99ed45a4e41a60c440ca504cf41", 
+            "html5", 
+            211
+        ], 
+        [
+            "913efe9f14c65cb1b23402f21f056e99", 
+            "ddf1e99ed45a4e41a60c440ca504cf41", 
+            "topic", 
+            455
+        ], 
+        [
+            "913efe9f14c65cb1b23402f21f056e99", 
+            "ddf1e99ed45a4e41a60c440ca504cf41", 
+            "document", 
+            601
+        ], 
+        [
+            "913efe9f14c65cb1b23402f21f056e99", 
+            "ddf1e99ed45a4e41a60c440ca504cf41", 
+            "video", 
+            347
+        ], 
+        [
+            "913efe9f14c65cb1b23402f21f056e99", 
+            "ddf1e99ed45a4e41a60c440ca504cf41", 
+            "html5", 
+            150
+        ], 
+        [
+            "3e464ee12f6a50a781cddf59147b48b1", 
+            "ddf1e99ed45a4e41a60c440ca504cf41", 
+            "topic", 
+            117
+        ], 
+        [
+            "3e464ee12f6a50a781cddf59147b48b1", 
+            "ddf1e99ed45a4e41a60c440ca504cf41", 
+            "video", 
+            495
+        ], 
+        [
+            "a9b25ac9814742c883ce1b0579448337", 
+            "ddf1e99ed45a4e41a60c440ca504cf41", 
+            "topic", 
+            74
+        ], 
+        [
+            "a9b25ac9814742c883ce1b0579448337", 
+            "ddf1e99ed45a4e41a60c440ca504cf41", 
+            "document", 
+            165
+        ], 
+        [
+            "a9b25ac9814742c883ce1b0579448337", 
+            "ddf1e99ed45a4e41a60c440ca504cf41", 
+            "audio", 
+            30
+        ], 
+        [
+            "591b7e1bc89645ef846c1685a7dd7b50-added", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "topic", 
+            168
+        ], 
+        [
+            "ec164fee25ee526296e68f7c10b1e169", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "topic", 
+            1
+        ], 
+        [
+            "ec164fee25ee526296e68f7c10b1e169", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "video", 
+            5
+        ], 
+        [
+            "0e173fca6e9052f8a474a2fb84055faf", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "document", 
+            1
+        ], 
+        [
+            "fc47aee82e0153e2a30197d3fdee1128", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "document", 
+            28
+        ], 
+        [
+            "a9b25ac9814742c883ce1b0579448337", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "document", 
+            1
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "topic", 
+            13
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "video", 
+            10
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "html5", 
+            81
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "exercise", 
+            63
+        ], 
+        [
+            "913efe9f14c65cb1b23402f21f056e99", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "document", 
+            3
+        ], 
+        [
+            "913efe9f14c65cb1b23402f21f056e99", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "video", 
+            3
+        ], 
+        [
+            "913efe9f14c65cb1b23402f21f056e99", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "html5", 
+            4
+        ], 
+        [
+            "8b28761bac075deeb66adc6c80ef119c", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "video", 
+            13
+        ], 
+        [
+            "05e8608fbdac5700a3bb9c1f5a291893", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "html5", 
+            10
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "topic", 
+            4
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "video", 
+            92
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "591b7e1bc89645ef846c1685a7dd7b50", 
+            "exercise", 
+            27
+        ]
+    ], 
+    "nodes": {
+        "05e8608fbdac5700a3bb9c1f5a291893": {
+            "channel_id": "05e8608fbdac5700a3bb9c1f5a291893", 
+            "counts": {
+                "html5": 769, 
+                "topic": 410, 
+                "video": 874
+            }, 
+            "description": "Science tools and experiences helping students become active explorers: hundreds of explore-for-yourself exhibits, activities, videos, and much more. Appropriate for all ages of students, as supplementary, hands-on demonstration of scientific principles.", 
+            "name": "Exploratorium"
+        }, 
+        "05e8608fbdac5700a3bb9c1f5a291893-unused": {
+            "channel_id": "05e8608fbdac5700a3bb9c1f5a291893", 
+            "counts": {
+                "html5": 736, 
+                "topic": 410, 
+                "video": 873
+            }, 
+            "description": "Connts of nodes in channel_id 05e8608fbdac5700a3bb9c1f5a291893 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "0e173fca6e9052f8a474a2fb84055faf": {
+            "channel_id": "0e173fca6e9052f8a474a2fb84055faf", 
+            "counts": {
+                "document": 1670, 
+                "topic": 122
+            }, 
+            "description": "The Global Digital Library (GDL) is being developed to increase the availability of high quality reading resources in languages children and youth speak and understand.", 
+            "name": "Global Digital Library - Book Catalog"
+        }, 
+        "0e173fca6e9052f8a474a2fb84055faf-unused": {
+            "channel_id": "0e173fca6e9052f8a474a2fb84055faf", 
+            "counts": {
+                "document": 1669, 
+                "topic": 122
+            }, 
+            "description": "Connts of nodes in channel_id 0e173fca6e9052f8a474a2fb84055faf that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "11d9de56da744f98877cc9fe710bb78d": {
+            "channel_id": "11d9de56da744f98877cc9fe710bb78d", 
+            "counts": {
+                "exercise": 1180, 
+                "topic": 754, 
+                "video": 2154
+            }, 
+            "description": "Khan Academy channel for Instant Schools", 
+            "name": "[DEPRECATED] Khan Academy: General education resources"
+        }, 
+        "11d9de56da744f98877cc9fe710bb78d-added": {
+            "channel_id": "11d9de56da744f98877cc9fe710bb78d", 
+            "counts": {}, 
+            "description": "Count new nodes uploaded to channel_id 11d9de56da744f98877cc9fe710bb78d", 
+            "name": "Added to [DEPRECATED] Khan Academy: General education resources"
+        }, 
+        "11d9de56da744f98877cc9fe710bb78d-unused": {
+            "channel_id": "11d9de56da744f98877cc9fe710bb78d", 
+            "counts": {
+                "exercise": 1100, 
+                "topic": 720, 
+                "video": 1894
+            }, 
+            "description": "Connts of nodes in channel_id 11d9de56da744f98877cc9fe710bb78d that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "197934f144305350b5820c7c4dd8e194": {
+            "channel_id": "197934f144305350b5820c7c4dd8e194", 
+            "counts": {
+                "html5": 211, 
+                "topic": 19, 
+                "video": 124
+            }, 
+            "description": "The PhET Interactive Simulations project at the University of Colorado Boulder creates free interactive math and science simulations that engage students through an intuitive, game-like environment where students learn through exploration and discovery.", 
+            "name": "PhET Interactive Simulations (en)"
+        }, 
+        "197934f144305350b5820c7c4dd8e194-unused": {
+            "channel_id": "197934f144305350b5820c7c4dd8e194", 
+            "counts": {}, 
+            "description": "Connts of nodes in channel_id 197934f144305350b5820c7c4dd8e194 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "1ceff53605e55bef987d88e0908658c5": {
+            "channel_id": "1ceff53605e55bef987d88e0908658c5", 
+            "counts": {
+                "exercise": 11028, 
+                "topic": 7554, 
+                "video": 23618
+            }, 
+            "description": "Khan Academy content for English.", 
+            "name": "Khan Academy (English)"
+        }, 
+        "1ceff53605e55bef987d88e0908658c5-unused": {
+            "channel_id": "1ceff53605e55bef987d88e0908658c5", 
+            "counts": {
+                "exercise": 9865, 
+                "topic": 6830, 
+                "video": 21456
+            }, 
+            "description": "Connts of nodes in channel_id 1ceff53605e55bef987d88e0908658c5 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "1d8f6d84618153c18c695d85074952a7": {
+            "channel_id": "1d8f6d84618153c18c695d85074952a7", 
+            "counts": {
+                "exercise": 4157, 
+                "html5": 4601, 
+                "topic": 5883, 
+                "video": 1885
+            }, 
+            "description": "", 
+            "name": "CK-12"
+        }, 
+        "1d8f6d84618153c18c695d85074952a7-unused": {
+            "channel_id": "1d8f6d84618153c18c695d85074952a7", 
+            "counts": {
+                "exercise": 3966, 
+                "html5": 4346, 
+                "topic": 5871, 
+                "video": 1812
+            }, 
+            "description": "Connts of nodes in channel_id 1d8f6d84618153c18c695d85074952a7 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "30010931bc254d41b311e71a96f4ff38": {
+            "channel_id": "30010931bc254d41b311e71a96f4ff38", 
+            "counts": {
+                "document": 1, 
+                "exercise": 88, 
+                "html5": 86, 
+                "topic": 91, 
+                "video": 155
+            }, 
+            "description": "", 
+            "name": "KICD - Mathematics and Physics - Form 1"
+        }, 
+        "30010931bc254d41b311e71a96f4ff38-added": {
+            "channel_id": "30010931bc254d41b311e71a96f4ff38", 
+            "counts": {
+                "topic": 91
+            }, 
+            "description": "Count new nodes uploaded to channel_id 30010931bc254d41b311e71a96f4ff38", 
+            "name": "Added to KICD - Mathematics and Physics - Form 1"
+        }, 
+        "30010931bc254d41b311e71a96f4ff38-unused": {
+            "channel_id": "30010931bc254d41b311e71a96f4ff38", 
+            "counts": {
+                "exercise": 73, 
+                "html5": 64, 
+                "topic": 24, 
+                "video": 113
+            }, 
+            "description": "Connts of nodes in channel_id 30010931bc254d41b311e71a96f4ff38 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "32b5fc156a7d46ddb8cea9663a1871be": {
+            "channel_id": "32b5fc156a7d46ddb8cea9663a1871be", 
+            "counts": {
+                "document": 12, 
+                "exercise": 73, 
+                "html5": 84, 
+                "topic": 201, 
+                "video": 92
+            }, 
+            "description": "This channel contains resources for secondary school chemistry content, based on the Kenya Institute of Curriculum Development (KICD) expected learning outcomes and objectives.", 
+            "name": "KICD Chemistry Curriculum (DRAFT)"
+        }, 
+        "32b5fc156a7d46ddb8cea9663a1871be-added": {
+            "channel_id": "32b5fc156a7d46ddb8cea9663a1871be", 
+            "counts": {}, 
+            "description": "Count new nodes uploaded to channel_id 32b5fc156a7d46ddb8cea9663a1871be", 
+            "name": "Added to KICD Chemistry Curriculum (DRAFT)"
+        }, 
+        "3e464ee12f6a50a781cddf59147b48b1": {
+            "channel_id": "3e464ee12f6a50a781cddf59147b48b1", 
+            "counts": {
+                "topic": 361, 
+                "video": 1537
+            }, 
+            "description": "Thousands of skills in your pocket. Improve your life and the world around you through practical learning. Join our community. Make an impact. ", 
+            "name": "Sikana (English)"
+        }, 
+        "3e464ee12f6a50a781cddf59147b48b1-unused": {
+            "channel_id": "3e464ee12f6a50a781cddf59147b48b1", 
+            "counts": {
+                "topic": 244, 
+                "video": 1041
+            }, 
+            "description": "Connts of nodes in channel_id 3e464ee12f6a50a781cddf59147b48b1 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "54aa253a3266416da0c847e16e64aa7b": {
+            "channel_id": "54aa253a3266416da0c847e16e64aa7b", 
+            "counts": {
+                "document": 32, 
+                "exercise": 42, 
+                "html5": 111, 
+                "topic": 146, 
+                "video": 105
+            }, 
+            "description": "This channel contains resources for the physics curriculum based on the Kenya Institute of Curriculum Development (KICD) learning outcomes.", 
+            "name": "KICD Physics Curriculum (DRAFT)"
+        }, 
+        "54aa253a3266416da0c847e16e64aa7b-added": {
+            "channel_id": "54aa253a3266416da0c847e16e64aa7b", 
+            "counts": {
+                "topic": 79
+            }, 
+            "description": "Count new nodes uploaded to channel_id 54aa253a3266416da0c847e16e64aa7b", 
+            "name": "Added to KICD Physics Curriculum (DRAFT)"
+        }, 
+        "54aa253a3266416da0c847e16e64aa7b-unused": {
+            "channel_id": "54aa253a3266416da0c847e16e64aa7b", 
+            "counts": {
+                "document": 32, 
+                "exercise": 42, 
+                "html5": 106, 
+                "topic": 146, 
+                "video": 102
+            }, 
+            "description": "Connts of nodes in channel_id 54aa253a3266416da0c847e16e64aa7b that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "591b7e1bc89645ef846c1685a7dd7b50": {
+            "channel_id": "591b7e1bc89645ef846c1685a7dd7b50", 
+            "counts": {
+                "document": 33, 
+                "exercise": 90, 
+                "html5": 96, 
+                "topic": 186, 
+                "video": 123
+            }, 
+            "description": "This channel contains resources for secondary school biology content, based on the Kenya Institute of Curriculum Development (KICD) learning outcomes and objectives.", 
+            "name": "KICD Biology Curriculum (DRAFT)"
+        }, 
+        "591b7e1bc89645ef846c1685a7dd7b50-added": {
+            "channel_id": "591b7e1bc89645ef846c1685a7dd7b50", 
+            "counts": {
+                "topic": 168
+            }, 
+            "description": "Count new nodes uploaded to channel_id 591b7e1bc89645ef846c1685a7dd7b50", 
+            "name": "Added to KICD Biology Curriculum (DRAFT)"
+        }, 
+        "591b7e1bc89645ef846c1685a7dd7b50-unused": {
+            "channel_id": "591b7e1bc89645ef846c1685a7dd7b50", 
+            "counts": {
+                "document": 33, 
+                "exercise": 90, 
+                "html5": 95, 
+                "topic": 186, 
+                "video": 121
+            }, 
+            "description": "Connts of nodes in channel_id 591b7e1bc89645ef846c1685a7dd7b50 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "8b28761bac075deeb66adc6c80ef119c": {
+            "channel_id": "8b28761bac075deeb66adc6c80ef119c", 
+            "counts": {
+                "exercise": 1009, 
+                "topic": 27, 
+                "video": 688
+            }, 
+            "description": "A study tool built for tomorrow's doctors and health workers.", 
+            "name": "Osmosis.org"
+        }, 
+        "8b28761bac075deeb66adc6c80ef119c-unused": {
+            "channel_id": "8b28761bac075deeb66adc6c80ef119c", 
+            "counts": {
+                "exercise": 1009, 
+                "topic": 27, 
+                "video": 675
+            }, 
+            "description": "Connts of nodes in channel_id 8b28761bac075deeb66adc6c80ef119c that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "913efe9f14c65cb1b23402f21f056e99": {
+            "channel_id": "913efe9f14c65cb1b23402f21f056e99", 
+            "counts": {
+                "document": 750, 
+                "html5": 168, 
+                "topic": 509, 
+                "video": 370
+            }, 
+            "description": "", 
+            "name": "MIT Blossoms"
+        }, 
+        "913efe9f14c65cb1b23402f21f056e99-unused": {
+            "channel_id": "913efe9f14c65cb1b23402f21f056e99", 
+            "counts": {
+                "document": 149, 
+                "html5": 18, 
+                "topic": 54, 
+                "video": 28
+            }, 
+            "description": "Connts of nodes in channel_id 913efe9f14c65cb1b23402f21f056e99 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "96dec5b22f0655fd997975cd6af02b08": {
+            "channel_id": "96dec5b22f0655fd997975cd6af02b08", 
+            "counts": {
+                "html5": 14
+            }, 
+            "description": "LibreText articles imported from this list https://docs.google.com/spreadsheets/d/1qybZIic6WAfZ2XPowT2GfweInxYkssS6A1DPKwMgaDU/edit#gid=0", 
+            "name": "KICD Manual Import (ricecooker temp chanell Feb 26)"
+        }, 
+        "96dec5b22f0655fd997975cd6af02b08-unused": {
+            "channel_id": "96dec5b22f0655fd997975cd6af02b08", 
+            "counts": {
+                "html5": 7
+            }, 
+            "description": "Connts of nodes in channel_id 96dec5b22f0655fd997975cd6af02b08 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "a9b25ac9814742c883ce1b0579448337": {
+            "channel_id": "a9b25ac9814742c883ce1b0579448337", 
+            "counts": {
+                "audio": 30, 
+                "document": 165, 
+                "topic": 74
+            }, 
+            "description": "Teacher Education in Sub-Saharan Africa", 
+            "name": "TESSA - Teacher Resources"
+        }, 
+        "a9b25ac9814742c883ce1b0579448337-unused": {
+            "channel_id": "a9b25ac9814742c883ce1b0579448337", 
+            "counts": {}, 
+            "description": "Connts of nodes in channel_id a9b25ac9814742c883ce1b0579448337 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "c7eda62c6489554a941058fa883e7c2c": {
+            "channel_id": "c7eda62c6489554a941058fa883e7c2c", 
+            "counts": {
+                "document": 695, 
+                "topic": 248, 
+                "video": 325
+            }, 
+            "description": "K-12 curriculum aligned to various sets of standards designed to promote \u201cSTEMpathy,\u201d a human-centered approach to teaching math and science. Videos, stories, and lesson plans to help teach empathy in the context of the regular math and literacy curriculum.", 
+            "name": "Better World Ed"
+        }, 
+        "c7eda62c6489554a941058fa883e7c2c-unused": {
+            "channel_id": "c7eda62c6489554a941058fa883e7c2c", 
+            "counts": {
+                "document": 694, 
+                "topic": 248, 
+                "video": 325
+            }, 
+            "description": "Connts of nodes in channel_id c7eda62c6489554a941058fa883e7c2c that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "cf92e0f3b54e4c63a331c9a9a5f8170f": {
+            "channel_id": "cf92e0f3b54e4c63a331c9a9a5f8170f", 
+            "counts": {
+                "document": 7, 
+                "exercise": 32, 
+                "html5": 38, 
+                "topic": 196, 
+                "video": 25
+            }, 
+            "description": "This channel contains resources for secondary school chemistry content, based on the Kenya Institute of Curriculum Development (KICD) learning outcomes and objectives.", 
+            "name": "KICD Chemistry Curriculum (OLD DRAFT)"
+        }, 
+        "cf92e0f3b54e4c63a331c9a9a5f8170f-added": {
+            "channel_id": "cf92e0f3b54e4c63a331c9a9a5f8170f", 
+            "counts": {
+                "topic": 196
+            }, 
+            "description": "Count new nodes uploaded to channel_id cf92e0f3b54e4c63a331c9a9a5f8170f", 
+            "name": "Added to KICD Chemistry Curriculum (OLD DRAFT)"
+        }, 
+        "cf92e0f3b54e4c63a331c9a9a5f8170f-unused": {
+            "channel_id": "cf92e0f3b54e4c63a331c9a9a5f8170f", 
+            "counts": {
+                "topic": 1
+            }, 
+            "description": "Connts of nodes in channel_id cf92e0f3b54e4c63a331c9a9a5f8170f that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "ddf1e99ed45a4e41a60c440ca504cf41": {
+            "channel_id": "ddf1e99ed45a4e41a60c440ca504cf41", 
+            "counts": {
+                "audio": 30, 
+                "document": 2991, 
+                "html5": 364, 
+                "topic": 913, 
+                "video": 979
+            }, 
+            "description": "The UNICEF Greece Educator channel provides teachers, educators, facilitators and humanitarian aid workers with resources and tools to teach English language, STEM subject matter, psychosocial skills, life skills and more.", 
+            "name": "UNICEF Greece Educator Channel"
+        }, 
+        "ddf1e99ed45a4e41a60c440ca504cf41-added": {
+            "channel_id": "ddf1e99ed45a4e41a60c440ca504cf41", 
+            "counts": {
+                "document": 363, 
+                "topic": 160
+            }, 
+            "description": "Count new nodes uploaded to channel_id ddf1e99ed45a4e41a60c440ca504cf41", 
+            "name": "Added to UNICEF Greece Educator Channel"
+        }, 
+        "ddf1e99ed45a4e41a60c440ca504cf41-unused": {
+            "channel_id": "ddf1e99ed45a4e41a60c440ca504cf41", 
+            "counts": {
+                "audio": 30, 
+                "document": 1129, 
+                "html5": 361, 
+                "topic": 825, 
+                "video": 965
+            }, 
+            "description": "Connts of nodes in channel_id ddf1e99ed45a4e41a60c440ca504cf41 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "eac7ff5d4647582d9bcbefea7323fcb1": {
+            "channel_id": "eac7ff5d4647582d9bcbefea7323fcb1", 
+            "counts": {
+                "document": 3824, 
+                "html5": 322, 
+                "topic": 414, 
+                "video": 1481
+            }, 
+            "description": "TESS-India is led by The Open University and Save The Children India, funded by UK Aid it is a multilingual teacher professional development programme whose aim is to support India\u2019s national educational policy by enhancing the classroom practice of primary and secondary school teachers through the provision of freely available, adaptable Open Educational Resources (OER).", 
+            "name": "TESSIndia"
+        }, 
+        "eac7ff5d4647582d9bcbefea7323fcb1-unused": {
+            "channel_id": "eac7ff5d4647582d9bcbefea7323fcb1", 
+            "counts": {
+                "document": 3823, 
+                "html5": 321, 
+                "topic": 414, 
+                "video": 1480
+            }, 
+            "description": "Connts of nodes in channel_id eac7ff5d4647582d9bcbefea7323fcb1 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "ec164fee25ee526296e68f7c10b1e169": {
+            "channel_id": "ec164fee25ee526296e68f7c10b1e169", 
+            "counts": {
+                "exercise": 2080, 
+                "topic": 2697, 
+                "video": 4668
+            }, 
+            "description": "Khan Academy content for Swahili.", 
+            "name": "Khan Academy (Kiswahili)"
+        }, 
+        "ec164fee25ee526296e68f7c10b1e169-unused": {
+            "channel_id": "ec164fee25ee526296e68f7c10b1e169", 
+            "counts": {
+                "exercise": 2080, 
+                "topic": 2696, 
+                "video": 4664
+            }, 
+            "description": "Connts of nodes in channel_id ec164fee25ee526296e68f7c10b1e169 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "fc47aee82e0153e2a30197d3fdee1128": {
+            "channel_id": "fc47aee82e0153e2a30197d3fdee1128", 
+            "counts": {
+                "document": 1202, 
+                "topic": 164
+            }, 
+            "description": "", 
+            "name": "Open Stax"
+        }, 
+        "fc47aee82e0153e2a30197d3fdee1128-unused": {
+            "channel_id": "fc47aee82e0153e2a30197d3fdee1128", 
+            "counts": {
+                "document": 1152, 
+                "topic": 164
+            }, 
+            "description": "Connts of nodes in channel_id fc47aee82e0153e2a30197d3fdee1128 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }
+    }, 
+    "title": "Import graph data for channel KICD Chemistry Curriculum (DRAFT)"
+}

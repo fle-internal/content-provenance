@@ -1,0 +1,155 @@
+{
+    "backedges": [], 
+    "description": "Content import graph for channel ae8f138108c1410aa4c6d8bf734ebf57", 
+    "edges": [
+        [
+            "ae8f138108c1410aa4c6d8bf734ebf57-added", 
+            "ae8f138108c1410aa4c6d8bf734ebf57", 
+            "topic", 
+            454
+        ], 
+        [
+            "ae8f138108c1410aa4c6d8bf734ebf57-added", 
+            "ae8f138108c1410aa4c6d8bf734ebf57", 
+            "video", 
+            1231
+        ], 
+        [
+            "f531b1ddf64755c9be5061a922317021", 
+            "ae8f138108c1410aa4c6d8bf734ebf57", 
+            "topic", 
+            9
+        ], 
+        [
+            "f531b1ddf64755c9be5061a922317021", 
+            "ae8f138108c1410aa4c6d8bf734ebf57", 
+            "exercise", 
+            18
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "ae8f138108c1410aa4c6d8bf734ebf57", 
+            "topic", 
+            382
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "ae8f138108c1410aa4c6d8bf734ebf57", 
+            "video", 
+            5
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "ae8f138108c1410aa4c6d8bf734ebf57", 
+            "html5", 
+            328
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "ae8f138108c1410aa4c6d8bf734ebf57", 
+            "exercise", 
+            359
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "ae8f138108c1410aa4c6d8bf734ebf57", 
+            "topic", 
+            3
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "ae8f138108c1410aa4c6d8bf734ebf57", 
+            "video", 
+            14
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "ae8f138108c1410aa4c6d8bf734ebf57", 
+            "exercise", 
+            16
+        ]
+    ], 
+    "nodes": {
+        "1ceff53605e55bef987d88e0908658c5": {
+            "channel_id": "1ceff53605e55bef987d88e0908658c5", 
+            "counts": {
+                "exercise": 11028, 
+                "topic": 7554, 
+                "video": 23618
+            }, 
+            "description": "Khan Academy content for English.", 
+            "name": "Khan Academy (English)"
+        }, 
+        "1ceff53605e55bef987d88e0908658c5-unused": {
+            "channel_id": "1ceff53605e55bef987d88e0908658c5", 
+            "counts": {
+                "exercise": 11012, 
+                "topic": 7551, 
+                "video": 23604
+            }, 
+            "description": "Connts of nodes in channel_id 1ceff53605e55bef987d88e0908658c5 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "1d8f6d84618153c18c695d85074952a7": {
+            "channel_id": "1d8f6d84618153c18c695d85074952a7", 
+            "counts": {
+                "exercise": 4157, 
+                "html5": 4601, 
+                "topic": 5883, 
+                "video": 1885
+            }, 
+            "description": "", 
+            "name": "CK-12"
+        }, 
+        "1d8f6d84618153c18c695d85074952a7-unused": {
+            "channel_id": "1d8f6d84618153c18c695d85074952a7", 
+            "counts": {
+                "exercise": 3798, 
+                "html5": 4273, 
+                "topic": 5501, 
+                "video": 1880
+            }, 
+            "description": "Connts of nodes in channel_id 1d8f6d84618153c18c695d85074952a7 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "ae8f138108c1410aa4c6d8bf734ebf57": {
+            "channel_id": "ae8f138108c1410aa4c6d8bf734ebf57", 
+            "counts": {
+                "exercise": 1141, 
+                "html5": 328, 
+                "topic": 927, 
+                "video": 1485
+            }, 
+            "description": "SSC and CBSE resources for Nalanda math teachers.", 
+            "name": "Nalanda Math"
+        }, 
+        "ae8f138108c1410aa4c6d8bf734ebf57-added": {
+            "channel_id": "ae8f138108c1410aa4c6d8bf734ebf57", 
+            "counts": {
+                "topic": 454, 
+                "video": 1231
+            }, 
+            "description": "Count new nodes uploaded to channel_id ae8f138108c1410aa4c6d8bf734ebf57", 
+            "name": "Added to Nalanda Math"
+        }, 
+        "f531b1ddf64755c9be5061a922317021": {
+            "channel_id": "f531b1ddf64755c9be5061a922317021", 
+            "counts": {
+                "exercise": 1635, 
+                "topic": 847
+            }, 
+            "description": "Magogenie Channel excluding text/inline_answer/stepwise_equation type of questions", 
+            "name": "Magogenie Channel For Nalanda/Kolibri"
+        }, 
+        "f531b1ddf64755c9be5061a922317021-unused": {
+            "channel_id": "f531b1ddf64755c9be5061a922317021", 
+            "counts": {
+                "exercise": 1617, 
+                "topic": 838
+            }, 
+            "description": "Connts of nodes in channel_id f531b1ddf64755c9be5061a922317021 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }
+    }, 
+    "title": "Import graph data for channel Nalanda Math"
+}

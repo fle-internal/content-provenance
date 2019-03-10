@@ -1,53 +1,40 @@
 {
-    "description": "Content import graph for channel 9e5305326ed742d0892479dea825a514", 
-    "edges": [
+    "backedges": [
         [
-            "44511f39534544f89928a967787d53e0", 
-            "44511f39534544f89928a967787d53e0-unused", 
-            "topic", 
-            9
-        ], 
-        [
-            "44511f39534544f89928a967787d53e0", 
-            "44511f39534544f89928a967787d53e0-unused", 
-            "exercise", 
-            4
-        ], 
-        [
-            "44511f39534544f89928a967787d53e0-added", 
-            "44511f39534544f89928a967787d53e0", 
-            "topic", 
-            28
-        ], 
-        [
-            "44511f39534544f89928a967787d53e0-added", 
+            "8fc515793aad4e52b490b03c48ad21de", 
             "44511f39534544f89928a967787d53e0", 
             "exercise", 
-            22
+            2
         ], 
         [
-            "44511f39534544f89928a967787d53e0", 
-            "44511f39534544f89928a967787d53e0", 
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "0a9cd3c76a36402e87d6bf80a997901f", 
             "topic", 
+            198
+        ], 
+        [
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "0a9cd3c76a36402e87d6bf80a997901f", 
+            "video", 
+            125
+        ], 
+        [
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "0a9cd3c76a36402e87d6bf80a997901f", 
+            "exercise", 
+            438
+        ], 
+        [
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "9e5305326ed742d0892479dea825a514", 
+            "exercise", 
+            3
+        ], 
+        [
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "5d132ba360b54b2ba9df169ffaa43ccb", 
+            "exercise", 
             1
-        ], 
-        [
-            "44511f39534544f89928a967787d53e0", 
-            "44511f39534544f89928a967787d53e0", 
-            "exercise", 
-            1
-        ], 
-        [
-            "ac5ad503270e57adb2c0e979ac4c98af", 
-            "44511f39534544f89928a967787d53e0", 
-            "topic", 
-            8
-        ], 
-        [
-            "ac5ad503270e57adb2c0e979ac4c98af", 
-            "44511f39534544f89928a967787d53e0", 
-            "exercise", 
-            6
         ], 
         [
             "8fc515793aad4e52b490b03c48ad21de", 
@@ -56,34 +43,187 @@
             2
         ], 
         [
-            "ac5ad503270e57adb2c0e979ac4c98af", 
-            "ac5ad503270e57adb2c0e979ac4c98af-unused", 
+            "44511f39534544f89928a967787d53e0", 
+            "8fc515793aad4e52b490b03c48ad21de", 
             "topic", 
-            25
+            27
         ], 
         [
-            "ac5ad503270e57adb2c0e979ac4c98af", 
-            "ac5ad503270e57adb2c0e979ac4c98af-unused", 
+            "44511f39534544f89928a967787d53e0", 
+            "8fc515793aad4e52b490b03c48ad21de", 
             "exercise", 
-            8
+            27
         ], 
         [
             "8fc515793aad4e52b490b03c48ad21de", 
-            "8fc515793aad4e52b490b03c48ad21de-unused", 
+            "0a9cd3c76a36402e87d6bf80a997901f", 
             "topic", 
-            425
+            198
         ], 
         [
             "8fc515793aad4e52b490b03c48ad21de", 
-            "8fc515793aad4e52b490b03c48ad21de-unused", 
+            "0a9cd3c76a36402e87d6bf80a997901f", 
             "video", 
-            440
+            125
         ], 
         [
             "8fc515793aad4e52b490b03c48ad21de", 
-            "8fc515793aad4e52b490b03c48ad21de-unused", 
+            "0a9cd3c76a36402e87d6bf80a997901f", 
             "exercise", 
-            867
+            438
+        ], 
+        [
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "9e5305326ed742d0892479dea825a514", 
+            "exercise", 
+            3
+        ], 
+        [
+            "5d132ba360b54b2ba9df169ffaa43ccb", 
+            "9e5305326ed742d0892479dea825a514", 
+            "exercise", 
+            2
+        ], 
+        [
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "44511f39534544f89928a967787d53e0", 
+            "exercise", 
+            2
+        ], 
+        [
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "0a9cd3c76a36402e87d6bf80a997901f", 
+            "topic", 
+            198
+        ], 
+        [
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "0a9cd3c76a36402e87d6bf80a997901f", 
+            "video", 
+            125
+        ], 
+        [
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "0a9cd3c76a36402e87d6bf80a997901f", 
+            "exercise", 
+            438
+        ], 
+        [
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "9e5305326ed742d0892479dea825a514", 
+            "exercise", 
+            3
+        ], 
+        [
+            "5d132ba360b54b2ba9df169ffaa43ccb", 
+            "9e5305326ed742d0892479dea825a514", 
+            "exercise", 
+            2
+        ], 
+        [
+            "9e5305326ed742d0892479dea825a514", 
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "topic", 
+            24
+        ], 
+        [
+            "9e5305326ed742d0892479dea825a514", 
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "exercise", 
+            79
+        ], 
+        [
+            "9e5305326ed742d0892479dea825a514", 
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "topic", 
+            24
+        ], 
+        [
+            "9e5305326ed742d0892479dea825a514", 
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "exercise", 
+            79
+        ], 
+        [
+            "9e5305326ed742d0892479dea825a514", 
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "topic", 
+            24
+        ], 
+        [
+            "9e5305326ed742d0892479dea825a514", 
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "exercise", 
+            79
+        ]
+    ], 
+    "description": "Content import graph for channel 9e5305326ed742d0892479dea825a514", 
+    "edges": [
+        [
+            "9e5305326ed742d0892479dea825a514-added", 
+            "9e5305326ed742d0892479dea825a514", 
+            "topic", 
+            124
+        ], 
+        [
+            "9e5305326ed742d0892479dea825a514-added", 
+            "9e5305326ed742d0892479dea825a514", 
+            "exercise", 
+            41
+        ], 
+        [
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "9e5305326ed742d0892479dea825a514", 
+            "exercise", 
+            3
+        ], 
+        [
+            "5d132ba360b54b2ba9df169ffaa43ccb", 
+            "9e5305326ed742d0892479dea825a514", 
+            "exercise", 
+            2
+        ], 
+        [
+            "6996f85e5a1f508e8757cf9a4ce1085a", 
+            "9e5305326ed742d0892479dea825a514", 
+            "topic", 
+            6
+        ], 
+        [
+            "6996f85e5a1f508e8757cf9a4ce1085a", 
+            "9e5305326ed742d0892479dea825a514", 
+            "exercise", 
+            73
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "9e5305326ed742d0892479dea825a514", 
+            "topic", 
+            46
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "9e5305326ed742d0892479dea825a514", 
+            "video", 
+            260
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "9e5305326ed742d0892479dea825a514", 
+            "exercise", 
+            166
+        ], 
+        [
+            "2ce8480105415643888efe9aadc3e497", 
+            "9e5305326ed742d0892479dea825a514", 
+            "topic", 
+            388
+        ], 
+        [
+            "2ce8480105415643888efe9aadc3e497", 
+            "9e5305326ed742d0892479dea825a514", 
+            "exercise", 
+            770
         ], 
         [
             "8fc515793aad4e52b490b03c48ad21de-added", 
@@ -122,18 +262,6 @@
             508
         ], 
         [
-            "8fc515793aad4e52b490b03c48ad21de", 
-            "8fc515793aad4e52b490b03c48ad21de", 
-            "topic", 
-            5
-        ], 
-        [
-            "8fc515793aad4e52b490b03c48ad21de", 
-            "8fc515793aad4e52b490b03c48ad21de", 
-            "exercise", 
-            15
-        ], 
-        [
             "074c0c37a1274e51bed0c33875541ebc", 
             "8fc515793aad4e52b490b03c48ad21de", 
             "topic", 
@@ -170,18 +298,6 @@
             178
         ], 
         [
-            "9e5305326ed742d0892479dea825a514", 
-            "8fc515793aad4e52b490b03c48ad21de", 
-            "topic", 
-            24
-        ], 
-        [
-            "9e5305326ed742d0892479dea825a514", 
-            "8fc515793aad4e52b490b03c48ad21de", 
-            "exercise", 
-            79
-        ], 
-        [
             "1ceff53605e55bef987d88e0908658c5", 
             "8fc515793aad4e52b490b03c48ad21de", 
             "topic", 
@@ -212,15 +328,27 @@
             27
         ], 
         [
-            "074c0c37a1274e51bed0c33875541ebc", 
-            "074c0c37a1274e51bed0c33875541ebc-unused", 
+            "44511f39534544f89928a967787d53e0-added", 
+            "44511f39534544f89928a967787d53e0", 
             "topic", 
-            4
+            28
         ], 
         [
-            "074c0c37a1274e51bed0c33875541ebc", 
-            "074c0c37a1274e51bed0c33875541ebc-unused", 
-            "video", 
+            "44511f39534544f89928a967787d53e0-added", 
+            "44511f39534544f89928a967787d53e0", 
+            "exercise", 
+            22
+        ], 
+        [
+            "ac5ad503270e57adb2c0e979ac4c98af", 
+            "44511f39534544f89928a967787d53e0", 
+            "topic", 
+            8
+        ], 
+        [
+            "ac5ad503270e57adb2c0e979ac4c98af", 
+            "44511f39534544f89928a967787d53e0", 
+            "exercise", 
             6
         ], 
         [
@@ -260,60 +388,6 @@
             3
         ], 
         [
-            "5d132ba360b54b2ba9df169ffaa43ccb", 
-            "5d132ba360b54b2ba9df169ffaa43ccb-unused", 
-            "exercise", 
-            3
-        ], 
-        [
-            "5d132ba360b54b2ba9df169ffaa43ccb-added", 
-            "5d132ba360b54b2ba9df169ffaa43ccb", 
-            "exercise", 
-            1
-        ], 
-        [
-            "44511f39534544f89928a967787d53e0", 
-            "5d132ba360b54b2ba9df169ffaa43ccb", 
-            "exercise", 
-            1
-        ], 
-        [
-            "8fc515793aad4e52b490b03c48ad21de", 
-            "5d132ba360b54b2ba9df169ffaa43ccb", 
-            "exercise", 
-            1
-        ], 
-        [
-            "6996f85e5a1f508e8757cf9a4ce1085a", 
-            "6996f85e5a1f508e8757cf9a4ce1085a-unused", 
-            "topic", 
-            183
-        ], 
-        [
-            "6996f85e5a1f508e8757cf9a4ce1085a", 
-            "6996f85e5a1f508e8757cf9a4ce1085a-unused", 
-            "exercise", 
-            331
-        ], 
-        [
-            "0a9cd3c76a36402e87d6bf80a997901f", 
-            "0a9cd3c76a36402e87d6bf80a997901f-unused", 
-            "topic", 
-            200
-        ], 
-        [
-            "0a9cd3c76a36402e87d6bf80a997901f", 
-            "0a9cd3c76a36402e87d6bf80a997901f-unused", 
-            "video", 
-            125
-        ], 
-        [
-            "0a9cd3c76a36402e87d6bf80a997901f", 
-            "0a9cd3c76a36402e87d6bf80a997901f-unused", 
-            "exercise", 
-            448
-        ], 
-        [
             "0a9cd3c76a36402e87d6bf80a997901f-added", 
             "0a9cd3c76a36402e87d6bf80a997901f", 
             "topic", 
@@ -326,24 +400,6 @@
             10
         ], 
         [
-            "8fc515793aad4e52b490b03c48ad21de", 
-            "0a9cd3c76a36402e87d6bf80a997901f", 
-            "topic", 
-            198
-        ], 
-        [
-            "8fc515793aad4e52b490b03c48ad21de", 
-            "0a9cd3c76a36402e87d6bf80a997901f", 
-            "video", 
-            125
-        ], 
-        [
-            "8fc515793aad4e52b490b03c48ad21de", 
-            "0a9cd3c76a36402e87d6bf80a997901f", 
-            "exercise", 
-            438
-        ], 
-        [
             "9e5305326ed742d0892479dea825a514-added", 
             "9e5305326ed742d0892479dea825a514", 
             "topic", 
@@ -354,12 +410,6 @@
             "9e5305326ed742d0892479dea825a514", 
             "exercise", 
             41
-        ], 
-        [
-            "8fc515793aad4e52b490b03c48ad21de", 
-            "9e5305326ed742d0892479dea825a514", 
-            "exercise", 
-            3
         ], 
         [
             "5d132ba360b54b2ba9df169ffaa43ccb", 
@@ -378,12 +428,6 @@
             "9e5305326ed742d0892479dea825a514", 
             "exercise", 
             73
-        ], 
-        [
-            "9e5305326ed742d0892479dea825a514", 
-            "9e5305326ed742d0892479dea825a514", 
-            "exercise", 
-            3
         ], 
         [
             "1ceff53605e55bef987d88e0908658c5", 
@@ -416,34 +460,508 @@
             770
         ], 
         [
-            "1ceff53605e55bef987d88e0908658c5", 
-            "1ceff53605e55bef987d88e0908658c5-unused", 
-            "topic", 
-            7459
+            "5d132ba360b54b2ba9df169ffaa43ccb-added", 
+            "5d132ba360b54b2ba9df169ffaa43ccb", 
+            "exercise", 
+            1
         ], 
         [
-            "1ceff53605e55bef987d88e0908658c5", 
-            "1ceff53605e55bef987d88e0908658c5-unused", 
+            "44511f39534544f89928a967787d53e0", 
+            "5d132ba360b54b2ba9df169ffaa43ccb", 
+            "exercise", 
+            1
+        ], 
+        [
+            "44511f39534544f89928a967787d53e0-added", 
+            "44511f39534544f89928a967787d53e0", 
+            "topic", 
+            28
+        ], 
+        [
+            "44511f39534544f89928a967787d53e0-added", 
+            "44511f39534544f89928a967787d53e0", 
+            "exercise", 
+            22
+        ], 
+        [
+            "ac5ad503270e57adb2c0e979ac4c98af", 
+            "44511f39534544f89928a967787d53e0", 
+            "topic", 
+            8
+        ], 
+        [
+            "ac5ad503270e57adb2c0e979ac4c98af", 
+            "44511f39534544f89928a967787d53e0", 
+            "exercise", 
+            6
+        ], 
+        [
+            "5d132ba360b54b2ba9df169ffaa43ccb-added", 
+            "5d132ba360b54b2ba9df169ffaa43ccb", 
+            "exercise", 
+            1
+        ], 
+        [
+            "44511f39534544f89928a967787d53e0", 
+            "5d132ba360b54b2ba9df169ffaa43ccb", 
+            "exercise", 
+            1
+        ], 
+        [
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "5d132ba360b54b2ba9df169ffaa43ccb", 
+            "exercise", 
+            1
+        ], 
+        [
+            "44511f39534544f89928a967787d53e0-added", 
+            "44511f39534544f89928a967787d53e0", 
+            "topic", 
+            28
+        ], 
+        [
+            "44511f39534544f89928a967787d53e0-added", 
+            "44511f39534544f89928a967787d53e0", 
+            "exercise", 
+            22
+        ], 
+        [
+            "ac5ad503270e57adb2c0e979ac4c98af", 
+            "44511f39534544f89928a967787d53e0", 
+            "topic", 
+            8
+        ], 
+        [
+            "ac5ad503270e57adb2c0e979ac4c98af", 
+            "44511f39534544f89928a967787d53e0", 
+            "exercise", 
+            6
+        ], 
+        [
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "44511f39534544f89928a967787d53e0", 
+            "exercise", 
+            2
+        ], 
+        [
+            "8fc515793aad4e52b490b03c48ad21de-added", 
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "topic", 
+            111
+        ], 
+        [
+            "8fc515793aad4e52b490b03c48ad21de-added", 
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "exercise", 
+            51
+        ], 
+        [
+            "6996f85e5a1f508e8757cf9a4ce1085a", 
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "topic", 
+            234
+        ], 
+        [
+            "6996f85e5a1f508e8757cf9a4ce1085a", 
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "exercise", 
+            508
+        ], 
+        [
+            "074c0c37a1274e51bed0c33875541ebc", 
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "topic", 
+            80
+        ], 
+        [
+            "074c0c37a1274e51bed0c33875541ebc", 
+            "8fc515793aad4e52b490b03c48ad21de", 
             "video", 
-            23003
+            65
+        ], 
+        [
+            "074c0c37a1274e51bed0c33875541ebc", 
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "exercise", 
+            151
+        ], 
+        [
+            "0a9cd3c76a36402e87d6bf80a997901f", 
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "topic", 
+            77
+        ], 
+        [
+            "0a9cd3c76a36402e87d6bf80a997901f", 
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "video", 
+            74
+        ], 
+        [
+            "0a9cd3c76a36402e87d6bf80a997901f", 
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "exercise", 
+            178
         ], 
         [
             "1ceff53605e55bef987d88e0908658c5", 
-            "1ceff53605e55bef987d88e0908658c5-unused", 
-            "exercise", 
-            10651
-        ], 
-        [
-            "2ce8480105415643888efe9aadc3e497", 
-            "2ce8480105415643888efe9aadc3e497-unused", 
+            "8fc515793aad4e52b490b03c48ad21de", 
             "topic", 
-            58
+            54
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "video", 
+            416
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "exercise", 
+            276
         ], 
         [
             "2ce8480105415643888efe9aadc3e497", 
-            "2ce8480105415643888efe9aadc3e497-unused", 
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "topic", 
+            9
+        ], 
+        [
+            "2ce8480105415643888efe9aadc3e497", 
+            "8fc515793aad4e52b490b03c48ad21de", 
             "exercise", 
+            27
+        ], 
+        [
+            "074c0c37a1274e51bed0c33875541ebc-added", 
+            "074c0c37a1274e51bed0c33875541ebc", 
+            "topic", 
+            9
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "074c0c37a1274e51bed0c33875541ebc", 
+            "topic", 
+            10
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "074c0c37a1274e51bed0c33875541ebc", 
+            "video", 
+            57
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "074c0c37a1274e51bed0c33875541ebc", 
+            "exercise", 
+            27
+        ], 
+        [
+            "6996f85e5a1f508e8757cf9a4ce1085a", 
+            "074c0c37a1274e51bed0c33875541ebc", 
+            "topic", 
+            1
+        ], 
+        [
+            "6996f85e5a1f508e8757cf9a4ce1085a", 
+            "074c0c37a1274e51bed0c33875541ebc", 
+            "exercise", 
+            3
+        ], 
+        [
+            "0a9cd3c76a36402e87d6bf80a997901f-added", 
+            "0a9cd3c76a36402e87d6bf80a997901f", 
+            "topic", 
+            2
+        ], 
+        [
+            "0a9cd3c76a36402e87d6bf80a997901f-added", 
+            "0a9cd3c76a36402e87d6bf80a997901f", 
+            "exercise", 
+            10
+        ], 
+        [
+            "9e5305326ed742d0892479dea825a514-added", 
+            "9e5305326ed742d0892479dea825a514", 
+            "topic", 
+            124
+        ], 
+        [
+            "9e5305326ed742d0892479dea825a514-added", 
+            "9e5305326ed742d0892479dea825a514", 
+            "exercise", 
+            41
+        ], 
+        [
+            "6996f85e5a1f508e8757cf9a4ce1085a", 
+            "9e5305326ed742d0892479dea825a514", 
+            "topic", 
+            6
+        ], 
+        [
+            "6996f85e5a1f508e8757cf9a4ce1085a", 
+            "9e5305326ed742d0892479dea825a514", 
+            "exercise", 
+            73
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "9e5305326ed742d0892479dea825a514", 
+            "topic", 
+            46
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "9e5305326ed742d0892479dea825a514", 
+            "video", 
+            260
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "9e5305326ed742d0892479dea825a514", 
+            "exercise", 
+            166
+        ], 
+        [
+            "2ce8480105415643888efe9aadc3e497", 
+            "9e5305326ed742d0892479dea825a514", 
+            "topic", 
+            388
+        ], 
+        [
+            "2ce8480105415643888efe9aadc3e497", 
+            "9e5305326ed742d0892479dea825a514", 
+            "exercise", 
+            770
+        ], 
+        [
+            "8fc515793aad4e52b490b03c48ad21de-added", 
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "topic", 
+            111
+        ], 
+        [
+            "8fc515793aad4e52b490b03c48ad21de-added", 
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "exercise", 
+            51
+        ], 
+        [
+            "44511f39534544f89928a967787d53e0", 
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "topic", 
+            27
+        ], 
+        [
+            "44511f39534544f89928a967787d53e0", 
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "exercise", 
+            27
+        ], 
+        [
+            "6996f85e5a1f508e8757cf9a4ce1085a", 
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "topic", 
+            234
+        ], 
+        [
+            "6996f85e5a1f508e8757cf9a4ce1085a", 
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "exercise", 
+            508
+        ], 
+        [
+            "074c0c37a1274e51bed0c33875541ebc", 
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "topic", 
+            80
+        ], 
+        [
+            "074c0c37a1274e51bed0c33875541ebc", 
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "video", 
+            65
+        ], 
+        [
+            "074c0c37a1274e51bed0c33875541ebc", 
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "exercise", 
+            151
+        ], 
+        [
+            "0a9cd3c76a36402e87d6bf80a997901f", 
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "topic", 
+            77
+        ], 
+        [
+            "0a9cd3c76a36402e87d6bf80a997901f", 
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "video", 
+            74
+        ], 
+        [
+            "0a9cd3c76a36402e87d6bf80a997901f", 
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "exercise", 
+            178
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "topic", 
             54
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "video", 
+            416
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "exercise", 
+            276
+        ], 
+        [
+            "2ce8480105415643888efe9aadc3e497", 
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "topic", 
+            9
+        ], 
+        [
+            "2ce8480105415643888efe9aadc3e497", 
+            "8fc515793aad4e52b490b03c48ad21de", 
+            "exercise", 
+            27
+        ], 
+        [
+            "44511f39534544f89928a967787d53e0-added", 
+            "44511f39534544f89928a967787d53e0", 
+            "topic", 
+            28
+        ], 
+        [
+            "44511f39534544f89928a967787d53e0-added", 
+            "44511f39534544f89928a967787d53e0", 
+            "exercise", 
+            22
+        ], 
+        [
+            "ac5ad503270e57adb2c0e979ac4c98af", 
+            "44511f39534544f89928a967787d53e0", 
+            "topic", 
+            8
+        ], 
+        [
+            "ac5ad503270e57adb2c0e979ac4c98af", 
+            "44511f39534544f89928a967787d53e0", 
+            "exercise", 
+            6
+        ], 
+        [
+            "074c0c37a1274e51bed0c33875541ebc-added", 
+            "074c0c37a1274e51bed0c33875541ebc", 
+            "topic", 
+            9
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "074c0c37a1274e51bed0c33875541ebc", 
+            "topic", 
+            10
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "074c0c37a1274e51bed0c33875541ebc", 
+            "video", 
+            57
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "074c0c37a1274e51bed0c33875541ebc", 
+            "exercise", 
+            27
+        ], 
+        [
+            "6996f85e5a1f508e8757cf9a4ce1085a", 
+            "074c0c37a1274e51bed0c33875541ebc", 
+            "topic", 
+            1
+        ], 
+        [
+            "6996f85e5a1f508e8757cf9a4ce1085a", 
+            "074c0c37a1274e51bed0c33875541ebc", 
+            "exercise", 
+            3
+        ], 
+        [
+            "0a9cd3c76a36402e87d6bf80a997901f-added", 
+            "0a9cd3c76a36402e87d6bf80a997901f", 
+            "topic", 
+            2
+        ], 
+        [
+            "0a9cd3c76a36402e87d6bf80a997901f-added", 
+            "0a9cd3c76a36402e87d6bf80a997901f", 
+            "exercise", 
+            10
+        ], 
+        [
+            "9e5305326ed742d0892479dea825a514-added", 
+            "9e5305326ed742d0892479dea825a514", 
+            "topic", 
+            124
+        ], 
+        [
+            "9e5305326ed742d0892479dea825a514-added", 
+            "9e5305326ed742d0892479dea825a514", 
+            "exercise", 
+            41
+        ], 
+        [
+            "6996f85e5a1f508e8757cf9a4ce1085a", 
+            "9e5305326ed742d0892479dea825a514", 
+            "topic", 
+            6
+        ], 
+        [
+            "6996f85e5a1f508e8757cf9a4ce1085a", 
+            "9e5305326ed742d0892479dea825a514", 
+            "exercise", 
+            73
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "9e5305326ed742d0892479dea825a514", 
+            "topic", 
+            46
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "9e5305326ed742d0892479dea825a514", 
+            "video", 
+            260
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "9e5305326ed742d0892479dea825a514", 
+            "exercise", 
+            166
+        ], 
+        [
+            "2ce8480105415643888efe9aadc3e497", 
+            "9e5305326ed742d0892479dea825a514", 
+            "topic", 
+            388
+        ], 
+        [
+            "2ce8480105415643888efe9aadc3e497", 
+            "9e5305326ed742d0892479dea825a514", 
+            "exercise", 
+            770
         ]
     ], 
     "nodes": {

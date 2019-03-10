@@ -1,0 +1,221 @@
+{
+    "backedges": [], 
+    "description": "Content import graph for channel a68a5bf4aa8a475197658c7a0da528c7", 
+    "edges": [
+        [
+            "a68a5bf4aa8a475197658c7a0da528c7-added", 
+            "a68a5bf4aa8a475197658c7a0da528c7", 
+            "topic", 
+            8
+        ], 
+        [
+            "f9d3e0e46ea25789bbed672ff6a399ed", 
+            "a68a5bf4aa8a475197658c7a0da528c7", 
+            "topic", 
+            12
+        ], 
+        [
+            "f9d3e0e46ea25789bbed672ff6a399ed", 
+            "a68a5bf4aa8a475197658c7a0da528c7", 
+            "html5", 
+            1173
+        ], 
+        [
+            "197934f144305350b5820c7c4dd8e194", 
+            "a68a5bf4aa8a475197658c7a0da528c7", 
+            "topic", 
+            19
+        ], 
+        [
+            "197934f144305350b5820c7c4dd8e194", 
+            "a68a5bf4aa8a475197658c7a0da528c7", 
+            "video", 
+            124
+        ], 
+        [
+            "197934f144305350b5820c7c4dd8e194", 
+            "a68a5bf4aa8a475197658c7a0da528c7", 
+            "html5", 
+            211
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "a68a5bf4aa8a475197658c7a0da528c7", 
+            "topic", 
+            2512
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "a68a5bf4aa8a475197658c7a0da528c7", 
+            "video", 
+            137
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "a68a5bf4aa8a475197658c7a0da528c7", 
+            "html5", 
+            2450
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "a68a5bf4aa8a475197658c7a0da528c7", 
+            "exercise", 
+            1939
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "a68a5bf4aa8a475197658c7a0da528c7", 
+            "topic", 
+            880
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "a68a5bf4aa8a475197658c7a0da528c7", 
+            "video", 
+            3292
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "a68a5bf4aa8a475197658c7a0da528c7", 
+            "exercise", 
+            949
+        ], 
+        [
+            "a9b25ac9814742c883ce1b0579448337", 
+            "a68a5bf4aa8a475197658c7a0da528c7", 
+            "topic", 
+            45
+        ], 
+        [
+            "a9b25ac9814742c883ce1b0579448337", 
+            "a68a5bf4aa8a475197658c7a0da528c7", 
+            "document", 
+            77
+        ], 
+        [
+            "a9b25ac9814742c883ce1b0579448337", 
+            "a68a5bf4aa8a475197658c7a0da528c7", 
+            "audio", 
+            27
+        ]
+    ], 
+    "nodes": {
+        "197934f144305350b5820c7c4dd8e194": {
+            "channel_id": "197934f144305350b5820c7c4dd8e194", 
+            "counts": {
+                "html5": 211, 
+                "topic": 19, 
+                "video": 124
+            }, 
+            "description": "The PhET Interactive Simulations project at the University of Colorado Boulder creates free interactive math and science simulations that engage students through an intuitive, game-like environment where students learn through exploration and discovery.", 
+            "name": "PhET Interactive Simulations (en)"
+        }, 
+        "197934f144305350b5820c7c4dd8e194-unused": {
+            "channel_id": "197934f144305350b5820c7c4dd8e194", 
+            "counts": {}, 
+            "description": "Connts of nodes in channel_id 197934f144305350b5820c7c4dd8e194 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "1ceff53605e55bef987d88e0908658c5": {
+            "channel_id": "1ceff53605e55bef987d88e0908658c5", 
+            "counts": {
+                "exercise": 11028, 
+                "topic": 7554, 
+                "video": 23618
+            }, 
+            "description": "Khan Academy content for English.", 
+            "name": "Khan Academy (English)"
+        }, 
+        "1ceff53605e55bef987d88e0908658c5-unused": {
+            "channel_id": "1ceff53605e55bef987d88e0908658c5", 
+            "counts": {
+                "exercise": 10079, 
+                "topic": 6674, 
+                "video": 20326
+            }, 
+            "description": "Connts of nodes in channel_id 1ceff53605e55bef987d88e0908658c5 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "1d8f6d84618153c18c695d85074952a7": {
+            "channel_id": "1d8f6d84618153c18c695d85074952a7", 
+            "counts": {
+                "exercise": 4157, 
+                "html5": 4601, 
+                "topic": 5883, 
+                "video": 1885
+            }, 
+            "description": "", 
+            "name": "CK-12"
+        }, 
+        "1d8f6d84618153c18c695d85074952a7-unused": {
+            "channel_id": "1d8f6d84618153c18c695d85074952a7", 
+            "counts": {
+                "exercise": 2218, 
+                "html5": 2151, 
+                "topic": 3371, 
+                "video": 1748
+            }, 
+            "description": "Connts of nodes in channel_id 1d8f6d84618153c18c695d85074952a7 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "a68a5bf4aa8a475197658c7a0da528c7": {
+            "channel_id": "a68a5bf4aa8a475197658c7a0da528c7", 
+            "counts": {
+                "audio": 27, 
+                "document": 77, 
+                "exercise": 3078, 
+                "html5": 3852, 
+                "topic": 3628, 
+                "video": 3996
+            }, 
+            "description": "Educational Content for Tanzania teachers and students.", 
+            "name": "Camara Education Tanzania"
+        }, 
+        "a68a5bf4aa8a475197658c7a0da528c7-added": {
+            "channel_id": "a68a5bf4aa8a475197658c7a0da528c7", 
+            "counts": {
+                "topic": 8
+            }, 
+            "description": "Count new nodes uploaded to channel_id a68a5bf4aa8a475197658c7a0da528c7", 
+            "name": "Added to Camara Education Tanzania"
+        }, 
+        "a9b25ac9814742c883ce1b0579448337": {
+            "channel_id": "a9b25ac9814742c883ce1b0579448337", 
+            "counts": {
+                "audio": 30, 
+                "document": 165, 
+                "topic": 74
+            }, 
+            "description": "Teacher Education in Sub-Saharan Africa", 
+            "name": "TESSA - Teacher Resources"
+        }, 
+        "a9b25ac9814742c883ce1b0579448337-unused": {
+            "channel_id": "a9b25ac9814742c883ce1b0579448337", 
+            "counts": {
+                "document": 30, 
+                "topic": 16
+            }, 
+            "description": "Connts of nodes in channel_id a9b25ac9814742c883ce1b0579448337 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "f9d3e0e46ea25789bbed672ff6a399ed": {
+            "channel_id": "f9d3e0e46ea25789bbed672ff6a399ed", 
+            "counts": {
+                "html5": 6730, 
+                "topic": 643
+            }, 
+            "description": "Open access to picture storybooks in the languages of Africa. For children's literacy, enjoyment and imagination.", 
+            "name": "African Storybook"
+        }, 
+        "f9d3e0e46ea25789bbed672ff6a399ed-unused": {
+            "channel_id": "f9d3e0e46ea25789bbed672ff6a399ed", 
+            "counts": {
+                "html5": 5557, 
+                "topic": 631
+            }, 
+            "description": "Connts of nodes in channel_id f9d3e0e46ea25789bbed672ff6a399ed that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }
+    }, 
+    "title": "Import graph data for channel Camara Education Tanzania"
+}

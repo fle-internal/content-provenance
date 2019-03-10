@@ -1,0 +1,79 @@
+{
+    "backedges": [], 
+    "description": "Content import graph for channel be30cd98263244768c8684320441eecb", 
+    "edges": [
+        [
+            "be30cd98263244768c8684320441eecb-added", 
+            "be30cd98263244768c8684320441eecb", 
+            "topic", 
+            13
+        ], 
+        [
+            "be30cd98263244768c8684320441eecb-added", 
+            "be30cd98263244768c8684320441eecb", 
+            "document", 
+            124
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "be30cd98263244768c8684320441eecb", 
+            "topic", 
+            46
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "be30cd98263244768c8684320441eecb", 
+            "video", 
+            118
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "be30cd98263244768c8684320441eecb", 
+            "exercise", 
+            94
+        ]
+    ], 
+    "nodes": {
+        "1ceff53605e55bef987d88e0908658c5": {
+            "channel_id": "1ceff53605e55bef987d88e0908658c5", 
+            "counts": {
+                "exercise": 11028, 
+                "topic": 7554, 
+                "video": 23618
+            }, 
+            "description": "Khan Academy content for English.", 
+            "name": "Khan Academy (English)"
+        }, 
+        "1ceff53605e55bef987d88e0908658c5-unused": {
+            "channel_id": "1ceff53605e55bef987d88e0908658c5", 
+            "counts": {
+                "exercise": 10934, 
+                "topic": 7508, 
+                "video": 23500
+            }, 
+            "description": "Connts of nodes in channel_id 1ceff53605e55bef987d88e0908658c5 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "be30cd98263244768c8684320441eecb": {
+            "channel_id": "be30cd98263244768c8684320441eecb", 
+            "counts": {
+                "document": 124, 
+                "exercise": 94, 
+                "topic": 59, 
+                "video": 118
+            }, 
+            "description": "Std 5 Math Olympiad questions", 
+            "name": "Math Olympiad (The Nalanda Project)"
+        }, 
+        "be30cd98263244768c8684320441eecb-added": {
+            "channel_id": "be30cd98263244768c8684320441eecb", 
+            "counts": {
+                "document": 124, 
+                "topic": 13
+            }, 
+            "description": "Count new nodes uploaded to channel_id be30cd98263244768c8684320441eecb", 
+            "name": "Added to Math Olympiad (The Nalanda Project)"
+        }
+    }, 
+    "title": "Import graph data for channel Math Olympiad (The Nalanda Project)"
+}

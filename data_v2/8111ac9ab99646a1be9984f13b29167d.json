@@ -1,0 +1,426 @@
+{
+    "backedges": [], 
+    "description": "Content import graph for channel 8111ac9ab99646a1be9984f13b29167d", 
+    "edges": [
+        [
+            "8111ac9ab99646a1be9984f13b29167d-added", 
+            "8111ac9ab99646a1be9984f13b29167d", 
+            "topic", 
+            5
+        ], 
+        [
+            "23d11f40e670462e95394eeb350fbb5c", 
+            "8111ac9ab99646a1be9984f13b29167d", 
+            "topic", 
+            71
+        ], 
+        [
+            "23d11f40e670462e95394eeb350fbb5c", 
+            "8111ac9ab99646a1be9984f13b29167d", 
+            "document", 
+            2
+        ], 
+        [
+            "23d11f40e670462e95394eeb350fbb5c", 
+            "8111ac9ab99646a1be9984f13b29167d", 
+            "video", 
+            224
+        ], 
+        [
+            "23d11f40e670462e95394eeb350fbb5c", 
+            "8111ac9ab99646a1be9984f13b29167d", 
+            "html5", 
+            4
+        ], 
+        [
+            "23d11f40e670462e95394eeb350fbb5c", 
+            "8111ac9ab99646a1be9984f13b29167d", 
+            "exercise", 
+            4
+        ], 
+        [
+            "db04cd774a364b86a31249bc8db27c6e", 
+            "8111ac9ab99646a1be9984f13b29167d", 
+            "video", 
+            3
+        ], 
+        [
+            "000409f81dbe5d1ba67101cb9fed4530", 
+            "8111ac9ab99646a1be9984f13b29167d", 
+            "topic", 
+            63
+        ], 
+        [
+            "000409f81dbe5d1ba67101cb9fed4530", 
+            "8111ac9ab99646a1be9984f13b29167d", 
+            "video", 
+            361
+        ], 
+        [
+            "000409f81dbe5d1ba67101cb9fed4530", 
+            "8111ac9ab99646a1be9984f13b29167d", 
+            "html5", 
+            6
+        ], 
+        [
+            "d0ef6f71e4fe4e54bb87d7dab5eeaae2", 
+            "8111ac9ab99646a1be9984f13b29167d", 
+            "topic", 
+            10
+        ], 
+        [
+            "d0ef6f71e4fe4e54bb87d7dab5eeaae2", 
+            "8111ac9ab99646a1be9984f13b29167d", 
+            "document", 
+            50
+        ], 
+        [
+            "d0ef6f71e4fe4e54bb87d7dab5eeaae2", 
+            "8111ac9ab99646a1be9984f13b29167d", 
+            "video", 
+            5
+        ], 
+        [
+            "d0ef6f71e4fe4e54bb87d7dab5eeaae2", 
+            "8111ac9ab99646a1be9984f13b29167d", 
+            "exercise", 
+            10
+        ], 
+        [
+            "f9d3e0e46ea25789bbed672ff6a399ed", 
+            "8111ac9ab99646a1be9984f13b29167d", 
+            "topic", 
+            30
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "8111ac9ab99646a1be9984f13b29167d", 
+            "topic", 
+            256
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "8111ac9ab99646a1be9984f13b29167d", 
+            "html5", 
+            243
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "8111ac9ab99646a1be9984f13b29167d", 
+            "exercise", 
+            84
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "8111ac9ab99646a1be9984f13b29167d", 
+            "topic", 
+            459
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "8111ac9ab99646a1be9984f13b29167d", 
+            "video", 
+            1207
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "8111ac9ab99646a1be9984f13b29167d", 
+            "exercise", 
+            437
+        ], 
+        [
+            "3e464ee12f6a50a781cddf59147b48b1", 
+            "8111ac9ab99646a1be9984f13b29167d", 
+            "topic", 
+            89
+        ], 
+        [
+            "3e464ee12f6a50a781cddf59147b48b1", 
+            "8111ac9ab99646a1be9984f13b29167d", 
+            "video", 
+            453
+        ], 
+        [
+            "23d11f40e670462e95394eeb350fbb5c-added", 
+            "23d11f40e670462e95394eeb350fbb5c", 
+            "topic", 
+            2
+        ], 
+        [
+            "963a3e64f4a24d4bb4ae11262ac873d5", 
+            "23d11f40e670462e95394eeb350fbb5c", 
+            "topic", 
+            21
+        ], 
+        [
+            "963a3e64f4a24d4bb4ae11262ac873d5", 
+            "23d11f40e670462e95394eeb350fbb5c", 
+            "document", 
+            2
+        ], 
+        [
+            "963a3e64f4a24d4bb4ae11262ac873d5", 
+            "23d11f40e670462e95394eeb350fbb5c", 
+            "video", 
+            54
+        ], 
+        [
+            "963a3e64f4a24d4bb4ae11262ac873d5", 
+            "23d11f40e670462e95394eeb350fbb5c", 
+            "html5", 
+            4
+        ], 
+        [
+            "963a3e64f4a24d4bb4ae11262ac873d5", 
+            "23d11f40e670462e95394eeb350fbb5c", 
+            "exercise", 
+            4
+        ], 
+        [
+            "3e464ee12f6a50a781cddf59147b48b1", 
+            "23d11f40e670462e95394eeb350fbb5c", 
+            "topic", 
+            29
+        ], 
+        [
+            "3e464ee12f6a50a781cddf59147b48b1", 
+            "23d11f40e670462e95394eeb350fbb5c", 
+            "video", 
+            125
+        ], 
+        [
+            "963a3e64f4a24d4bb4ae11262ac873d5-added", 
+            "963a3e64f4a24d4bb4ae11262ac873d5", 
+            "topic", 
+            3
+        ], 
+        [
+            "3e464ee12f6a50a781cddf59147b48b1", 
+            "963a3e64f4a24d4bb4ae11262ac873d5", 
+            "topic", 
+            23
+        ], 
+        [
+            "3e464ee12f6a50a781cddf59147b48b1", 
+            "963a3e64f4a24d4bb4ae11262ac873d5", 
+            "video", 
+            83
+        ], 
+        [
+            "db04cd774a364b86a31249bc8db27c6e", 
+            "963a3e64f4a24d4bb4ae11262ac873d5", 
+            "video", 
+            10
+        ]
+    ], 
+    "nodes": {
+        "000409f81dbe5d1ba67101cb9fed4530": {
+            "channel_id": "000409f81dbe5d1ba67101cb9fed4530", 
+            "counts": {
+                "html5": 6, 
+                "topic": 63, 
+                "video": 361
+            }, 
+            "description": "Where kids teach kids about the world. Taught entirely by school age children in short videos, Touchable Earth promotes tolerance for gender, culture, and identity.", 
+            "name": "Touchable Earth (en)"
+        }, 
+        "000409f81dbe5d1ba67101cb9fed4530-unused": {
+            "channel_id": "000409f81dbe5d1ba67101cb9fed4530", 
+            "counts": {}, 
+            "description": "Connts of nodes in channel_id 000409f81dbe5d1ba67101cb9fed4530 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "1ceff53605e55bef987d88e0908658c5": {
+            "channel_id": "1ceff53605e55bef987d88e0908658c5", 
+            "counts": {
+                "exercise": 11028, 
+                "topic": 7554, 
+                "video": 23618
+            }, 
+            "description": "Khan Academy content for English.", 
+            "name": "Khan Academy (English)"
+        }, 
+        "1ceff53605e55bef987d88e0908658c5-unused": {
+            "channel_id": "1ceff53605e55bef987d88e0908658c5", 
+            "counts": {
+                "exercise": 10591, 
+                "topic": 7095, 
+                "video": 22411
+            }, 
+            "description": "Connts of nodes in channel_id 1ceff53605e55bef987d88e0908658c5 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "1d8f6d84618153c18c695d85074952a7": {
+            "channel_id": "1d8f6d84618153c18c695d85074952a7", 
+            "counts": {
+                "exercise": 4157, 
+                "html5": 4601, 
+                "topic": 5883, 
+                "video": 1885
+            }, 
+            "description": "", 
+            "name": "CK-12"
+        }, 
+        "1d8f6d84618153c18c695d85074952a7-unused": {
+            "channel_id": "1d8f6d84618153c18c695d85074952a7", 
+            "counts": {
+                "exercise": 4073, 
+                "html5": 4358, 
+                "topic": 5627, 
+                "video": 1885
+            }, 
+            "description": "Connts of nodes in channel_id 1d8f6d84618153c18c695d85074952a7 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "23d11f40e670462e95394eeb350fbb5c": {
+            "channel_id": "23d11f40e670462e95394eeb350fbb5c", 
+            "counts": {
+                "document": 2, 
+                "exercise": 4, 
+                "html5": 4, 
+                "topic": 72, 
+                "video": 226
+            }, 
+            "description": "", 
+            "name": "Youth Center Beta"
+        }, 
+        "23d11f40e670462e95394eeb350fbb5c-added": {
+            "channel_id": "23d11f40e670462e95394eeb350fbb5c", 
+            "counts": {
+                "topic": 2
+            }, 
+            "description": "Count new nodes uploaded to channel_id 23d11f40e670462e95394eeb350fbb5c", 
+            "name": "Added to Youth Center Beta"
+        }, 
+        "23d11f40e670462e95394eeb350fbb5c-unused": {
+            "channel_id": "23d11f40e670462e95394eeb350fbb5c", 
+            "counts": {
+                "topic": 1, 
+                "video": 2
+            }, 
+            "description": "Connts of nodes in channel_id 23d11f40e670462e95394eeb350fbb5c that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "3e464ee12f6a50a781cddf59147b48b1": {
+            "channel_id": "3e464ee12f6a50a781cddf59147b48b1", 
+            "counts": {
+                "topic": 361, 
+                "video": 1537
+            }, 
+            "description": "Thousands of skills in your pocket. Improve your life and the world around you through practical learning. Join our community. Make an impact. ", 
+            "name": "Sikana (English)"
+        }, 
+        "3e464ee12f6a50a781cddf59147b48b1-unused": {
+            "channel_id": "3e464ee12f6a50a781cddf59147b48b1", 
+            "counts": {
+                "topic": 220, 
+                "video": 878
+            }, 
+            "description": "Connts of nodes in channel_id 3e464ee12f6a50a781cddf59147b48b1 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "8111ac9ab99646a1be9984f13b29167d": {
+            "channel_id": "8111ac9ab99646a1be9984f13b29167d", 
+            "counts": {
+                "document": 52, 
+                "exercise": 578, 
+                "html5": 1621, 
+                "topic": 1066, 
+                "video": 2734
+            }, 
+            "description": "", 
+            "name": "Youth Center"
+        }, 
+        "8111ac9ab99646a1be9984f13b29167d-added": {
+            "channel_id": "8111ac9ab99646a1be9984f13b29167d", 
+            "counts": {
+                "topic": 5
+            }, 
+            "description": "Count new nodes uploaded to channel_id 8111ac9ab99646a1be9984f13b29167d", 
+            "name": "Added to Youth Center"
+        }, 
+        "963a3e64f4a24d4bb4ae11262ac873d5": {
+            "channel_id": "963a3e64f4a24d4bb4ae11262ac873d5", 
+            "counts": {
+                "document": 2, 
+                "exercise": 4, 
+                "html5": 4, 
+                "topic": 34, 
+                "video": 99
+            }, 
+            "description": "", 
+            "name": "Youth Center"
+        }, 
+        "963a3e64f4a24d4bb4ae11262ac873d5-added": {
+            "channel_id": "963a3e64f4a24d4bb4ae11262ac873d5", 
+            "counts": {
+                "topic": 3
+            }, 
+            "description": "Count new nodes uploaded to channel_id 963a3e64f4a24d4bb4ae11262ac873d5", 
+            "name": "Added to Youth Center"
+        }, 
+        "963a3e64f4a24d4bb4ae11262ac873d5-unused": {
+            "channel_id": "963a3e64f4a24d4bb4ae11262ac873d5", 
+            "counts": {
+                "topic": 13, 
+                "video": 45
+            }, 
+            "description": "Connts of nodes in channel_id 963a3e64f4a24d4bb4ae11262ac873d5 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "d0ef6f71e4fe4e54bb87d7dab5eeaae2": {
+            "channel_id": "d0ef6f71e4fe4e54bb87d7dab5eeaae2", 
+            "counts": {
+                "document": 50, 
+                "exercise": 10, 
+                "topic": 10, 
+                "video": 5
+            }, 
+            "description": "A new set of peer to peer resources to teach students how to use the internet safely and be digitally resilient", 
+            "name": "Be Strong: Internet safety resources"
+        }, 
+        "d0ef6f71e4fe4e54bb87d7dab5eeaae2-unused": {
+            "channel_id": "d0ef6f71e4fe4e54bb87d7dab5eeaae2", 
+            "counts": {}, 
+            "description": "Connts of nodes in channel_id d0ef6f71e4fe4e54bb87d7dab5eeaae2 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "db04cd774a364b86a31249bc8db27c6e": {
+            "channel_id": "db04cd774a364b86a31249bc8db27c6e", 
+            "counts": {
+                "topic": 7, 
+                "video": 362
+            }, 
+            "description": "", 
+            "name": "Uganda Content Portal Channel"
+        }, 
+        "db04cd774a364b86a31249bc8db27c6e-unused": {
+            "channel_id": "db04cd774a364b86a31249bc8db27c6e", 
+            "counts": {
+                "topic": 7, 
+                "video": 349
+            }, 
+            "description": "Connts of nodes in channel_id db04cd774a364b86a31249bc8db27c6e that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "f9d3e0e46ea25789bbed672ff6a399ed": {
+            "channel_id": "f9d3e0e46ea25789bbed672ff6a399ed", 
+            "counts": {
+                "html5": 6730, 
+                "topic": 643
+            }, 
+            "description": "Open access to picture storybooks in the languages of Africa. For children's literacy, enjoyment and imagination.", 
+            "name": "African Storybook"
+        }, 
+        "f9d3e0e46ea25789bbed672ff6a399ed-unused": {
+            "channel_id": "f9d3e0e46ea25789bbed672ff6a399ed", 
+            "counts": {
+                "html5": 6730, 
+                "topic": 613
+            }, 
+            "description": "Connts of nodes in channel_id f9d3e0e46ea25789bbed672ff6a399ed that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }
+    }, 
+    "title": "Import graph data for channel Youth Center"
+}

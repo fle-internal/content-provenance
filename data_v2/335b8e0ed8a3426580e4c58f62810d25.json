@@ -1,0 +1,363 @@
+{
+    "backedges": [], 
+    "description": "Content import graph for channel 335b8e0ed8a3426580e4c58f62810d25", 
+    "edges": [
+        [
+            "335b8e0ed8a3426580e4c58f62810d25-added", 
+            "335b8e0ed8a3426580e4c58f62810d25", 
+            "topic", 
+            289
+        ], 
+        [
+            "c7eda62c6489554a941058fa883e7c2c", 
+            "335b8e0ed8a3426580e4c58f62810d25", 
+            "document", 
+            7
+        ], 
+        [
+            "131e543dbecf5776bb13cfcfddf05605", 
+            "335b8e0ed8a3426580e4c58f62810d25", 
+            "document", 
+            2
+        ], 
+        [
+            "a9b25ac9814742c883ce1b0579448337", 
+            "335b8e0ed8a3426580e4c58f62810d25", 
+            "topic", 
+            7
+        ], 
+        [
+            "a9b25ac9814742c883ce1b0579448337", 
+            "335b8e0ed8a3426580e4c58f62810d25", 
+            "document", 
+            10
+        ], 
+        [
+            "d0ef6f71e4fe4e54bb87d7dab5eeaae2", 
+            "335b8e0ed8a3426580e4c58f62810d25", 
+            "topic", 
+            1
+        ], 
+        [
+            "d0ef6f71e4fe4e54bb87d7dab5eeaae2", 
+            "335b8e0ed8a3426580e4c58f62810d25", 
+            "document", 
+            10
+        ], 
+        [
+            "d0ef6f71e4fe4e54bb87d7dab5eeaae2", 
+            "335b8e0ed8a3426580e4c58f62810d25", 
+            "video", 
+            1
+        ], 
+        [
+            "d0ef6f71e4fe4e54bb87d7dab5eeaae2", 
+            "335b8e0ed8a3426580e4c58f62810d25", 
+            "exercise", 
+            2
+        ], 
+        [
+            "913efe9f14c65cb1b23402f21f056e99", 
+            "335b8e0ed8a3426580e4c58f62810d25", 
+            "document", 
+            3
+        ], 
+        [
+            "913efe9f14c65cb1b23402f21f056e99", 
+            "335b8e0ed8a3426580e4c58f62810d25", 
+            "video", 
+            1
+        ], 
+        [
+            "913efe9f14c65cb1b23402f21f056e99", 
+            "335b8e0ed8a3426580e4c58f62810d25", 
+            "html5", 
+            1
+        ], 
+        [
+            "74f36493bb475b62935fa8705ed59fed", 
+            "335b8e0ed8a3426580e4c58f62810d25", 
+            "html5", 
+            5
+        ], 
+        [
+            "f9d3e0e46ea25789bbed672ff6a399ed", 
+            "335b8e0ed8a3426580e4c58f62810d25", 
+            "html5", 
+            5
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "335b8e0ed8a3426580e4c58f62810d25", 
+            "exercise", 
+            2
+        ], 
+        [
+            "8b28761bac075deeb66adc6c80ef119c", 
+            "335b8e0ed8a3426580e4c58f62810d25", 
+            "video", 
+            1
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "335b8e0ed8a3426580e4c58f62810d25", 
+            "video", 
+            14
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "335b8e0ed8a3426580e4c58f62810d25", 
+            "exercise", 
+            4
+        ], 
+        [
+            "5d53b37cc90e50128a40e293d9fadb27", 
+            "335b8e0ed8a3426580e4c58f62810d25", 
+            "document", 
+            1
+        ]
+    ], 
+    "nodes": {
+        "131e543dbecf5776bb13cfcfddf05605": {
+            "channel_id": "131e543dbecf5776bb13cfcfddf05605", 
+            "counts": {
+                "document": 27226, 
+                "topic": 6459
+            }, 
+            "description": "", 
+            "name": "Pratham Books' StoryWeaver"
+        }, 
+        "131e543dbecf5776bb13cfcfddf05605-unused": {
+            "channel_id": "131e543dbecf5776bb13cfcfddf05605", 
+            "counts": {
+                "document": 27224, 
+                "topic": 6459
+            }, 
+            "description": "Connts of nodes in channel_id 131e543dbecf5776bb13cfcfddf05605 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "1ceff53605e55bef987d88e0908658c5": {
+            "channel_id": "1ceff53605e55bef987d88e0908658c5", 
+            "counts": {
+                "exercise": 11028, 
+                "topic": 7554, 
+                "video": 23618
+            }, 
+            "description": "Khan Academy content for English.", 
+            "name": "Khan Academy (English)"
+        }, 
+        "1ceff53605e55bef987d88e0908658c5-unused": {
+            "channel_id": "1ceff53605e55bef987d88e0908658c5", 
+            "counts": {
+                "exercise": 11025, 
+                "topic": 7554, 
+                "video": 23605
+            }, 
+            "description": "Connts of nodes in channel_id 1ceff53605e55bef987d88e0908658c5 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "1d8f6d84618153c18c695d85074952a7": {
+            "channel_id": "1d8f6d84618153c18c695d85074952a7", 
+            "counts": {
+                "exercise": 4157, 
+                "html5": 4601, 
+                "topic": 5883, 
+                "video": 1885
+            }, 
+            "description": "", 
+            "name": "CK-12"
+        }, 
+        "1d8f6d84618153c18c695d85074952a7-unused": {
+            "channel_id": "1d8f6d84618153c18c695d85074952a7", 
+            "counts": {
+                "exercise": 4156, 
+                "html5": 4601, 
+                "topic": 5883, 
+                "video": 1885
+            }, 
+            "description": "Connts of nodes in channel_id 1d8f6d84618153c18c695d85074952a7 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "335b8e0ed8a3426580e4c58f62810d25": {
+            "channel_id": "335b8e0ed8a3426580e4c58f62810d25", 
+            "counts": {
+                "document": 33, 
+                "exercise": 8, 
+                "html5": 11, 
+                "topic": 298, 
+                "video": 17
+            }, 
+            "description": "This channel contains resources for secondary school Life Skills content, based on the Kenya Institute of Curriculum Development (KICD) learning outcomes and objectives.", 
+            "name": "KICD Life Skills Curriculum (DRAFT)"
+        }, 
+        "335b8e0ed8a3426580e4c58f62810d25-added": {
+            "channel_id": "335b8e0ed8a3426580e4c58f62810d25", 
+            "counts": {
+                "topic": 289
+            }, 
+            "description": "Count new nodes uploaded to channel_id 335b8e0ed8a3426580e4c58f62810d25", 
+            "name": "Added to KICD Life Skills Curriculum (DRAFT)"
+        }, 
+        "5d53b37cc90e50128a40e293d9fadb27": {
+            "channel_id": "5d53b37cc90e50128a40e293d9fadb27", 
+            "counts": {
+                "document": 37, 
+                "topic": 4
+            }, 
+            "description": "This toolkit contains four guiding manuals that were                       developed based on the rich and diverse experiences of                        the first 13 Youth Local Councils established.", 
+            "name": "Global Youth Communities"
+        }, 
+        "5d53b37cc90e50128a40e293d9fadb27-unused": {
+            "channel_id": "5d53b37cc90e50128a40e293d9fadb27", 
+            "counts": {
+                "document": 36, 
+                "topic": 4
+            }, 
+            "description": "Connts of nodes in channel_id 5d53b37cc90e50128a40e293d9fadb27 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "74f36493bb475b62935fa8705ed59fed": {
+            "channel_id": "74f36493bb475b62935fa8705ed59fed", 
+            "counts": {
+                "html5": 701, 
+                "topic": 139, 
+                "video": 15
+            }, 
+            "description": "Learning resources on Langugage Arts, 21st Century Learning, and Social-Emotional Learning.", 
+            "name": "Thoughtful Learning"
+        }, 
+        "74f36493bb475b62935fa8705ed59fed-unused": {
+            "channel_id": "74f36493bb475b62935fa8705ed59fed", 
+            "counts": {
+                "html5": 698, 
+                "topic": 139, 
+                "video": 15
+            }, 
+            "description": "Connts of nodes in channel_id 74f36493bb475b62935fa8705ed59fed that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "8b28761bac075deeb66adc6c80ef119c": {
+            "channel_id": "8b28761bac075deeb66adc6c80ef119c", 
+            "counts": {
+                "exercise": 1009, 
+                "topic": 27, 
+                "video": 688
+            }, 
+            "description": "A study tool built for tomorrow's doctors and health workers.", 
+            "name": "Osmosis.org"
+        }, 
+        "8b28761bac075deeb66adc6c80ef119c-unused": {
+            "channel_id": "8b28761bac075deeb66adc6c80ef119c", 
+            "counts": {
+                "exercise": 1009, 
+                "topic": 27, 
+                "video": 687
+            }, 
+            "description": "Connts of nodes in channel_id 8b28761bac075deeb66adc6c80ef119c that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "913efe9f14c65cb1b23402f21f056e99": {
+            "channel_id": "913efe9f14c65cb1b23402f21f056e99", 
+            "counts": {
+                "document": 750, 
+                "html5": 168, 
+                "topic": 509, 
+                "video": 370
+            }, 
+            "description": "", 
+            "name": "MIT Blossoms"
+        }, 
+        "913efe9f14c65cb1b23402f21f056e99-unused": {
+            "channel_id": "913efe9f14c65cb1b23402f21f056e99", 
+            "counts": {
+                "document": 747, 
+                "html5": 167, 
+                "topic": 509, 
+                "video": 369
+            }, 
+            "description": "Connts of nodes in channel_id 913efe9f14c65cb1b23402f21f056e99 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "a9b25ac9814742c883ce1b0579448337": {
+            "channel_id": "a9b25ac9814742c883ce1b0579448337", 
+            "counts": {
+                "audio": 30, 
+                "document": 165, 
+                "topic": 74
+            }, 
+            "description": "Teacher Education in Sub-Saharan Africa", 
+            "name": "TESSA - Teacher Resources"
+        }, 
+        "a9b25ac9814742c883ce1b0579448337-unused": {
+            "channel_id": "a9b25ac9814742c883ce1b0579448337", 
+            "counts": {
+                "audio": 27, 
+                "document": 85, 
+                "topic": 19
+            }, 
+            "description": "Connts of nodes in channel_id a9b25ac9814742c883ce1b0579448337 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "c7eda62c6489554a941058fa883e7c2c": {
+            "channel_id": "c7eda62c6489554a941058fa883e7c2c", 
+            "counts": {
+                "document": 695, 
+                "topic": 248, 
+                "video": 325
+            }, 
+            "description": "K-12 curriculum aligned to various sets of standards designed to promote \u201cSTEMpathy,\u201d a human-centered approach to teaching math and science. Videos, stories, and lesson plans to help teach empathy in the context of the regular math and literacy curriculum.", 
+            "name": "Better World Ed"
+        }, 
+        "c7eda62c6489554a941058fa883e7c2c-unused": {
+            "channel_id": "c7eda62c6489554a941058fa883e7c2c", 
+            "counts": {
+                "document": 690, 
+                "topic": 248, 
+                "video": 325
+            }, 
+            "description": "Connts of nodes in channel_id c7eda62c6489554a941058fa883e7c2c that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "d0ef6f71e4fe4e54bb87d7dab5eeaae2": {
+            "channel_id": "d0ef6f71e4fe4e54bb87d7dab5eeaae2", 
+            "counts": {
+                "document": 50, 
+                "exercise": 10, 
+                "topic": 10, 
+                "video": 5
+            }, 
+            "description": "A new set of peer to peer resources to teach students how to use the internet safely and be digitally resilient", 
+            "name": "Be Strong: Internet safety resources"
+        }, 
+        "d0ef6f71e4fe4e54bb87d7dab5eeaae2-unused": {
+            "channel_id": "d0ef6f71e4fe4e54bb87d7dab5eeaae2", 
+            "counts": {
+                "document": 40, 
+                "exercise": 8, 
+                "topic": 9, 
+                "video": 1
+            }, 
+            "description": "Connts of nodes in channel_id d0ef6f71e4fe4e54bb87d7dab5eeaae2 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "f9d3e0e46ea25789bbed672ff6a399ed": {
+            "channel_id": "f9d3e0e46ea25789bbed672ff6a399ed", 
+            "counts": {
+                "html5": 6730, 
+                "topic": 643
+            }, 
+            "description": "Open access to picture storybooks in the languages of Africa. For children's literacy, enjoyment and imagination.", 
+            "name": "African Storybook"
+        }, 
+        "f9d3e0e46ea25789bbed672ff6a399ed-unused": {
+            "channel_id": "f9d3e0e46ea25789bbed672ff6a399ed", 
+            "counts": {
+                "html5": 6725, 
+                "topic": 643
+            }, 
+            "description": "Connts of nodes in channel_id f9d3e0e46ea25789bbed672ff6a399ed that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }
+    }, 
+    "title": "Import graph data for channel KICD Life Skills Curriculum (DRAFT)"
+}

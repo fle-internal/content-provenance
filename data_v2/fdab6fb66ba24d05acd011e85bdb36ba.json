@@ -1,0 +1,243 @@
+{
+    "backedges": [], 
+    "description": "Content import graph for channel fdab6fb66ba24d05acd011e85bdb36ba", 
+    "edges": [
+        [
+            "fdab6fb66ba24d05acd011e85bdb36ba-added", 
+            "fdab6fb66ba24d05acd011e85bdb36ba", 
+            "topic", 
+            179
+        ], 
+        [
+            "fc47aee82e0153e2a30197d3fdee1128", 
+            "fdab6fb66ba24d05acd011e85bdb36ba", 
+            "document", 
+            10
+        ], 
+        [
+            "197934f144305350b5820c7c4dd8e194", 
+            "fdab6fb66ba24d05acd011e85bdb36ba", 
+            "video", 
+            1
+        ], 
+        [
+            "197934f144305350b5820c7c4dd8e194", 
+            "fdab6fb66ba24d05acd011e85bdb36ba", 
+            "html5", 
+            2
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "fdab6fb66ba24d05acd011e85bdb36ba", 
+            "topic", 
+            4
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "fdab6fb66ba24d05acd011e85bdb36ba", 
+            "video", 
+            72
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "fdab6fb66ba24d05acd011e85bdb36ba", 
+            "html5", 
+            104
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "fdab6fb66ba24d05acd011e85bdb36ba", 
+            "exercise", 
+            72
+        ], 
+        [
+            "d6e3b856125f5e6aa5fb40c8b112d5e9", 
+            "fdab6fb66ba24d05acd011e85bdb36ba", 
+            "document", 
+            4
+        ], 
+        [
+            "05e8608fbdac5700a3bb9c1f5a291893", 
+            "fdab6fb66ba24d05acd011e85bdb36ba", 
+            "html5", 
+            2
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "fdab6fb66ba24d05acd011e85bdb36ba", 
+            "video", 
+            116
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "fdab6fb66ba24d05acd011e85bdb36ba", 
+            "exercise", 
+            56
+        ], 
+        [
+            "3e464ee12f6a50a781cddf59147b48b1", 
+            "fdab6fb66ba24d05acd011e85bdb36ba", 
+            "video", 
+            2
+        ]
+    ], 
+    "nodes": {
+        "05e8608fbdac5700a3bb9c1f5a291893": {
+            "channel_id": "05e8608fbdac5700a3bb9c1f5a291893", 
+            "counts": {
+                "html5": 769, 
+                "topic": 410, 
+                "video": 874
+            }, 
+            "description": "Science tools and experiences helping students become active explorers: hundreds of explore-for-yourself exhibits, activities, videos, and much more. Appropriate for all ages of students, as supplementary, hands-on demonstration of scientific principles.", 
+            "name": "Exploratorium"
+        }, 
+        "05e8608fbdac5700a3bb9c1f5a291893-unused": {
+            "channel_id": "05e8608fbdac5700a3bb9c1f5a291893", 
+            "counts": {
+                "html5": 767, 
+                "topic": 410, 
+                "video": 874
+            }, 
+            "description": "Connts of nodes in channel_id 05e8608fbdac5700a3bb9c1f5a291893 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "197934f144305350b5820c7c4dd8e194": {
+            "channel_id": "197934f144305350b5820c7c4dd8e194", 
+            "counts": {
+                "html5": 211, 
+                "topic": 19, 
+                "video": 124
+            }, 
+            "description": "The PhET Interactive Simulations project at the University of Colorado Boulder creates free interactive math and science simulations that engage students through an intuitive, game-like environment where students learn through exploration and discovery.", 
+            "name": "PhET Interactive Simulations (en)"
+        }, 
+        "197934f144305350b5820c7c4dd8e194-unused": {
+            "channel_id": "197934f144305350b5820c7c4dd8e194", 
+            "counts": {
+                "html5": 209, 
+                "topic": 19, 
+                "video": 123
+            }, 
+            "description": "Connts of nodes in channel_id 197934f144305350b5820c7c4dd8e194 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "1ceff53605e55bef987d88e0908658c5": {
+            "channel_id": "1ceff53605e55bef987d88e0908658c5", 
+            "counts": {
+                "exercise": 11028, 
+                "topic": 7554, 
+                "video": 23618
+            }, 
+            "description": "Khan Academy content for English.", 
+            "name": "Khan Academy (English)"
+        }, 
+        "1ceff53605e55bef987d88e0908658c5-unused": {
+            "channel_id": "1ceff53605e55bef987d88e0908658c5", 
+            "counts": {
+                "exercise": 10973, 
+                "topic": 7554, 
+                "video": 23506
+            }, 
+            "description": "Connts of nodes in channel_id 1ceff53605e55bef987d88e0908658c5 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "1d8f6d84618153c18c695d85074952a7": {
+            "channel_id": "1d8f6d84618153c18c695d85074952a7", 
+            "counts": {
+                "exercise": 4157, 
+                "html5": 4601, 
+                "topic": 5883, 
+                "video": 1885
+            }, 
+            "description": "", 
+            "name": "CK-12"
+        }, 
+        "1d8f6d84618153c18c695d85074952a7-unused": {
+            "channel_id": "1d8f6d84618153c18c695d85074952a7", 
+            "counts": {
+                "exercise": 4088, 
+                "html5": 4503, 
+                "topic": 5879, 
+                "video": 1815
+            }, 
+            "description": "Connts of nodes in channel_id 1d8f6d84618153c18c695d85074952a7 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "3e464ee12f6a50a781cddf59147b48b1": {
+            "channel_id": "3e464ee12f6a50a781cddf59147b48b1", 
+            "counts": {
+                "topic": 361, 
+                "video": 1537
+            }, 
+            "description": "Thousands of skills in your pocket. Improve your life and the world around you through practical learning. Join our community. Make an impact. ", 
+            "name": "Sikana (English)"
+        }, 
+        "3e464ee12f6a50a781cddf59147b48b1-unused": {
+            "channel_id": "3e464ee12f6a50a781cddf59147b48b1", 
+            "counts": {
+                "topic": 361, 
+                "video": 1535
+            }, 
+            "description": "Connts of nodes in channel_id 3e464ee12f6a50a781cddf59147b48b1 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "d6e3b856125f5e6aa5fb40c8b112d5e9": {
+            "channel_id": "d6e3b856125f5e6aa5fb40c8b112d5e9", 
+            "counts": {
+                "document": 8678, 
+                "topic": 1667
+            }, 
+            "description": "EngageNY Common Core Curriculum Content, ELA and CCSSM combined.", 
+            "name": "EngageNY (en)"
+        }, 
+        "d6e3b856125f5e6aa5fb40c8b112d5e9-unused": {
+            "channel_id": "d6e3b856125f5e6aa5fb40c8b112d5e9", 
+            "counts": {
+                "document": 8674, 
+                "topic": 1667
+            }, 
+            "description": "Connts of nodes in channel_id d6e3b856125f5e6aa5fb40c8b112d5e9 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "fc47aee82e0153e2a30197d3fdee1128": {
+            "channel_id": "fc47aee82e0153e2a30197d3fdee1128", 
+            "counts": {
+                "document": 1202, 
+                "topic": 164
+            }, 
+            "description": "", 
+            "name": "Open Stax"
+        }, 
+        "fc47aee82e0153e2a30197d3fdee1128-unused": {
+            "channel_id": "fc47aee82e0153e2a30197d3fdee1128", 
+            "counts": {
+                "document": 1192, 
+                "topic": 164
+            }, 
+            "description": "Connts of nodes in channel_id fc47aee82e0153e2a30197d3fdee1128 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "fdab6fb66ba24d05acd011e85bdb36ba": {
+            "channel_id": "fdab6fb66ba24d05acd011e85bdb36ba", 
+            "counts": {
+                "document": 14, 
+                "exercise": 128, 
+                "html5": 108, 
+                "topic": 183, 
+                "video": 192
+            }, 
+            "description": "This channel contains resources for secondary school mathematics content, based on the Kenya Institute of Curriculum Development (KICD) learning outcomes and objectives.", 
+            "name": "KICD Mathematics Curriculum (DRAFT)"
+        }, 
+        "fdab6fb66ba24d05acd011e85bdb36ba-added": {
+            "channel_id": "fdab6fb66ba24d05acd011e85bdb36ba", 
+            "counts": {
+                "topic": 179
+            }, 
+            "description": "Count new nodes uploaded to channel_id fdab6fb66ba24d05acd011e85bdb36ba", 
+            "name": "Added to KICD Mathematics Curriculum (DRAFT)"
+        }
+    }, 
+    "title": "Import graph data for channel KICD Mathematics Curriculum (DRAFT)"
+}

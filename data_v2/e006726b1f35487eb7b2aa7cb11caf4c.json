@@ -1,0 +1,691 @@
+{
+    "backedges": [], 
+    "description": "Content import graph for channel e006726b1f35487eb7b2aa7cb11caf4c", 
+    "edges": [
+        [
+            "e006726b1f35487eb7b2aa7cb11caf4c-added", 
+            "e006726b1f35487eb7b2aa7cb11caf4c", 
+            "topic", 
+            81
+        ], 
+        [
+            "9ae3fd9715404744b5e888eb484000b2", 
+            "e006726b1f35487eb7b2aa7cb11caf4c", 
+            "topic", 
+            389
+        ], 
+        [
+            "9ae3fd9715404744b5e888eb484000b2", 
+            "e006726b1f35487eb7b2aa7cb11caf4c", 
+            "video", 
+            1100
+        ], 
+        [
+            "9ae3fd9715404744b5e888eb484000b2", 
+            "e006726b1f35487eb7b2aa7cb11caf4c", 
+            "html5", 
+            8
+        ], 
+        [
+            "9ae3fd9715404744b5e888eb484000b2", 
+            "e006726b1f35487eb7b2aa7cb11caf4c", 
+            "exercise", 
+            626
+        ], 
+        [
+            "7db80873586841e4a1c249b2bb8ba62d", 
+            "e006726b1f35487eb7b2aa7cb11caf4c", 
+            "topic", 
+            389
+        ], 
+        [
+            "7db80873586841e4a1c249b2bb8ba62d", 
+            "e006726b1f35487eb7b2aa7cb11caf4c", 
+            "video", 
+            790
+        ], 
+        [
+            "7db80873586841e4a1c249b2bb8ba62d", 
+            "e006726b1f35487eb7b2aa7cb11caf4c", 
+            "html5", 
+            199
+        ], 
+        [
+            "7db80873586841e4a1c249b2bb8ba62d", 
+            "e006726b1f35487eb7b2aa7cb11caf4c", 
+            "exercise", 
+            278
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "e006726b1f35487eb7b2aa7cb11caf4c", 
+            "topic", 
+            225
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "e006726b1f35487eb7b2aa7cb11caf4c", 
+            "video", 
+            24
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "e006726b1f35487eb7b2aa7cb11caf4c", 
+            "html5", 
+            1123
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "e006726b1f35487eb7b2aa7cb11caf4c", 
+            "exercise", 
+            201
+        ], 
+        [
+            "913efe9f14c65cb1b23402f21f056e99", 
+            "e006726b1f35487eb7b2aa7cb11caf4c", 
+            "topic", 
+            7
+        ], 
+        [
+            "913efe9f14c65cb1b23402f21f056e99", 
+            "e006726b1f35487eb7b2aa7cb11caf4c", 
+            "document", 
+            3
+        ], 
+        [
+            "913efe9f14c65cb1b23402f21f056e99", 
+            "e006726b1f35487eb7b2aa7cb11caf4c", 
+            "video", 
+            5
+        ], 
+        [
+            "913efe9f14c65cb1b23402f21f056e99", 
+            "e006726b1f35487eb7b2aa7cb11caf4c", 
+            "html5", 
+            1
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "e006726b1f35487eb7b2aa7cb11caf4c", 
+            "topic", 
+            24
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "e006726b1f35487eb7b2aa7cb11caf4c", 
+            "video", 
+            113
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "e006726b1f35487eb7b2aa7cb11caf4c", 
+            "exercise", 
+            3
+        ], 
+        [
+            "3e464ee12f6a50a781cddf59147b48b1", 
+            "e006726b1f35487eb7b2aa7cb11caf4c", 
+            "topic", 
+            1
+        ], 
+        [
+            "3e464ee12f6a50a781cddf59147b48b1", 
+            "e006726b1f35487eb7b2aa7cb11caf4c", 
+            "video", 
+            9
+        ], 
+        [
+            "9ae3fd9715404744b5e888eb484000b2-added", 
+            "9ae3fd9715404744b5e888eb484000b2", 
+            "topic", 
+            103
+        ], 
+        [
+            "197934f144305350b5820c7c4dd8e194", 
+            "9ae3fd9715404744b5e888eb484000b2", 
+            "topic", 
+            9
+        ], 
+        [
+            "197934f144305350b5820c7c4dd8e194", 
+            "9ae3fd9715404744b5e888eb484000b2", 
+            "video", 
+            40
+        ], 
+        [
+            "197934f144305350b5820c7c4dd8e194", 
+            "9ae3fd9715404744b5e888eb484000b2", 
+            "html5", 
+            65
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "9ae3fd9715404744b5e888eb484000b2", 
+            "topic", 
+            126
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "9ae3fd9715404744b5e888eb484000b2", 
+            "video", 
+            13
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "9ae3fd9715404744b5e888eb484000b2", 
+            "html5", 
+            147
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "9ae3fd9715404744b5e888eb484000b2", 
+            "exercise", 
+            92
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "9ae3fd9715404744b5e888eb484000b2", 
+            "topic", 
+            333
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "9ae3fd9715404744b5e888eb484000b2", 
+            "video", 
+            1115
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "9ae3fd9715404744b5e888eb484000b2", 
+            "exercise", 
+            377
+        ], 
+        [
+            "9ae3fd9715404744b5e888eb484000b2", 
+            "7db80873586841e4a1c249b2bb8ba62d", 
+            "topic", 
+            303
+        ], 
+        [
+            "9ae3fd9715404744b5e888eb484000b2", 
+            "7db80873586841e4a1c249b2bb8ba62d", 
+            "video", 
+            906
+        ], 
+        [
+            "9ae3fd9715404744b5e888eb484000b2", 
+            "7db80873586841e4a1c249b2bb8ba62d", 
+            "html5", 
+            18
+        ], 
+        [
+            "9ae3fd9715404744b5e888eb484000b2", 
+            "7db80873586841e4a1c249b2bb8ba62d", 
+            "exercise", 
+            346
+        ], 
+        [
+            "197934f144305350b5820c7c4dd8e194", 
+            "7db80873586841e4a1c249b2bb8ba62d", 
+            "topic", 
+            9
+        ], 
+        [
+            "197934f144305350b5820c7c4dd8e194", 
+            "7db80873586841e4a1c249b2bb8ba62d", 
+            "video", 
+            29
+        ], 
+        [
+            "197934f144305350b5820c7c4dd8e194", 
+            "7db80873586841e4a1c249b2bb8ba62d", 
+            "html5", 
+            44
+        ], 
+        [
+            "1b05964d3ee148b5bc34eab641add578", 
+            "7db80873586841e4a1c249b2bb8ba62d", 
+            "topic", 
+            273
+        ], 
+        [
+            "1b05964d3ee148b5bc34eab641add578", 
+            "7db80873586841e4a1c249b2bb8ba62d", 
+            "video", 
+            336
+        ], 
+        [
+            "1b05964d3ee148b5bc34eab641add578", 
+            "7db80873586841e4a1c249b2bb8ba62d", 
+            "html5", 
+            131
+        ], 
+        [
+            "1b05964d3ee148b5bc34eab641add578", 
+            "7db80873586841e4a1c249b2bb8ba62d", 
+            "exercise", 
+            212
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "7db80873586841e4a1c249b2bb8ba62d", 
+            "video", 
+            2
+        ], 
+        [
+            "9ae3fd9715404744b5e888eb484000b2-added", 
+            "9ae3fd9715404744b5e888eb484000b2", 
+            "topic", 
+            103
+        ], 
+        [
+            "197934f144305350b5820c7c4dd8e194", 
+            "9ae3fd9715404744b5e888eb484000b2", 
+            "topic", 
+            9
+        ], 
+        [
+            "197934f144305350b5820c7c4dd8e194", 
+            "9ae3fd9715404744b5e888eb484000b2", 
+            "video", 
+            40
+        ], 
+        [
+            "197934f144305350b5820c7c4dd8e194", 
+            "9ae3fd9715404744b5e888eb484000b2", 
+            "html5", 
+            65
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "9ae3fd9715404744b5e888eb484000b2", 
+            "topic", 
+            126
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "9ae3fd9715404744b5e888eb484000b2", 
+            "video", 
+            13
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "9ae3fd9715404744b5e888eb484000b2", 
+            "html5", 
+            147
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "9ae3fd9715404744b5e888eb484000b2", 
+            "exercise", 
+            92
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "9ae3fd9715404744b5e888eb484000b2", 
+            "topic", 
+            333
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "9ae3fd9715404744b5e888eb484000b2", 
+            "video", 
+            1115
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "9ae3fd9715404744b5e888eb484000b2", 
+            "exercise", 
+            377
+        ], 
+        [
+            "1b05964d3ee148b5bc34eab641add578-added", 
+            "1b05964d3ee148b5bc34eab641add578", 
+            "topic", 
+            2
+        ], 
+        [
+            "9ae3fd9715404744b5e888eb484000b2", 
+            "1b05964d3ee148b5bc34eab641add578", 
+            "topic", 
+            182
+        ], 
+        [
+            "9ae3fd9715404744b5e888eb484000b2", 
+            "1b05964d3ee148b5bc34eab641add578", 
+            "video", 
+            212
+        ], 
+        [
+            "9ae3fd9715404744b5e888eb484000b2", 
+            "1b05964d3ee148b5bc34eab641add578", 
+            "html5", 
+            72
+        ], 
+        [
+            "9ae3fd9715404744b5e888eb484000b2", 
+            "1b05964d3ee148b5bc34eab641add578", 
+            "exercise", 
+            143
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "1b05964d3ee148b5bc34eab641add578", 
+            "topic", 
+            56
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "1b05964d3ee148b5bc34eab641add578", 
+            "video", 
+            9
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "1b05964d3ee148b5bc34eab641add578", 
+            "html5", 
+            59
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "1b05964d3ee148b5bc34eab641add578", 
+            "exercise", 
+            56
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "1b05964d3ee148b5bc34eab641add578", 
+            "topic", 
+            26
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "1b05964d3ee148b5bc34eab641add578", 
+            "video", 
+            110
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "1b05964d3ee148b5bc34eab641add578", 
+            "exercise", 
+            11
+        ], 
+        [
+            "9ae3fd9715404744b5e888eb484000b2-added", 
+            "9ae3fd9715404744b5e888eb484000b2", 
+            "topic", 
+            103
+        ], 
+        [
+            "197934f144305350b5820c7c4dd8e194", 
+            "9ae3fd9715404744b5e888eb484000b2", 
+            "topic", 
+            9
+        ], 
+        [
+            "197934f144305350b5820c7c4dd8e194", 
+            "9ae3fd9715404744b5e888eb484000b2", 
+            "video", 
+            40
+        ], 
+        [
+            "197934f144305350b5820c7c4dd8e194", 
+            "9ae3fd9715404744b5e888eb484000b2", 
+            "html5", 
+            65
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "9ae3fd9715404744b5e888eb484000b2", 
+            "topic", 
+            126
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "9ae3fd9715404744b5e888eb484000b2", 
+            "video", 
+            13
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "9ae3fd9715404744b5e888eb484000b2", 
+            "html5", 
+            147
+        ], 
+        [
+            "1d8f6d84618153c18c695d85074952a7", 
+            "9ae3fd9715404744b5e888eb484000b2", 
+            "exercise", 
+            92
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "9ae3fd9715404744b5e888eb484000b2", 
+            "topic", 
+            333
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "9ae3fd9715404744b5e888eb484000b2", 
+            "video", 
+            1115
+        ], 
+        [
+            "1ceff53605e55bef987d88e0908658c5", 
+            "9ae3fd9715404744b5e888eb484000b2", 
+            "exercise", 
+            377
+        ]
+    ], 
+    "nodes": {
+        "197934f144305350b5820c7c4dd8e194": {
+            "channel_id": "197934f144305350b5820c7c4dd8e194", 
+            "counts": {
+                "html5": 211, 
+                "topic": 19, 
+                "video": 124
+            }, 
+            "description": "The PhET Interactive Simulations project at the University of Colorado Boulder creates free interactive math and science simulations that engage students through an intuitive, game-like environment where students learn through exploration and discovery.", 
+            "name": "PhET Interactive Simulations (en)"
+        }, 
+        "197934f144305350b5820c7c4dd8e194-unused": {
+            "channel_id": "197934f144305350b5820c7c4dd8e194", 
+            "counts": {
+                "html5": 146, 
+                "topic": 8, 
+                "video": 84
+            }, 
+            "description": "Connts of nodes in channel_id 197934f144305350b5820c7c4dd8e194 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "1b05964d3ee148b5bc34eab641add578": {
+            "channel_id": "1b05964d3ee148b5bc34eab641add578", 
+            "counts": {
+                "exercise": 213, 
+                "html5": 131, 
+                "topic": 273, 
+                "video": 337
+            }, 
+            "description": "", 
+            "name": "Secondary School"
+        }, 
+        "1b05964d3ee148b5bc34eab641add578-added": {
+            "channel_id": "1b05964d3ee148b5bc34eab641add578", 
+            "counts": {
+                "topic": 2
+            }, 
+            "description": "Count new nodes uploaded to channel_id 1b05964d3ee148b5bc34eab641add578", 
+            "name": "Added to Secondary School"
+        }, 
+        "1b05964d3ee148b5bc34eab641add578-unused": {
+            "channel_id": "1b05964d3ee148b5bc34eab641add578", 
+            "counts": {
+                "video": 1
+            }, 
+            "description": "Connts of nodes in channel_id 1b05964d3ee148b5bc34eab641add578 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "1ceff53605e55bef987d88e0908658c5": {
+            "channel_id": "1ceff53605e55bef987d88e0908658c5", 
+            "counts": {
+                "exercise": 11028, 
+                "topic": 7554, 
+                "video": 23618
+            }, 
+            "description": "Khan Academy content for English.", 
+            "name": "Khan Academy (English)"
+        }, 
+        "1ceff53605e55bef987d88e0908658c5-unused": {
+            "channel_id": "1ceff53605e55bef987d88e0908658c5", 
+            "counts": {
+                "exercise": 10646, 
+                "topic": 7179, 
+                "video": 22318
+            }, 
+            "description": "Connts of nodes in channel_id 1ceff53605e55bef987d88e0908658c5 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "1d8f6d84618153c18c695d85074952a7": {
+            "channel_id": "1d8f6d84618153c18c695d85074952a7", 
+            "counts": {
+                "exercise": 4157, 
+                "html5": 4601, 
+                "topic": 5883, 
+                "video": 1885
+            }, 
+            "description": "", 
+            "name": "CK-12"
+        }, 
+        "1d8f6d84618153c18c695d85074952a7-unused": {
+            "channel_id": "1d8f6d84618153c18c695d85074952a7", 
+            "counts": {
+                "exercise": 3815, 
+                "html5": 3373, 
+                "topic": 5483, 
+                "video": 1840
+            }, 
+            "description": "Connts of nodes in channel_id 1d8f6d84618153c18c695d85074952a7 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "3e464ee12f6a50a781cddf59147b48b1": {
+            "channel_id": "3e464ee12f6a50a781cddf59147b48b1", 
+            "counts": {
+                "topic": 361, 
+                "video": 1537
+            }, 
+            "description": "Thousands of skills in your pocket. Improve your life and the world around you through practical learning. Join our community. Make an impact. ", 
+            "name": "Sikana (English)"
+        }, 
+        "3e464ee12f6a50a781cddf59147b48b1-unused": {
+            "channel_id": "3e464ee12f6a50a781cddf59147b48b1", 
+            "counts": {
+                "topic": 360, 
+                "video": 1528
+            }, 
+            "description": "Connts of nodes in channel_id 3e464ee12f6a50a781cddf59147b48b1 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "7db80873586841e4a1c249b2bb8ba62d": {
+            "channel_id": "7db80873586841e4a1c249b2bb8ba62d", 
+            "counts": {
+                "exercise": 558, 
+                "html5": 193, 
+                "topic": 586, 
+                "video": 1273
+            }, 
+            "description": "", 
+            "name": "Secondary School Beta"
+        }, 
+        "7db80873586841e4a1c249b2bb8ba62d-added": {
+            "channel_id": "7db80873586841e4a1c249b2bb8ba62d", 
+            "counts": {}, 
+            "description": "Count new nodes uploaded to channel_id 7db80873586841e4a1c249b2bb8ba62d", 
+            "name": "Added to Secondary School Beta"
+        }, 
+        "7db80873586841e4a1c249b2bb8ba62d-unused": {
+            "channel_id": "7db80873586841e4a1c249b2bb8ba62d", 
+            "counts": {
+                "exercise": 291, 
+                "html5": 3, 
+                "topic": 222, 
+                "video": 589
+            }, 
+            "description": "Connts of nodes in channel_id 7db80873586841e4a1c249b2bb8ba62d that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "913efe9f14c65cb1b23402f21f056e99": {
+            "channel_id": "913efe9f14c65cb1b23402f21f056e99", 
+            "counts": {
+                "document": 750, 
+                "html5": 168, 
+                "topic": 509, 
+                "video": 370
+            }, 
+            "description": "", 
+            "name": "MIT Blossoms"
+        }, 
+        "913efe9f14c65cb1b23402f21f056e99-unused": {
+            "channel_id": "913efe9f14c65cb1b23402f21f056e99", 
+            "counts": {
+                "document": 747, 
+                "html5": 167, 
+                "topic": 502, 
+                "video": 365
+            }, 
+            "description": "Connts of nodes in channel_id 913efe9f14c65cb1b23402f21f056e99 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "9ae3fd9715404744b5e888eb484000b2": {
+            "channel_id": "9ae3fd9715404744b5e888eb484000b2", 
+            "counts": {
+                "document": 1, 
+                "exercise": 898, 
+                "html5": 213, 
+                "topic": 816, 
+                "video": 1881
+            }, 
+            "description": "Testing channel for deployment training", 
+            "name": "Training Test Channel"
+        }, 
+        "9ae3fd9715404744b5e888eb484000b2-added": {
+            "channel_id": "9ae3fd9715404744b5e888eb484000b2", 
+            "counts": {
+                "topic": 103
+            }, 
+            "description": "Count new nodes uploaded to channel_id 9ae3fd9715404744b5e888eb484000b2", 
+            "name": "Added to Training Test Channel"
+        }, 
+        "9ae3fd9715404744b5e888eb484000b2-unused": {
+            "channel_id": "9ae3fd9715404744b5e888eb484000b2", 
+            "counts": {
+                "exercise": 71, 
+                "html5": 114, 
+                "topic": 137, 
+                "video": 247
+            }, 
+            "description": "Connts of nodes in channel_id 9ae3fd9715404744b5e888eb484000b2 that are not imported in any downstream channels.", 
+            "name": "Unused"
+        }, 
+        "e006726b1f35487eb7b2aa7cb11caf4c": {
+            "channel_id": "e006726b1f35487eb7b2aa7cb11caf4c", 
+            "counts": {
+                "document": 3, 
+                "exercise": 1112, 
+                "html5": 1338, 
+                "topic": 1123, 
+                "video": 2047
+            }, 
+            "description": "", 
+            "name": "Secondary School"
+        }, 
+        "e006726b1f35487eb7b2aa7cb11caf4c-added": {
+            "channel_id": "e006726b1f35487eb7b2aa7cb11caf4c", 
+            "counts": {
+                "topic": 81
+            }, 
+            "description": "Count new nodes uploaded to channel_id e006726b1f35487eb7b2aa7cb11caf4c", 
+            "name": "Added to Secondary School"
+        }
+    }, 
+    "title": "Import graph data for channel Secondary School"
+}
