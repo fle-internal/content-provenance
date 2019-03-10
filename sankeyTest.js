@@ -10,13 +10,15 @@
 //	OPTIONS
 // ==============
 
+var dataPath = window.dataPath;		// load the dataPath specified in the index.html
+
 // var dataPath = "data_v2/292583c17e6d4199b81f0423bec58766.json";
 // var dataPath = "data_v2/33c467480fe94f24b4797ef829af9ef6.json";
 // var dataPath = "data_v2/34fd6722dd734687bc5291fc717d2d7f.json";
-var dataPath = "data_v2/55eea6b34a4c481b8b6adee06a882360.json";
+// var dataPath = "data_v2/55eea6b34a4c481b8b6adee06a882360.json";
 
 // -- circular links cause error --
-// var dataPath = "data_v2/0a9cd3c76a36402e87d6bf80a997901f.json"; // PROBLEM
+// var dataPath = "data_v2/a68a5bf4aa8a475197658c7a0da528c7.json";
 // var dataPath = "data_v2/591b7e1bc89645ef846c1685a7dd7b50.json"; // PROBLEM
 // var dataPath = "data_v2/6f63fe92ad1044fdb3b3c17d54d0978e.json"; // PROBLEM
 // var dataPath = "data_v2/9e5305326ed742d0892479dea825a514.json"; // PROBLEM
