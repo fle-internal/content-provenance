@@ -37,11 +37,12 @@ var	margin = {top: 20, right: 100, bottom: 60, left: 120},
 	nodeRect = {width: 20, padding:10};
 
 var  palContent = {
-		"document": "#f38080", // pink
-		"topic": "#f3e21a", //"#ffe000", // yellow
-		"exercise": "#16e485", // green
-		"video": "#08BECC", // teal/lightblue
-		"html5": "#488FBF" // darker blue
+		"document": "rgb(255, 61, 0)",
+		"topic": "#ffee00",
+		"exercise": "rgb(77, 182, 172)",
+		"video": "rgb(40, 53, 147)",
+		"audio": "rgb(240, 98, 146)",
+		"html5": "rgb(255, 143, 0)"
 	};
 
 var menuData = [
