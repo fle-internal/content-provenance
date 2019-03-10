@@ -54,6 +54,33 @@ SAMPLE_CURATED_CHANNELS = [
     'a68a5bf4aa8a475197658c7a0da528c7',
 ]
 
+SAMPLE_CHANNELS_INFO = {
+    'Camada Tanzania': {
+        'a68a5bf4aa8a475197658c7a0da528c7': 'Camara Education Tanzania'
+    },
+    'KICD': {
+        '591b7e1bc89645ef846c1685a7dd7b50': 'KICD Biology Curriculum (DRAFT)',
+        '32b5fc156a7d46ddb8cea9663a1871be': 'KICD Chemistry Curriculum (DRAFT)',
+        '335b8e0ed8a3426580e4c58f62810d25': 'KICD Life Skills Curriculum (DRAFT)',
+        'fdab6fb66ba24d05acd011e85bdb36ba': 'KICD Mathematics Curriculum (DRAFT)',
+        '54aa253a3266416da0c847e16e64aa7b': 'KICD Physics Curriculum (DRAFT)'
+    },
+    'Nalanda India': {
+        'ae8f138108c1410aa4c6d8bf734ebf57': 'Nalanda Math',
+        'be30cd98263244768c8684320441eecb': 'Math Olympiad (The Nalanda Project)',
+        '0a9cd3c76a36402e87d6bf80a997901f': 'Maharashtra 6,7,8',
+        '6f63fe92ad1044fdb3b3c17d54d0978e': 'BodhaGuru CBSE English Channel',
+        # '9e5305326ed742d0892479dea825a514': 'CBSE English Medium Class 3 to 8',   # filtered out because does not load
+        '292583c17e6d4199b81f0423bec58766': 'CBSE KA English Class 6 to 9',
+        '34fd6722dd734687bc5291fc717d2d7f': 'CBSE Khan Academy Math 6-9 (English)'
+    },
+    'UNICEF Uganda': {
+        'e006726b1f35487eb7b2aa7cb11caf4c': 'Secondary School',
+        '8111ac9ab99646a1be9984f13b29167d': 'Youth Center',
+        '0543f0f0516b4eeebf281854e80d3e14': 'Teacher Resources'
+    }
+}
+
 
 # GET DATA FROM STUDIO
 ################################################################################
@@ -86,8 +113,12 @@ def build():
     local('cp -r fonts build/')
     local('cp sankeyTest.js build/')
     local('cp style.css build/')
-    for channel_id in SAMPLE_CURATED_CHANNELS:
-        build_page(channel_id)
+    for org, channels_info in SAMPLE_CHANNELS_INFO.items():
+        for channel_id, channel_name in channels_info.items():
+            print(channel_id)
+            assert channel_id in SAMPLE_CURATED_CHANNELS
+            build_page(channel_id)
+    build_listing_page(SAMPLE_CHANNELS_INFO)
 
 
 def get_channel_data(channel_id):
@@ -124,5 +155,20 @@ def build_page(channel_id):
     )
     with open(os.path.join(destdir, 'index.html'), 'w') as outf:
         outf.write(index_html)
-    
 
+def build_listing_page(sample_channels_info):
+    # load template
+    template_path = 'listing_template.jinja2'
+    template_src = open(template_path).read()
+    template = Template(template_src)
+
+    # render template
+    index_html = template.render(
+        title='Studio Channel content import provenanance',
+        description='These charts show the aggregate counts of content is imported from to create channels aligned to particular curriculum in different countries.',
+        sample_channels_info=sample_channels_info,
+    )
+    with open(os.path.join('build', 'index.html'), 'w') as outf:
+        outf.write(index_html)
+    
+    
