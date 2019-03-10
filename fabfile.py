@@ -171,4 +171,30 @@ def build_listing_page(sample_channels_info):
     with open(os.path.join('build', 'index.html'), 'w') as outf:
         outf.write(index_html)
     
-    
+
+# DEPLOY
+################################################################################
+
+DEPLOY_ZIPNAME = 'webroot.zip'
+
+@task
+def deploy():
+    if os.path.exists(DEPLOY_ZIPNAME):
+        os.remove(DEPLOY_ZIPNAME)
+    local('zip -r %s build/' % DEPLOY_ZIPNAME)
+    remote_zip_path = '/var/www/' + DEPLOY_ZIPNAME
+    if exists(remote_zip_path):
+        print('removing old zip', remote_zip_path)
+        sudo('rm %s' % remote_zip_path)
+    put(DEPLOY_ZIPNAME, remote_zip_path)
+    with cd('/var/www/'):
+        sudo('unzip %s ' % DEPLOY_ZIPNAME)
+        sudo('rm -rf importcounts')
+        sudo('mv build importcounts')
+    # cleanup zip files
+    if exists(remote_zip_path):
+        print('removing old zip', remote_zip_path)
+        sudo('rm %s' % remote_zip_path)
+    if os.path.exists(DEPLOY_ZIPNAME):
+        os.remove(DEPLOY_ZIPNAME)
+
