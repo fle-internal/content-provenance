@@ -30,7 +30,7 @@ CONFIG_DIR = './config'
 ################################################################################
 
 env.roledefs = {
-    'design-sprint': { 'hosts':['35.198.69.255'] }
+    'alejandro-demo': { 'hosts':['35.227.71.104'] }
 }
 
 
@@ -55,7 +55,7 @@ SAMPLE_CURATED_CHANNELS = [
 ]
 
 SAMPLE_CHANNELS_INFO = {
-    'Camada Tanzania': {
+    'Camara Tanzania': {
         'a68a5bf4aa8a475197658c7a0da528c7': 'Camara Education Tanzania'
     },
     'KICD': {
@@ -67,17 +67,17 @@ SAMPLE_CHANNELS_INFO = {
     },
     'Nalanda India': {
         'ae8f138108c1410aa4c6d8bf734ebf57': 'Nalanda Math',
-        'be30cd98263244768c8684320441eecb': 'Math Olympiad (The Nalanda Project)',
-        '0a9cd3c76a36402e87d6bf80a997901f': 'Maharashtra 6,7,8',
+        # 'be30cd98263244768c8684320441eecb': 'Math Olympiad (The Nalanda Project)',    # not PUBLISHed
+        # '0a9cd3c76a36402e87d6bf80a997901f': 'Maharashtra 6,7,8',                      # not PUBLISHed
         '6f63fe92ad1044fdb3b3c17d54d0978e': 'BodhaGuru CBSE English Channel',
         # '9e5305326ed742d0892479dea825a514': 'CBSE English Medium Class 3 to 8',   # filtered out because does not load
-        '292583c17e6d4199b81f0423bec58766': 'CBSE KA English Class 6 to 9',
+        # '292583c17e6d4199b81f0423bec58766': 'CBSE KA English Class 6 to 9',       # filtered because unique constraint fails
         '34fd6722dd734687bc5291fc717d2d7f': 'CBSE Khan Academy Math 6-9 (English)'
     },
     'UNICEF Uganda': {
         'e006726b1f35487eb7b2aa7cb11caf4c': 'Secondary School',
         '8111ac9ab99646a1be9984f13b29167d': 'Youth Center',
-        '0543f0f0516b4eeebf281854e80d3e14': 'Teacher Resources'
+        # '0543f0f0516b4eeebf281854e80d3e14': 'Teacher Resources'                   # skipped because not publshing
     }
 }
 
